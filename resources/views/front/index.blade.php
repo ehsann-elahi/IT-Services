@@ -37,9 +37,9 @@
                     <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner-two-image1.jpg')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
-                            <h4 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                TECHNOLOGY RELETED CONSULTANCY
-                            </h4>
+                            <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
+                                Meta Digital Marketing
+                            </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
                                 We Convert Concepts Into Technology
                             </h1>
@@ -84,9 +84,9 @@
                     <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner-two-image2.jpg')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
-                            <h4 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                TECHNOLOGY RELETED CONSULTANCY
-                            </h4>
+                            <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
+                                 Meta Digital Marketing
+                            </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
                                 We Convert Concepts Into Technology
                             </h1>
@@ -131,9 +131,9 @@
                     <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner-two-image3.jpg')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
-                            <h4 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                TECHNOLOGY RELETED CONSULTANCY
-                            </h4>
+                            <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
+                                Meta Digital Marketing
+                            </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
                                 We Convert Concepts Into Technology
                             </h1>
@@ -577,7 +577,7 @@
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MR. NOUMAN</a></h4>
-                            <span class="text-white">Full Stack Web Developer(Laravel)</span>
+                            <span class="text-white">SR. Developer</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -599,7 +599,7 @@
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MR. UMAR</a></h4>
-                            <span class="text-white">Digital Marketing(Team Lead)</span>
+                            <span class="text-white">Digital Marketing</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -621,7 +621,7 @@
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MS. AMINA MALIK</a></h4>
-                            <span class="text-white">Graphic Designer(Team Lead)</span>
+                            <span class="text-white">Graphic Designer</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -643,7 +643,7 @@
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MS. ISHRAT FATIMA</a></h4>
-                            <span class="text-white">SEO SPECIALIST(Team Lead)</span>
+                            <span class="text-white">SEO SPECIALIST</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -687,7 +687,7 @@
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MS. FARWA</a></h4>
-                            <span class="text-white">Email Marketing(Team Lead)</span>
+                            <span class="text-white">Email Marketing</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -709,7 +709,7 @@
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">EHSAN ELLAHI</a></h4>
-                            <span class="text-white">Web Application Developer(Laravel)</span>
+                            <span class="text-white">Developer</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -897,8 +897,8 @@
                                 <img src="{{asset('assets/front/images/case/case-two-image1.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
-                                <span>Solution</span>
-                                <h4><a href="case-details.html" class="text-white">IT Management</a></h4>
+                                <span>Build Your Idea</span>
+                                <h4><a href="case-details.html" class="text-white">Web Development</a></h4>
                             </div>
                             <a href="case-details.html" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
@@ -911,8 +911,8 @@
                                 <img src="{{asset('assets/front/images/case/case-two-image2.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
-                                <span>Technology</span>
-                                <h4><a href="case-details.html" class="text-white">Web Development</a></h4>
+                                <span>Busness Growth</span>
+                                <h4><a href="case-details.html" class="text-white">Digital Marketing</a></h4>
                             </div>
                             <a href="case-details.html" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
@@ -925,8 +925,8 @@
                                 <img src="{{asset('assets/front/images/case/case-two-image3.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
-                                <span>Security</span>
-                                <h4><a href="case-details.html" class="text-white">Network Security</a></h4>
+                                <span>Ranking</span>
+                                <h4><a href="case-details.html" class="text-white">SEO</a></h4>
                             </div>
                             <a href="case-details.html" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
@@ -939,8 +939,8 @@
                                 <img src="{{asset('assets/front/images/case/case-two-image4.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
-                                <span>Technology</span>
-                                <h4><a href="case-details.html" class="text-white">Platform Integration</a></h4>
+                                <span>Solution of Idea</span>
+                                <h4><a href="case-details.html" class="text-white">Graphic Designing</a></h4>
                             </div>
                             <a href="case-details.html" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>

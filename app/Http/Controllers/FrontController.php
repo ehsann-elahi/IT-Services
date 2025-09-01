@@ -12,5 +12,7 @@ class FrontController extends Controller
         return view('front.index');
     }
 
+    
+
 
 }
