@@ -34,24 +34,21 @@
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">IT Solution</h3>
                     <ul>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> IT
-                                Management</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> SEO
-                                Optimization</a>
-                        </li>
                         <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Web
                                 Development</a>
                         </li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Cyber
-                                Security</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Data
-                                Security</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Digital Marketing</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> SEO
+                                Optimization</a>
+                        </li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>App Development</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>Graphic Desiner</a></li>
                     </ul>
                 </div>
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">Quick Link</h3>
                     <ul>
-                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i> About Gratech</a></li>
+                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i> About Meta</a></li>
                         <li><a href="service.html"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
                         </li>
                         <li><a href="pricing.html"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
@@ -62,7 +59,7 @@
                 </div>
                 <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">Contact Us</h3>
-                    <p class="mb-20">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                    <p class="mb-20">Dubai & Abu Dhabi</p>
                     <ul class="footer-contact">
                         <li>
                             <i class="fa-regular fa-clock"></i>
@@ -70,7 +67,7 @@
                                 <h5>
                                     Opening Hours:
                                 </h5>
-                                <p>Mon - Sat: 10.00 AM - 4.00 PM</p>
+                                <p>Mon - Sat: 9.00 AM - 6.00 PM</p>
                             </div>
                         </li>
                         <li>
@@ -79,7 +76,7 @@
                                 <h5>
                                     Phone Call:
                                 </h5>
-                                <p>208-6666-0112, 308-5555-0113</p>
+                                <p>+971 52 541 2617</p>
                             </div>
                         </li>
                     </ul>
@@ -90,8 +87,8 @@
             <div class="container">
                 <div
                     class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
-                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2024
-                        by <a href="#0">Gratech</a></p>
+                    <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2025
+                        by <a href="#0">Meta Digital</a></p>
                     <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <li><a href="#0">Terms & Condition</a></li>

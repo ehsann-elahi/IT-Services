@@ -27,4 +27,6 @@ Route::prefix('admin')->middleware('auth:admin')->group(function () {
 });
 
 Route::get('/', [FrontController::class, 'index'])->name('index');
+Route::get('/about-us', [FrontController::class, 'aboutus'])->name('about');
+Route::get('/service', [FrontController::class, 'services'])->name('service');
 
