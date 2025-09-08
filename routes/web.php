@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Admin\PageController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\Admin\TeamController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -23,8 +25,19 @@ Route::prefix('admin')->middleware('auth:admin')->group(function () {
 
     //dashboard
     Route::get('/dashboard', [PageController::class, 'dashboard'])->name('dashboard');
-
+    Route::resource('blogs', BlogController::class);
+    Route::resource('teams', TeamController::class);
 });
 
 Route::get('/', [FrontController::class, 'index'])->name('index');
-
+Route::get('/about-us', [FrontController::class, 'aboutus'])->name('about');
+Route::get('/service', [FrontController::class, 'services'])->name('service');
+Route::get('/web-development', [FrontController::class, 'WebDevelopment'])->name('WebDevelopment');
+Route::get('/app-development', [FrontController::class, 'AppDevelopment'])->name('AppDevelopment');
+Route::get('/digital-marketing', [FrontController::class, 'Digitalmarketing'])->name('Digitalmarketing');
+Route::get('/seo', [FrontController::class, 'Seo'])->name('Seo');
+Route::get('/graphic-designing', [FrontController::class, 'Graphicdesigning'])->name('Graphicdesigning');
+Route::get('/social-media-marketing', [FrontController::class, 'Socialmediamarketing'])->name('Socialmediamarketing');
+Route::get('/our-team', [FrontController::class, 'OurTeam'])->name('ourteam');
+Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
+Route::get('/blog-detail', [FrontController::class, 'blogDetail'])->name('blogDetail');

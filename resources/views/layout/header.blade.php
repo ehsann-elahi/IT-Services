@@ -9,100 +9,41 @@
                     <nav>
                         <ul>
                             <li class="has-megamenu">
-                                <a href="#0">Home</a>
-                                <ul class="sub-menu mega-menu menu-image">
-                                    <li>
-                                        <div class="image text-center">
-                                            <img src="{{asset('assets/front/images/menu/home1-image.jpg')}}" alt="image">
-                                            <div class="btn__group">
-                                                <a href="index-2.html" class="btn-one">Multi Page</a>
-                                                <a href="index-one-page.html" class="btn-one mt-2">One Page</a>
-                                            </div>
-                                            <h6 class="text-white">Home Page 01</h6>
-                                        </div>
-                                        <div class="image text-center">
-                                            <img src="{{asset('assets/front/images/menu/home2-image.jpg')}}" alt="image">
-                                            <div class="btn__group">
-                                                <a href="index-3.html" class="btn-one">Multi Page</a>
-                                                <a href="index-2-one-page.html" class="btn-one mt-2">One Page</a>
-                                            </div>
-                                            <h6 class="text-white">Home Page 02</h6>
-                                        </div>
-                                        <div class="image text-center">
-                                            <img src="{{asset('assets/front/images/menu/home3-image.jpg')}}" alt="image">
-                                            <div class="btn__group">
-                                                <a href="index-4.html" class="btn-one">Multi Page</a>
-                                                <a href="index-3-one-page.html" class="btn-one mt-2">One Page</a>
-                                            </div>
-                                            <h6 class="text-white">Home Page 03</h6>
-                                        </div>
-                                        <div class="image text-center">
-                                            <img src="{{asset('assets/front/images/menu/home4-image.jpg')}}" alt="image">
-                                            <div class="btn__group">
-                                                <a href="index-dark.html" class="btn-one">View Page</a>
-                                            </div>
-                                            <h6 class="text-white">Home Dark</h6>
-                                        </div>
-                                    </li>
-                                </ul>
+                                <a href="{{route('index')}}">Home</a>
+                                
                             </li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="{{route('about')}}">About</a></li>
                             <li>
-                                <a href="#0">Services</a>
-                                <ul class="sub-menu">
+                                <a href="{{route('service')}}">Services</a>
+                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="service-solutions.html">IT Solutions</a>
+                                        <a href="{{route('WebDevelopment')}}">Web Development</a>
                                     </li>
                                     <li>
-                                        <a href="service.html">IT Services</a>
+                                        <a href="{{route('Digitalmarketing')}}">Digital Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="service-details.html">Service Details</a>
+                                        <a href="{{route('AppDevelopment')}}">App Development</a>
                                     </li>
+                                    <li>
+                                        <a href="{{route('Graphicdesigning')}}">Graphic Desigining</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('Seo')}}">SEO</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a>
+                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li>
-                                <a href="#0">Pages</a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="case.html">Case Study 01</a>
-                                    </li>
-                                    <li>
-                                        <a href="case-2.html">Case Study 02</a>
-                                    </li>
-                                    <li>
-                                        <a href="case-details.html">Case Study Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="team.html">Our Team</a>
-                                    </li>
-                                    <li>
-                                        <a href="team-details.html">Team Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="pricing.html">Pricing</a>
-                                    </li>
-                                    <li>
-                                        <a href="faq.html">FAQ's</a>
-                                    </li>
-                                    <li>
-                                        <a href="error.html">404 Error</a>
-                                    </li>
-                                </ul>
+                                <a href="{{route('ourteam')}}">Our Team</a>
+                               
                             </li>
                             <li>
-                                <a href="#0">Blog</a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="blog.html">Blog Grid</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-standard.html">Blog Standard</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-details.html">Blog Details</a>
-                                    </li>
-                                </ul>
+                                <a href="{{route('blog')}}">Blog</a>
+                                
                             </li>
                             <li><a href="contact.html">Contact</a></li>
                             <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0">

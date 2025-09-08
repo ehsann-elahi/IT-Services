@@ -533,7 +533,7 @@
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image1.jpg')}}" alt="image">
+                            <img src="{{asset('assets/front/images/team/shakeel.png')}}" alt="image">
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MR. SHAKEEL AHMAD</a></h4>
@@ -555,11 +555,33 @@
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image1.jpg')}}" alt="image">
+                            <img src="{{asset('assets/front/images/team/nouman.png')}}" alt="image">
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MR. NOUMAN</a></h4>
-                            <span class="text-white">SR. Developer</span>
+                            <span class="text-white">SR. Developer (Team Lead)</span>
+                        </div>
+                        <div class="team__share">
+                            <ul>
+                                <li>
+                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
+                    data-wow-duration="1500ms">
+                    <div class="team__item">
+                        <div class="image">
+                            <img src="{{asset('assets/front/images/team/ehsaan.png')}}" alt="image">
+                        </div>
+                        <div class="team__content">
+                            <h4><a class="text-white" href="team-details-2.html">EHSAN ELLAHI</a></h4>
+                            <span class="text-white">Developer</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -577,11 +599,11 @@
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image2.jpg')}}" alt="image">
+                            <img src="{{asset('assets/front/images/team/ummar.png')}}" alt="image">
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MR. UMAR</a></h4>
-                            <span class="text-white">Digital Marketing</span>
+                            <span class="text-white">Digital Marketing (Team Lead)</span>
                         </div>
                         <div class="team__share">
                             <ul>
@@ -599,7 +621,7 @@
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image3.jpg')}}" alt="image">
+                            <img src="{{asset('assets/front/images/team/amina.png')}}" alt="image">
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MS. AMINA MALIK</a></h4>
@@ -621,7 +643,7 @@
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image1.jpg')}}" alt="image">
+                            <img src="{{asset('assets/front/images/team/ishrat.png')}}" alt="image">
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MS. ISHRAT FATIMA</a></h4>
@@ -643,7 +665,7 @@
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image2.jpg')}}" alt="image">
+                            <img src="{{asset('assets/front/images/team/minahil.png')}}" alt="image">
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MS. MINAHIL</a></h4>
@@ -665,7 +687,7 @@
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image3.jpg')}}" alt="image">
+                            <img src="{{asset('assets/front/images/team/farwa.png')}}" alt="image">
                         </div>
                         <div class="team__content">
                             <h4><a class="text-white" href="team-details-2.html">MS. FARWA</a></h4>
@@ -683,28 +705,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/team-image3.jpg')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">EHSAN ELLAHI</a></h4>
-                            <span class="text-white">Developer</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </section>
