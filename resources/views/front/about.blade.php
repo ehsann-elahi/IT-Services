@@ -56,13 +56,8 @@
                         <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
                         WHO WE ARE
                     </h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Ensuring Your
-                        Success Through Reliable IT Solutions </h2>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Aonsectetur
-                        adipiscing elit aenean scelerisque augue vitae consequat aisque eget congue
-                        velit in cursus sodales the
-                        turpis euismod quis sapien euismod
-                        quis sapien the condimentum nec lorem nulla augue.</p>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">MetaDigital Marketing</h2>
+                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms"> Meta Digital Marketing is a global digital marketing agency based in Ajman that furnishes out-and-out marketing solutions to clients in UAE covering social media marketing, website SEO, google advertisement, google my business registration, content marketin</p>
                 </div>
                 <div class="about-two__right-item wow fadeInDown" data-wow-delay="200ms"
                     data-wow-duration="1500ms">
@@ -270,8 +265,7 @@
                     <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
                     FROM OUR CASE studies
                 </h5>
-                <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">We Delivered Best
-                    Solution</h2>
+                <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Our Work</h2>
             </div>
             <a href="case.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                 data-wow-duration="1500ms">view All
@@ -397,8 +391,7 @@
                         <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
                         CLIENTS REVIEW
                     </h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">What They Say
-                        About Our</h2>
+                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">What Customer Says About Us</h2>
                     <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">It is a long
                         established fact that a reader will be distracted the readable content
                         of a page when looking at layout the
@@ -497,7 +490,7 @@
                 </svg>
                 OUR team
             </h5>
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Leadership Team</h2>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Team</h2>
         </div>
         <div class="row g-4">
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"

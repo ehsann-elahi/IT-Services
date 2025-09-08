@@ -38,6 +38,7 @@
                     OUR team
                 </h5>
                 <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Leadership Team</h2>
+                <p class="text-black">You get access to a whole team of digital media specialists for the price of one employee.</p>
             </div>
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"

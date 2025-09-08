@@ -41,7 +41,7 @@
                                 MetaDigital Marketing
                             </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
-                                Team of Digital Media in Dubai & Abu Dhabi
+                             Digital Marketing in Dubai & Abu Dhabi
                             </h1>
                             <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
                                We are here to provide a digital solution for your business. Let's Stand out from the crowd.<br> We provide you the customized services that fully fit your business type. So what are you waiting for.........???
@@ -206,11 +206,9 @@
                             </div>
                             <div class="process__content">
                                 <h4 class="mt-25 mb-10">
-                                    Finial Solution
+                                    Execution
                                 </h4>
-                                <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                    dolor
-                                    sit amet, consectetur</p>
+                                <p>Creating campaign, Content product, Strategy optimization,Campaign analysis</p>
                             </div>
                         </div>
                     </div>
@@ -268,8 +266,8 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Web Designing</a></h4>
-                                <p>We believe smart, effective, creative results start with truly understanding your cause and taking a holistic perspective</p>
+                                <h4><a href="service-details.html" class="primary-hover">Website Development</a></h4>
+                                <p>We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -286,8 +284,8 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Digital Marketing</a></h4>
-                                <p>Digital Marketing for Facebook, Instagram, YouTube and TikTok</p>
+                                <h4><a href="service-details.html" class="primary-hover">Social Media Marketing</a></h4>
+                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -453,7 +451,7 @@
                             <img class="icon" src="{{asset('assets/front/images/icon/about-three-icon3.png')}}" alt="icon">
                             <div class="con">
                                 <h3><span class="count">6,561</span>+</h3>
-                                <span class="secondary-color sm-font">Satisfied Clients</span>
+                                <span class="secondary-color sm-font">Happy Clients</span>
                             </div>
                         </div>
                         <div class="faq__line sway__animation">
@@ -478,28 +476,28 @@
                         <img src="{{('assets/front/images/icon/counter-icon1.png')}}" alt="icon">
                         <div class="content">
                             <h3><span class="count">6,561</span>+</h3>
-                            <p class="text-white">Satisfied Clients</p>
+                            <p class="text-white">Happy Clients</p>
                         </div>
                     </div>
                     <div class="counter__item wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <img src="{{('assets/front/images/icon/counter-icon2.png')}}" alt="icon">
                         <div class="content">
                             <h3><span class="count">600</span>+</h3>
-                            <p class="text-white">Finished Projects</p>
+                            <p class="text-white">Website Launched</p>
                         </div>
                     </div>
                     <div class="counter__item wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
                         <img src="{{('assets/front/images/icon/counter-icon3.png')}}" alt="icon">
                         <div class="content">
                             <h3><span class="count">250</span>+</h3>
-                            <p class="text-white">Skilled Experts</p>
+                            <p class="text-white">Social Compaign</p>
                         </div>
                     </div>
                     <div class="counter__item wow bounceInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
                         <img src="{{('assets/front/images/icon/counter-icon4.png')}}" alt="icon">
                         <div class="content">
                             <h3><span class="count">590</span>+</h3>
-                            <p class="text-white">Media Posts</p>
+                            <p class="text-white">Cup of Coffee</p>
                         </div>
                     </div>
                 </div>
@@ -527,6 +525,7 @@
                     OUR team
                 </h5>
                 <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Team</h2>
+                <p class="text-black">You get access to a whole team of digital media specialists for the price of one employee.</p>
             </div>
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
@@ -922,7 +921,7 @@
                             </div>
                             <div class="case-two__content">
                                 <span>Solution of Idea</span>
-                                <h4><a href="case-details.html" class="text-white">Graphic Designing</a></h4>
+                                <h4><a href="case-details.html" clss="text-white">Graphic Designing</a></h4>
                             </div>
                             <a href="case-details.html" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
@@ -952,7 +951,7 @@
                             d="M3 6C3 2.96243 5.46243 0.5 8.5 0.5H11.5C14.5376 0.5 17 2.96243 17 6C17 4.61929 15.2091 3.5 13 3.5H7C4.79086 3.5 3 4.61929 3 6ZM17 6C17 9.03757 14.5376 11.5 11.5 11.5H8.5C5.46243 11.5 3 9.03757 3 6C3 7.38071 4.79086 8.5 7 8.5H13C15.2091 8.5 17 7.38071 17 6ZM3 10V2V10ZM17 2V10V2Z"
                             fill="#3C72FC" mask="url(#path-2-inside-1_869_295)" />
                     </svg>
-                    Testimonials
+                    About Us
                 </h5>
                 <h2 class="wow fadeInUp text-white" data-wow-delay="200ms" data-wow-duration="1500ms">What Customer Says About Us</h2>
             </div>
@@ -1309,9 +1308,9 @@ Latest Thoughts</h2>
                             </svg>
                             GET IN TOUCH
                         </h5>
-                        <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">We
-                            Take Care of
-                            Your <br> Technology</h2>
+                        <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            Why Choose Us? <br></h2>
+                            <p class="text-white">Team of experts having more than 12 years of experience working in Abu Dhabi & Dubai. We are a one of a kind agency who provide complete marketing solutions to their clients under the one umbrella</p>
                     </div>
                     <a href="contact.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">get A
