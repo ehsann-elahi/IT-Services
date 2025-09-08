@@ -45,7 +45,7 @@
                                 <a href="{{route('blog')}}">Blog</a>
                                 
                             </li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{{route('contact.store')}}">Contact</a></li>
                             <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0">
                                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@
                     </nav>
                 </div>
                 <div class="d-none d-xl-flex gap-4">
-                    <a href="contact.html" class="btn-one">Get A Quote <i
+                    <a href="{{route('contact.store')}}" class="btn-one">Get Our Services <i
                             class="fa-regular fa-arrow-right-long"></i></a>
                     <div class="about-three__left-item d-flex flex-wrap gap-2 align-items-center">
                         <div class="about-call-icon">

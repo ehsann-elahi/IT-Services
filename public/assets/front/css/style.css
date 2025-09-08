@@ -4980,7 +4980,7 @@ input.main-search-input::placeholder {
   margin-bottom: 30px;
 }
 .contact__form form textarea {
-  height: 200px;
+  height: 100px;
 }
 .contact__map {
   margin-bottom: -10px;

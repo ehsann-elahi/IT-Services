@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\PageController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\TeamController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,6 +28,10 @@ Route::prefix('admin')->middleware('auth:admin')->group(function () {
     Route::get('/dashboard', [PageController::class, 'dashboard'])->name('dashboard');
     Route::resource('blogs', BlogController::class);
     Route::resource('teams', TeamController::class);
+
+    Route::get('/contacts', [ContactController::class, 'index'])->name('admin.contacts.index');
+Route::delete('/contacts/{id}', [ContactController::class, 'destroy'])->name('admin.contacts.destroy');
+
 });
 
 Route::get('/', [FrontController::class, 'index'])->name('index');
@@ -41,3 +46,10 @@ Route::get('/social-media-marketing', [FrontController::class, 'Socialmediamarke
 Route::get('/our-team', [FrontController::class, 'OurTeam'])->name('ourteam');
 Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
 Route::get('/blog-detail', [FrontController::class, 'blogDetail'])->name('blogDetail');
+// Show contact form
+Route::get('/contact-us', [FrontController::class, 'contact'])->name('contact');
+
+// Handle form submit
+Route::post('/contact-us', [FrontController::class, 'store'])->name('contact.store');
+
+
