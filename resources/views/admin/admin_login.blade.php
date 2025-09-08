@@ -19,7 +19,7 @@
                 <div class="col-md-12">
                     <div class="p-4">
                        
-                        <p class="mb-3 text-18">Welcome To CarpetCleaner Admin Panel </p>
+                        <p class="mb-3 text-18">Welcome To Meta Digital Marketing Admin Panel </p>
                         @if ($errors->any())
                         <div class="alert alert-danger">
                             <ul>

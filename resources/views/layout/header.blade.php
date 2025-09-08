@@ -17,68 +17,33 @@
                                 <a href="{{route('service')}}">Services</a>
                                  <ul class="sub-menu">
                                     <li>
-                                        <a href="case.html">Web Development</a>
+                                        <a href="{{route('WebDevelopment')}}">Web Development</a>
                                     </li>
                                     <li>
-                                        <a href="case-2.html">Digital Marketing</a>
+                                        <a href="{{route('Digitalmarketing')}}">Digital Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="case-details.html">App Development</a>
+                                        <a href="{{route('AppDevelopment')}}">App Development</a>
                                     </li>
                                     <li>
-                                        <a href="team.html">Graphic Desigining</a>
+                                        <a href="{{route('Graphicdesigning')}}">Graphic Desigining</a>
                                     </li>
                                     <li>
-                                        <a href="team-details.html">SEO</a>
+                                        <a href="{{route('Seo')}}">SEO</a>
                                     </li>
                                     <li>
-                                        <a href="pricing.html">Social Media Marketing</a>
+                                        <a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a>
                                     </li>
                                     
                                 </ul>
                             </li>
                             <li>
-                                <a href="#0">Pages</a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="case.html">Case Study 01</a>
-                                    </li>
-                                    <li>
-                                        <a href="case-2.html">Case Study 02</a>
-                                    </li>
-                                    <li>
-                                        <a href="case-details.html">Case Study Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="team.html">Our Team</a>
-                                    </li>
-                                    <li>
-                                        <a href="team-details.html">Team Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="pricing.html">Pricing</a>
-                                    </li>
-                                    <li>
-                                        <a href="faq.html">FAQ's</a>
-                                    </li>
-                                    <li>
-                                        <a href="error.html">404 Error</a>
-                                    </li>
-                                </ul>
+                                <a href="{{route('ourteam')}}">Our Team</a>
+                               
                             </li>
                             <li>
-                                <a href="#0">Blog</a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="blog.html">Blog Grid</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-standard.html">Blog Standard</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-details.html">Blog Details</a>
-                                    </li>
-                                </ul>
+                                <a href="{{route('blog')}}">Blog</a>
+                                
                             </li>
                             <li><a href="contact.html">Contact</a></li>
                             <li class="ml-20 d-none d-lg-block"><a class="search-trigger" href="#0">
