@@ -19,7 +19,7 @@
             <div class="footer__wrp pt-100 pb-100">
                 <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <a href="index-2.html" class="logo mb-30">
-                        <img src="{{asset('assets/front/images/logo/logo.svg')}}" alt="image">
+                        <img src="{{asset('assets/front/images/logo/metalogo.png')}}" alt="image">
                     </a>
                     <p>Phasellus ultricies aliquam volutpat
                         ullamcorper laoreet neque, a lacinia
@@ -48,13 +48,13 @@
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">Quick Link</h3>
                     <ul>
-                        <li><a href="about.html"><i class="fa-regular fa-angles-right me-1"></i> About Meta</a></li>
-                        <li><a href="service.html"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
+                        <li><a href="{{route('about')}}"><i class="fa-regular fa-angles-right me-1"></i> About Meta</a></li>
+                        <li><a href="{{route('services}}"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
                         </li>
-                        <li><a href="pricing.html"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
+                        <li><a href="{{route('price')}}"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
                         </li>
                         <li><a href="case.html"><i class="fa-regular fa-angles-right me-1"></i> Our Projects</a></li>
-                        <li><a href="team.html"><i class="fa-regular fa-angles-right me-1"></i> Our Team</a></li>
+                        <li><a href="{{route('ourteam')}}"><i class="fa-regular fa-angles-right me-1"></i> Our Team</a></li>
                     </ul>
                 </div>
                 <div class="footer__item item-big wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">

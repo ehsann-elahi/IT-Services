@@ -51,5 +51,7 @@ Route::get('/contact-us', [FrontController::class, 'contact'])->name('contact');
 
 // Handle form submit
 Route::post('/contact-us', [FrontController::class, 'store'])->name('contact.store');
+Route::get('/pricing', [FrontController::class, 'price'])->name('price');
+Route::get('/mission-vision', [FrontController::class, 'missionvision'])->name('missionvision');
 
 

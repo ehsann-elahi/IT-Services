@@ -34,7 +34,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner-two-image1.jpg')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner1.png')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -81,11 +81,11 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner-two-image2.jpg')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner1.png')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                 Meta Digital Marketing
+                                Meta Digital Marketing
                             </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
                                 We Convert Concepts Into Technology
@@ -128,7 +128,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner-two-image3.jpg')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner1.png')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -158,75 +158,76 @@
     <!-- Banner area end here -->
 
     <!-- Process area start here -->
-        <section class="process-area pt-120 pb-120">
-            <div class="container">
-                <div class="section-header text-center mb-60">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
-                        Work Process
-                    </h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Development Process
-                    </h2>
+    <section class="process-area pt-120 pb-120">
+        <div class="container">
+            <div class="section-header text-center mb-60">
+                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                    Work Process
+                </h5>
+                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Development Process
+                </h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="process__item mb-100">
+                        <div class="process-arry bobble__animation">
+                            <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
+                        </div>
+                        <div class="process__image">
+                            <img src="{{asset('assets/front/images/process/process-image1.png')}}" alt="image">
+                            <span class="process-number">1</span>
+                        </div>
+                        <div class="process__content">
+                            <h4 class="mt-25 mb-10">
+                                Define Requirements
+                            </h4>
+                            <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
+                                dolor
+                                sit amet, consectetur</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="process__item mb-100">
-                            <div class="process-arry bobble__animation">
-                                <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
-                            </div>
-                            <div class="process__image">
-                                <img src="{{asset('assets/front/images/process/process-image1.png')}}" alt="image">
-                                <span class="process-number">1</span>
-                            </div>
-                            <div class="process__content">
-                                <h4 class="mt-25 mb-10">
-                                    Define Requirements
-                                </h4>
-                                <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                    dolor
-                                    sit amet, consectetur</p>
-                            </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="process__item mb-100">
+                        <div class="process-arry bobble__animation">
+                            <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
+                        </div>
+                        <div class="process__image">
+                            <img src="{{asset('assets/front/images/process/process-image2.png')}}" alt="image">
+                            <span class="process-number">2</span>
+                        </div>
+                        <div class="process__content">
+                            <h4 class="mt-25 mb-10">
+                                Design & Prototyping
+                            </h4>
+                            <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
+                                dolor
+                                sit amet, consectetur</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="process__item mb-100">
-                            <div class="process-arry bobble__animation">
-                                <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
-                            </div>
-                            <div class="process__image">
-                                <img src="{{asset('assets/front/images/process/process-image2.png')}}" alt="image">
-                                <span class="process-number">2</span>
-                            </div>
-                            <div class="process__content">
-                                <h4 class="mt-25 mb-10">
-                                    Design & Prototyping
-                                </h4>
-                                <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                    dolor
-                                    sit amet, consectetur</p>
-                            </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="process__item">
+                        <div class="process__image">
+                            <img src="{{asset('assets/front/images/process/process-image3.png')}}" alt="image">
+                            <span class="process-number">3</span>
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="process__item">
-                            <div class="process__image">
-                                <img src="{{asset('assets/front/images/process/process-image3.png')}}" alt="image">
-                                <span class="process-number">3</span>
-                            </div>
-                            <div class="process__content">
-                                <h4 class="mt-25 mb-10">
-                                    Finial Solution
-                                </h4>
-                                <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                    dolor
-                                    sit amet, consectetur</p>
-                            </div>
+                        <div class="process__content">
+                            <h4 class="mt-25 mb-10">
+                                Finial Solution
+                            </h4>
+                            <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
+                                dolor
+                                sit amet, consectetur</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Process area end here -->
+        </div>
+    </section>
+    <!-- Process area end here -->
+
 
 
     <!-- Service area start here -->
@@ -361,12 +362,110 @@
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
     </section>
     <!-- Service area end here -->
+
+    <!-- Pricing area start here -->
+    <section class="pricing-area pt-120 pb-50">
+        <div class="container">
+            <div class="section-header text-center mb-60">
+                <h5>
+                    <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                    PRICE PLANS
+                </h5>
+                <h2>Affordable IT & Marketing Solutions in Dubai</h2>
+                <p>MetaDigital Marketing offers Digital Marketing, Web Development, and App Development and many more services in UAE with packages designed to suit every business need.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Digital Marketing -->
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pricing__item">
+                        <div class="item-shape">
+                            <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        </div>
+                        <div class="pricing-head">
+                            <div>
+                                <h4 class="text-white mb-10">Digital Marketing</h4>
+                                <h2>AED 300<span>/starting</span></h2>
+                            </div>
+                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                                <i class="fas fa-bullhorn text-white"></i>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Social Media Marketing in UAE</li>
+                            <li>SEO Optimization for Dubai Market</li>
+                            <li>Google Ads & PPC Campaigns</li>
+                            <li>Content Creation & Branding</li>
+                            <li>Monthly Strategy Reports</li>
+                        </ul>
+                        <a href="contact.html" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pricing__item popular-plan">
+                        <div class="item-shape">
+                            <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        </div>
+                        <div class="pricing-head">
+                            <div>
+                                <h4 class="text-white mb-10">Web Development</h4>
+                                <h2>AED 300<span>/starting</span></h2>
+                            </div>
+                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                                <i class="fas fa-code text-white"></i>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Responsive Business Websites</li>
+                            <li>E-commerce Development</li>
+                            <li>Custom WordPress & PHP</li>
+                            <li>Hosting & Domain Setup</li>
+                            <li>SEO-Friendly Web Design</li>
+                        </ul>
+                        <a href="contact.html" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+
+                <!-- App Development -->
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="pricing__item">
+                        <div class="item-shape">
+                            <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        </div>
+                        <div class="pricing-head">
+                            <div>
+                                <h4 class="text-white mb-10">App Development</h4>
+                                <h2>AED 300<span>/starting</span></h2>
+                            </div>
+                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                                <i class="fas fa-mobile-alt text-white"></i>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>iOS & Android Development</li>
+                            <li>Cross-Platform Apps (Flutter)</li>
+                            <li>E-commerce & Business Apps</li>
+                            <li>Custom App UI/UX Design</li>
+                            <li>Maintenance & Support</li>
+                        </ul>
+                        <a href="contact.html" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing area end here -->
 
     <!-- About area start here -->
     <section class="about-area about-three-area sub-bg pt-120">
@@ -419,7 +518,46 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        <div class="about__info mt-30 wow fadeInDown" data-wow-delay="400ms"
+                            data-wow-duration="1500ms">
+                            <div class="d-flex flex-wrap gap-2 align-items-center">
+                                <img src="{{asset('assets/front/images/about/about-info.png')}}" alt="image">
+                                <div class="info">
+                                    <h5>Ronald Richards</h5>
+                                    <span class="sm-font">Co, Founder</span>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2 align-items-center">
+                                <div class="about-call-icon">
+                                    <span><svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_918_1337)">
+                                                <path
+                                                    d="M5.41667 4.33337H9.75L11.9167 9.75004L9.20833 11.375C10.3685 13.7275 12.2725 15.6315 14.625 16.7917L16.25 14.0834L21.6667 16.25V20.5834C21.6667 21.158 21.4384 21.7091 21.0321 22.1154C20.6257 22.5218 20.0746 22.75 19.5 22.75C15.2742 22.4932 11.2885 20.6987 8.2949 17.7051C5.3013 14.7115 3.5068 10.7258 3.25 6.50004C3.25 5.9254 3.47827 5.3743 3.8846 4.96798C4.29093 4.56165 4.84203 4.33337 5.41667 4.33337Z"
+                                                    stroke="white" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M16.25 7.58337C16.8246 7.58337 17.3757 7.81165 17.7821 8.21798C18.1884 8.6243 18.4167 9.1754 18.4167 9.75004"
+                                                    stroke="white" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M16.25 3.25C17.9739 3.25 19.6272 3.93482 20.8462 5.15381C22.0652 6.37279 22.75 8.02609 22.75 9.75"
+                                                    stroke="white" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath>
+                                                    <rect width="26" height="26" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg></span>
+                                </div>
+                                <div class="info">
+                                    <span class="sm-font fw-600 secondary-color">Call Us Now</span>
+                                    <h5>+208-555-0112</h5>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-7 order-1 order-lg-2">
@@ -447,44 +585,44 @@
     <!-- About area end here -->
 
     <!-- Counter area start here -->
-        <section class="counter-area">
-            <div class="container">
-                <div class="counter__wrp gradient-bg">
-                    <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <img src="{{asset('assets/front/images/shape/counnter-bg-shape.png')}}" alt="shape">
+    <section class="counter-area">
+        <div class="container">
+            <div class="counter__wrp gradient-bg">
+                <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <img src="{{asset('assets/front/images/shape/counnter-bg-shape.png')}}" alt="shape">
+                </div>
+                <div class="counter__item wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+                    <img src="{{('assets/front/images/icon/counter-icon1.png')}}" alt="icon">
+                    <div class="content">
+                        <h3><span class="count">6,561</span>+</h3>
+                        <p class="text-white">Satisfied Clients</p>
                     </div>
-                    <div class="counter__item wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
-                        <img src="{{('assets/front/images/icon/counter-icon1.png')}}" alt="icon">
-                        <div class="content">
-                            <h3><span class="count">6,561</span>+</h3>
-                            <p class="text-white">Satisfied Clients</p>
-                        </div>
+                </div>
+                <div class="counter__item wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <img src="{{('assets/front/images/icon/counter-icon2.png')}}" alt="icon">
+                    <div class="content">
+                        <h3><span class="count">600</span>+</h3>
+                        <p class="text-white">Finished Projects</p>
                     </div>
-                    <div class="counter__item wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                        <img src="{{('assets/front/images/icon/counter-icon2.png')}}" alt="icon">
-                        <div class="content">
-                            <h3><span class="count">600</span>+</h3>
-                            <p class="text-white">Finished Projects</p>
-                        </div>
+                </div>
+                <div class="counter__item wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
+                    <img src="{{('assets/front/images/icon/counter-icon3.png')}}" alt="icon">
+                    <div class="content">
+                        <h3><span class="count">250</span>+</h3>
+                        <p class="text-white">Skilled Experts</p>
                     </div>
-                    <div class="counter__item wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                        <img src="{{('assets/front/images/icon/counter-icon3.png')}}" alt="icon">
-                        <div class="content">
-                            <h3><span class="count">250</span>+</h3>
-                            <p class="text-white">Skilled Experts</p>
-                        </div>
-                    </div>
-                    <div class="counter__item wow bounceInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-                        <img src="{{('assets/front/images/icon/counter-icon4.png')}}" alt="icon">
-                        <div class="content">
-                            <h3><span class="count">590</span>+</h3>
-                            <p class="text-white">Media Posts</p>
-                        </div>
+                </div>
+                <div class="counter__item wow bounceInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
+                    <img src="{{('assets/front/images/icon/counter-icon4.png')}}" alt="icon">
+                    <div class="content">
+                        <h3><span class="count">590</span>+</h3>
+                        <p class="text-white">Media Posts</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Counter area end here -->
+        </div>
+    </section>
+    <!-- Counter area end here -->
 
     <!-- Team area start here -->
     <section class="team-area pt-120 pb-120">
@@ -552,7 +690,7 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
                     data-wow-duration="1500ms">
                     <div class="team__item">
                         <div class="image">
@@ -684,30 +822,22 @@
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     </section>
     <!-- Team area end here -->
 
-    
+
 
     <!-- Faq area start here -->
-    <section class="faq-area sub-bg pt-20 pb-20">
+    <section class="faq-area sub-bg pt-120 pb-120">
         <div class="faq__shape">
             <img class="sway__animationX" src="{{asset('assets/front/images/shape/faq-shape.png')}}" alt="shape">
         </div>
         <div class="container">
             <div class="row g-4">
-                <div class="section-header mb-20">
-                        <h5 class="wow fadeInUp pb-2" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
-                            GET IN TOUCH
-                        </h5>
-                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Agency Partnership</h2>
-                        <p class="wow fadeInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">We believe two pairs of eyes can produce better results that satisfy themselves & customers as well. if you are a marketing agency & looking to get advice or share a work project, we love to work in a team to grow up together in the best interest of our business-friendly community in Dubai & Abu Dhabi.</p>
-                    </div>
-                <div class="col-lg-4 pe-2 pe-lg-5">
+                <div class="col-lg-5 pe-2 pe-lg-5">
                     <div class="faq__image image wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="faq__line sway__animation">
                             <img src="{{asset('assets/front/images/shape/faq-line.png')}}" alt="image">
@@ -715,80 +845,111 @@
                         <img src="{{asset('assets/front/images/faq/faq-image.png')}}" alt="image">
                     </div>
                 </div>
-                <div class="col-lg-8 ps-2 ps-lg-5">
-                <div class="contact__right-item">
-                    
-                    <div class="contact__form">
-                        @if(session('success'))
-                        <div class="alert alert-success">
-                            {{ session('success') }}
+                <div class="col-lg-7 mt-60">
+                    <div class="section-header mb-40">
+                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
+                                    stroke-width="1.5" />
+                                <mask id="path-2-inside-1_1120_294" fill="white">
+                                    <path
+                                        d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
+                                </mask>
+                                <path
+                                    d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
+                                    fill="#3C72FC" mask="url(#path-2-inside-1_1120_294)" />
+                            </svg>
+                            FAQ
+                        </h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Most Common
+                            Question?</h2>
+                    </div>
+                    <div class="faq__item">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+                                data-wow-duration="1500ms">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Where should I incorporate my business?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>It is a long established fact that a reader be distracted by
+                                            the readable content of a page when looking a its layout.
+                                            Many desktop publishing packages and web page editors now use Lorem
+                                            Ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+                                data-wow-duration="1500ms">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="false" aria-controls="collapseTwo">
+                                        What happens my free trial?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>It is a long established fact that a reader be distracted by
+                                            the readable content of a page when looking a its layout.
+                                            Many desktop publishing packages and web page editors now use Lorem
+                                            Ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+                                data-wow-duration="1500ms">
+                                <h2 class="accordion-header" id="headingthree">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                                        aria-expanded="false" aria-controls="collapsethree">
+                                        What is included in your services?
+                                    </button>
+                                </h2>
+                                <div id="collapsethree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>It is a long established fact that a reader be distracted by
+                                            the readable content of a page when looking a its layout.
+                                            Many desktop publishing packages and web page editors now use Lorem
+                                            Ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+                                data-wow-duration="1500ms">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                        aria-expanded="false" aria-controls="collapseFour">
+                                        What type of company is measured?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>It is a long established fact that a reader be distracted by
+                                            the readable content of a page when looking a its layout.
+                                            Many desktop publishing packages and web page editors now use Lorem
+                                            Ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        @endif
-
-                        <form action="{{ route('contact.store') }}" method="POST">
-                            @csrf
-                            <div class="row">
-                                <div class="col-6">
-                                    <label for="name">Your Name*</label>
-                                    <input id="name" class="bg-transparent bor form-control" type="text" name="name"
-                                        placeholder="Your Name" required>
-                                </div>
-                                <div class="col-6">
-                                    <label for="email">Your Email*</label>
-                                    <input class="bg-transparent bor form-control" id="email" type="email" name="email"
-                                        placeholder="Your Email" required>
-                                </div>
-                            </div>
-
-                            {{-- Phone Number --}}
-                            <div class="row mt-1">
-                                <div class="col-6">
-                                    <label for="country_code">Country Code*</label>
-                                    <select id="country_code" name="country_code" class="form-control" required>
-                                        @foreach($countries as $country)
-                                        <option value="{{ $country['code'] }}">
-                                            {{ $country['name'] }} ({{ $country['code'] }})
-                                        </option>
-                                        @endforeach
-                                    </select>
-
-
-                                </div>
-                                <div class="col-6">
-                                    <label for="phone">Enter Phone Number*</label>
-                                    <input id="phone" type="text" name="phone" class="form-control bg-transparent bor"
-                                        placeholder="Enter Phone Number" required>
-                                </div>
-                            </div>
-
-                            {{-- Subject --}}
-                            <div class="mt-1">
-                                <label for="subject">Your Subject*</label>
-                                <input id="subject" type="text" name="subject" class="form-control bg-transparent bor"
-                                    placeholder="Your Subject" required>
-                            </div>
-
-                            {{-- Message --}}
-                            <div class="text-area mt-1">
-                                <label for="message">Write Message*</label>
-                                <textarea class="bg-transparent bor form-control" id="message" name="message"
-                                    placeholder="Write Message" required></textarea>
-                            </div>
-
-                            {{-- Submit Button --}}
-                            <div class="btn-two mt-1">
-                                <span class="btn-circle"></span>
-                                <button type="submit" class="btn-one">
-                                    Send Message <i class="fa-regular fa-arrow-right-long"></i>
-                                </button>
-                            </div>
-                        </form>
-
-
-
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
@@ -1273,8 +1434,7 @@
                             Your <br> Technology</h2>
                     </div>
                     <a href="contact.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">get A
-                        Quote <i class="fa-regular fa-arrow-right-long"></i></a>
+                        data-wow-duration="1500ms">Get Our Services <i class="fa-regular fa-arrow-right-long"></i></a>
                 </div>
             </div>
         </div>

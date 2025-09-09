@@ -1,6 +1,7 @@
 <?php
 
 namespace  App\Http\Controllers;
+
 use App\Models\Blog;
 use App\Models\Contact;
 use Illuminate\Http\Request;
@@ -14,24 +15,24 @@ class FrontController extends Controller
 
     public function index()
     {
-           $countries = [
-           ["name" => "United Arab Emirates", "code" => "+971"],
-        ["name" => "Afghanistan", "code" => "+93"],
-        ["name" => "Australia", "code" => "+61"],
-        ["name" => "Canada", "code" => "+1"],
-        ["name" => "China", "code" => "+86"],
-        ["name" => "France", "code" => "+33"],
-        ["name" => "Germany", "code" => "+49"],
-        ["name" => "India", "code" => "+91"],
-        ["name" => "Japan", "code" => "+81"],
-        ["name" => "Pakistan", "code" => "+92"],
-        ["name" => "Saudi Arabia", "code" => "+966"],
-        ["name" => "United Kingdom", "code" => "+44"],
-        ["name" => "United States", "code" => "+1"],
-    ];
-        return view('front.index',compact('countries'));
+        $countries = [
+            ["name" => "United Arab Emirates", "code" => "+971"],
+            ["name" => "Afghanistan", "code" => "+93"],
+            ["name" => "Australia", "code" => "+61"],
+            ["name" => "Canada", "code" => "+1"],
+            ["name" => "China", "code" => "+86"],
+            ["name" => "France", "code" => "+33"],
+            ["name" => "Germany", "code" => "+49"],
+            ["name" => "India", "code" => "+91"],
+            ["name" => "Japan", "code" => "+81"],
+            ["name" => "Pakistan", "code" => "+92"],
+            ["name" => "Saudi Arabia", "code" => "+966"],
+            ["name" => "United Kingdom", "code" => "+44"],
+            ["name" => "United States", "code" => "+1"],
+        ];
+        return view('front.index', compact('countries'));
     }
-    
+
     public function aboutus()
     {
         return view('front.about');
@@ -41,7 +42,7 @@ class FrontController extends Controller
     {
         return view('front.service');
     }
-    
+
     public function WebDevelopment()
     {
         return view('front.webDevelopment');
@@ -73,12 +74,12 @@ class FrontController extends Controller
     public function blog()
     {
         $blogs = Blog::all();
-        return view('front.blog',compact('blogs'));
+        return view('front.blog', compact('blogs'));
     }
     public function blogDetail()
     {
         $blogs = Blog::all();
-        return view('front.blogDetail',compact('blogs'));
+        return view('front.blogDetail', compact('blogs'));
     }
 
     public function store(Request $request)
@@ -94,24 +95,31 @@ class FrontController extends Controller
         return back()->with('success', 'Your message has been sent successfully!');
     }
     public function contact()
-{
-       $countries = [
-           ["name" => "United Arab Emirates", "code" => "+971"],
-        ["name" => "Afghanistan", "code" => "+93"],
-        ["name" => "Australia", "code" => "+61"],
-        ["name" => "Canada", "code" => "+1"],
-        ["name" => "China", "code" => "+86"],
-        ["name" => "France", "code" => "+33"],
-        ["name" => "Germany", "code" => "+49"],
-        ["name" => "India", "code" => "+91"],
-        ["name" => "Japan", "code" => "+81"],
-        ["name" => "Pakistan", "code" => "+92"],
-        ["name" => "Saudi Arabia", "code" => "+966"],
-        ["name" => "United Kingdom", "code" => "+44"],
-        ["name" => "United States", "code" => "+1"],
-    ];
-    return view('front.contact', compact('countries'));// yahan aapki contact.blade.php file hai
-}
-}
+    {
+        $countries = [
+            ["name" => "United Arab Emirates", "code" => "+971"],
+            ["name" => "Afghanistan", "code" => "+93"],
+            ["name" => "Australia", "code" => "+61"],
+            ["name" => "Canada", "code" => "+1"],
+            ["name" => "China", "code" => "+86"],
+            ["name" => "France", "code" => "+33"],
+            ["name" => "Germany", "code" => "+49"],
+            ["name" => "India", "code" => "+91"],
+            ["name" => "Japan", "code" => "+81"],
+            ["name" => "Pakistan", "code" => "+92"],
+            ["name" => "Saudi Arabia", "code" => "+966"],
+            ["name" => "United Kingdom", "code" => "+44"],
+            ["name" => "United States", "code" => "+1"],
+        ];
+        return view('front.contact', compact('countries')); // yahan aapki contact.blade.php file hai
+    }
 
-
+    public function price()
+    {
+        return view('front.price');
+    }
+    public function missionvision()
+    {
+        return view('front.vision');
+    }
+}
