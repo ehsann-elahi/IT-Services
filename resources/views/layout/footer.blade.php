@@ -49,7 +49,7 @@
                     <h3 class="footer-title">Quick Link</h3>
                     <ul>
                         <li><a href="{{route('about')}}"><i class="fa-regular fa-angles-right me-1"></i> About Meta</a></li>
-                        <li><a href="{{route('services}}"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
+                        <li><a href="{{route('service')}}"><i class="fa-regular fa-angles-right me-1"></i> Our Services</a>
                         </li>
                         <li><a href="{{route('price')}}"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
                         </li>
