@@ -13,8 +13,9 @@
         <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
     </div>
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">About Us</h2>
+        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">About Us-Your Trusted Partner in Digital Growth</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <p class="text-white">At MetaDigital Marketing, we help businesses unlock their full potential in the digital world.</p>
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>About
                 Us</span>
         </div>
@@ -100,8 +101,7 @@
                     <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
                     Our offering
                 </h5>
-                <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Enhance
-                    and Pioneer Using <br> Technology Trends</h2>
+                <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Transforming Ideas into Digital Success</h2>
             </div>
             <a href="pricing.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                 data-wow-duration="1500ms">Explore

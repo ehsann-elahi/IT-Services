@@ -13,8 +13,9 @@
                 <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
             </div>
             <div class="container">
-                <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Digital Marketing Services</h2>
+                <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Digital Marketing Services in Dubai</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <p class="text-white">Expert digital marketing in Dubai near Downtown & Business Bay. SEO, web development, and social growth</p>
                     <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>IT Services</span>
                 </div>
             </div>

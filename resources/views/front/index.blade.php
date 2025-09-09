@@ -44,7 +44,7 @@
                              Digital Marketing in Dubai & Abu Dhabi
                             </h1>
                             <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                               We are here to provide a digital solution for your business. Let's Stand out from the crowd.<br> We provide you the customized services that fully fit your business type. So what are you waiting for.........???
+                               We are here to provide a digital solution for your business. Let's Stand out from the crowd.<br> We provide you the customized services that fully fit your business type. So what are you waiting for???
 
 
                             </p>
@@ -696,7 +696,6 @@
                         <img src="{{asset('assets/front/images/faq/faq-image.png')}}" alt="image">
                     </div>
                 </div>
-<<<<<<< HEAD
                 <div class="col-lg-7 mt-60">
                     <div class="section-header mb-40">
                         <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">

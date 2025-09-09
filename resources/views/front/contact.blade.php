@@ -16,6 +16,8 @@
     <div class="container">
         <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Contact Us</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <p class="text-white">Want Meta Digital Marketing to Produce A Customize Solutions for your Business?</p>
+
             <a href="index-2.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Contact Us</span>
         </div>
     </div>
@@ -108,13 +110,8 @@
                             <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
                             GET IN TOUCH
                         </h5>
-                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Ready to Get
-                            Started?</h2>
-                        <p class="wow fadeInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">Nullam
-                            varius,
-                            erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis.
-                            Quisque rhoncus, eros
-                            in auctor ultrices,</p>
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Transform Business into Digital</h2>
+                        <p class="wow fadeInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">Let's speak with our expert to discuss further on your requirements & solutions contact@metadigitalmarketing.ae</p>
                     </div>
                     <div class="contact__form">
                         @if(session('success'))
