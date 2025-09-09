@@ -12,8 +12,9 @@
         <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
     </div>
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Service Details</h2>
+        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Website Development</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <p class="text-white">Boost your business with expert digital marketing</p>
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Service
                 Details</span>
         </div>
@@ -37,29 +38,18 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="title mb-30">IT Management</h3>
-                    <p class="mb-20">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
-                    <p>lacus sed pretium pretium justo. Integer is vitae venenatis lorem. Maecenas lacinia
-                        turpis the in
-                        nunc quam hendrerit
-                        scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci
-                        volutpat
-                        semper vel id turpis In
-                        a malesuada arcu ac hendrerit.</p>
+                    <h3 class="title mb-30">Website Development Service</h3>
+                    <p class="mb-20"> We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi. We are experts in re-designing a website, landing page or developing a new user-friendly website in UAE.</p>
+                    <p>Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Technology Consultancy</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Maintenance And Support</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
                                 <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Requirements Gathering</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Business Growth</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -68,14 +58,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore of
-                        magna
-                        aliqua. Ut enim ad minim
-                        veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        dolor
-                        commodo consequat. Duis
-                        aute irure and dolor in reprehenderit.</p>
+                    <p class="mb-40">Our digital marketing services are designed to help your business grow smarter and faster.we provide solutions that increase visibility attract the right customers and deliver measurable results..</p>
                     <h3 class="title mb-30">Most Comment Question?</h3>
                     <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
                         porta

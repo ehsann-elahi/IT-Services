@@ -12,7 +12,7 @@
         <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
     </div>
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Service Details</h2>
+        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Google Ads</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Service
                 Details</span>
@@ -37,13 +37,8 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="title mb-30">IT Management</h3>
-                    <p class="mb-20">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <h3 class="title mb-30">Google Ads Service</h3>
+                    <p class="mb-20"> Our Google ads service provides budget-friendly, cheaper, quick customer attention & transparent solutions to start-ups and businesses who are planning to launch a new product or service in Abu Dhabi & Dubai and those companies who wanted to introduce themselves as market-leading brand or rebrand.</p>
                     <p>lacus sed pretium pretium justo. Integer is vitae venenatis lorem. Maecenas lacinia
                         turpis the in
                         nunc quam hendrerit

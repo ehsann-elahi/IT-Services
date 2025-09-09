@@ -38,16 +38,15 @@
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                Meta Digital Marketing
+                                MetaDigital Marketing
                             </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
-                                We Convert Concepts Into Technology
+                             Digital Marketing in Dubai & Abu Dhabi
                             </h1>
                             <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                                Consectetur adipiscing elit Aenean scelerisque at augue vitae consequat <br> quisque
-                                eget
-                                congue velit in cursus leo Sed
-                                sodales
+                               We are here to provide a digital solution for your business. Let's Stand out from the crowd.<br> We provide you the customized services that fully fit your business type. So what are you waiting for???
+
+
                             </p>
                             <a data-animation="fadeInUp" data-delay="1s" href="about.html"
                                 class="btn-one mt-50">Explore
@@ -88,13 +87,10 @@
                                 Meta Digital Marketing
                             </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
-                                We Convert Concepts Into Technology
+                              Customer Support 24/7 
                             </h1>
                             <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                                Consectetur adipiscing elit Aenean scelerisque at augue vitae consequat <br> quisque
-                                eget
-                                congue velit in cursus leo Sed
-                                sodales
+                               We believe great service does not end after your order.<br> Our friendly support team is always ready to listen guide and resolve your concerns quickly
                             </p>
                             <a data-animation="fadeInUp" data-delay="1s" href="about.html"
                                 class="btn-one mt-50">Explore
@@ -132,16 +128,15 @@
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                Meta Digital Marketing
+                                MetaDigital Marketing
                             </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
-                                We Convert Concepts Into Technology
+                                Making Connections
                             </h1>
                             <p data-animation="fadeInUp" data-delay=".7s" class="mt-20">
-                                Consectetur adipiscing elit Aenean scelerisque at augue vitae consequat <br> quisque
-                                eget
-                                congue velit in cursus leo Sed
-                                sodales
+                               Every interaction is a chance to build trust. Whether it is with client colleagues or local communities <br> we focus on creating lasting connections that matter.
+
+
                             </p>
                             <a data-animation="fadeInUp" data-delay="1s" href="about.html"
                                 class="btn-one mt-50">Explore
@@ -257,7 +252,7 @@
                         SERVICES WE’RE OFFERING
                     </h5>
                     <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        Exclusive IT Services</h2>
+                        Digital Marketing Services</h2>
                 </div>
                 <div class="arry-btn  d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <button class="arry-prev service__arry-prev"><i class="fa-light fa-chevron-left"></i></button>
@@ -278,9 +273,8 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Web Application Development</a></h4>
-                                <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                    iaculis.</p>
+                                <h4><a href="service-details.html" class="primary-hover">Website Development</a></h4>
+                                <p>We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -297,9 +291,8 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Digital Marketing</a></h4>
-                                <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                    iaculis.</p>
+                                <h4><a href="service-details.html" class="primary-hover">Social Media Marketing</a></h4>
+                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -316,9 +309,8 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">App Development</a></h4>
-                                <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                    iaculis.</p>
+                                <h4><a href="service-details.html" class="primary-hover">Google Ads</a></h4>
+                                <p>Our google ads service provides budget-friendly, cheaper, quick customer attention & transparent solutions</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -335,9 +327,8 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">SEO</a></h4>
-                                <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                    iaculis.</p>
+                                <h4><a href="service-details.html" class="primary-hover">Search Engine Optimization (SEO)</a></h4>
+                                <p>Social Media Management, Search engine optimization, Social Media advertisement, Smart Ads, and Google Ads.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -355,8 +346,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Graphic Desigining</a></h4>
-                                <p>Pellentesque nec the condimentum nec lorem nulla augue est ultricies ac
-                                    iaculis.</p>
+                                <p>We believe smart, effective, creative results start with truly understanding your cause and taking a holistic perspective</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -487,12 +477,8 @@
                                 <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
                                 ABOUT Gratech
                             </h5>
-                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Selecting the
-                                Finest IT Service Provider</h2>
-                            <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">It is a long
-                                established fact that a reader will be distracted the readable content of a page
-                                when looking at layout the
-                                point of using lorem the is Ipsum less normal.</p>
+                            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms"> Grow Your Social Accounts</h2>
+                            <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">Do you claim you are the best? Do you have the best quality product or service that is more affordable than other competitors in the Dubai & Abu Dhabi region? </p>
                         </div>
                         <div class="about-three__info bor-bottom pb-30">
                             <div class="row g-4 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -570,7 +556,7 @@
                             <img class="icon" src="{{asset('assets/front/images/icon/about-three-icon3.png')}}" alt="icon">
                             <div class="con">
                                 <h3><span class="count">6,561</span>+</h3>
-                                <span class="secondary-color sm-font">Satisfied Clients</span>
+                                <span class="secondary-color sm-font">Happy Clients</span>
                             </div>
                         </div>
                         <div class="faq__line sway__animation">
@@ -643,7 +629,8 @@
                     </svg>
                     OUR team
                 </h5>
-                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Leadership Team</h2>
+                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Team</h2>
+                <p class="text-black">You get access to a whole team of digital media specialists for the price of one employee.</p>
             </div>
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
@@ -947,6 +934,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -979,7 +967,7 @@
                         FROM OUR CASE studies
                     </h5>
                     <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        We Delivered Best Solution</h2>
+                        Our Work</h2>
                 </div>
                 <div class="arry-btn  d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <button class="arry-prev case__arry-prev"><i class="fa-light fa-chevron-left"></i></button>
@@ -1040,7 +1028,7 @@
                             </div>
                             <div class="case-two__content">
                                 <span>Solution of Idea</span>
-                                <h4><a href="case-details.html" class="text-white">Graphic Designing</a></h4>
+                                <h4><a href="case-details.html" clss="text-white">Graphic Designing</a></h4>
                             </div>
                             <a href="case-details.html" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>
@@ -1070,11 +1058,9 @@
                             d="M3 6C3 2.96243 5.46243 0.5 8.5 0.5H11.5C14.5376 0.5 17 2.96243 17 6C17 4.61929 15.2091 3.5 13 3.5H7C4.79086 3.5 3 4.61929 3 6ZM17 6C17 9.03757 14.5376 11.5 11.5 11.5H8.5C5.46243 11.5 3 9.03757 3 6C3 7.38071 4.79086 8.5 7 8.5H13C15.2091 8.5 17 7.38071 17 6ZM3 10V2V10ZM17 2V10V2Z"
                             fill="#3C72FC" mask="url(#path-2-inside-1_869_295)" />
                     </svg>
-                    Testimonials
+                    About Us
                 </h5>
-                <h2 class="wow fadeInUp text-white" data-wow-delay="200ms" data-wow-duration="1500ms">What Our
-                    Client’s Say
-                    About Us</h2>
+                <h2 class="wow fadeInUp text-white" data-wow-delay="200ms" data-wow-duration="1500ms">What Customer Says About Us</h2>
             </div>
             <div class="swiper testimonial-two__slider">
                 <div class="swiper-wrapper">
@@ -1188,8 +1174,8 @@
                         </svg>
                         Blog & news
                     </h5>
-                    <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Explore Blogs and
-                        News</h2>
+                    <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Don't Miss Our
+Latest Thoughts</h2>
                 </div>
                 <a href="blog.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                     data-wow-duration="1500ms">View All
@@ -1429,9 +1415,9 @@
                             </svg>
                             GET IN TOUCH
                         </h5>
-                        <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">We
-                            Take Care of
-                            Your <br> Technology</h2>
+                        <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            Why Choose Us? <br></h2>
+                            <p class="text-white">Team of experts having more than 12 years of experience working in Abu Dhabi & Dubai. We are a one of a kind agency who provide complete marketing solutions to their clients under the one umbrella</p>
                     </div>
                     <a href="contact.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">Get Our Services <i class="fa-regular fa-arrow-right-long"></i></a>

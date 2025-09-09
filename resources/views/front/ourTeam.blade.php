@@ -14,6 +14,7 @@
     <div class="container">
         <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Our Team</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <p class="text-white">Meet the Experts Behind Your Digital Growth. Behind every successful campaign is a talented team.</p>
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Our Team</span>
         </div>
     </div>
@@ -38,6 +39,7 @@
                     OUR team
                 </h5>
                 <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Leadership Team</h2>
+                <p class="text-black">You get access to a whole team of digital media specialists for the price of one employee.</p>
             </div>
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
