@@ -14,6 +14,7 @@
     <div class="container">
         <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Search Engine Optimization</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <p class="text-white">Social Media Management, Search engine optimization, Social Media advertisement, Smart Ads, and Google Ads</p>
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Service
                 Details</span>
         </div>
@@ -37,24 +38,17 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="title mb-30">Search Engine Optimization(SEO)</h3>
+                    <h3 class="title mb-30">Search Engine Optimization Services</h3>
                     <p class="mb-20">Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family & enjoying the fruitful outcomes of our great cheaper, state of the art SEO services solutions..</p>
-                    <p>lacus sed pretium pretium justo. Integer is vitae venenatis lorem. Maecenas lacinia
-                        turpis the in
-                        nunc quam hendrerit
-                        scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci
-                        volutpat
-                        semper vel id turpis In
-                        a malesuada arcu ac hendrerit.</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Technology Consultancy</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Maintenance And Support</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
                                 <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Requirements Gathering</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Business Growth</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -63,14 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore of
-                        magna
-                        aliqua. Ut enim ad minim
-                        veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        dolor
-                        commodo consequat. Duis
-                        aute irure and dolor in reprehenderit.</p>
+                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
                     <h3 class="title mb-30">Most Comment Question?</h3>
                     <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
                         porta

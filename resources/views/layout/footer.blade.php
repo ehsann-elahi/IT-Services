@@ -21,9 +21,7 @@
                     <a href="index-2.html" class="logo mb-30">
                         <img src="{{asset('assets/front/images/logo/metalogo.png')}}" alt="image">
                     </a>
-                    <p>Phasellus ultricies aliquam volutpat
-                        ullamcorper laoreet neque, a lacinia
-                        curabitur lacinia mollis</p>
+                    <p>MetaDigital Marketing is a global digital marketing agency based in Dubai & Abu Dhabi that furnish out and out marketing solutions to the clients in UAE.</p>
                     <div class="social-icon">
                         <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#0"><i class="fa-brands fa-twitter"></i></a>

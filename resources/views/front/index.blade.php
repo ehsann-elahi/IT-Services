@@ -175,11 +175,9 @@
                         </div>
                         <div class="process__content">
                             <h4 class="mt-25 mb-10">
-                                Define Requirements
+                                Discovery
                             </h4>
-                            <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                dolor
-                                sit amet, consectetur</p>
+                            <p>Business analysis, Campaign objective, Preparing proposal, Deciding deliverables</p>
                         </div>
                     </div>
                 </div>
@@ -194,11 +192,9 @@
                         </div>
                         <div class="process__content">
                             <h4 class="mt-25 mb-10">
-                                Design & Prototyping
+                                Planning
                             </h4>
-                            <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                dolor
-                                sit amet, consectetur</p>
+                            <p>Industry research, Competitor research, Selecting marketing channels, Strategy development</p>
                         </div>
                     </div>
                 </div>
@@ -210,11 +206,9 @@
                         </div>
                         <div class="process__content">
                             <h4 class="mt-25 mb-10">
-                                Finial Solution
+                                Execution
                             </h4>
-                            <p>In a free hour, when our power of choice is untrammelled and when nothing prevents
-                                dolor
-                                sit amet, consectetur</p>
+                            <p>Creating campaign, Content production, Strategy optimization, Campaign analysis</p>
                         </div>
                     </div>
                 </div>
@@ -274,7 +268,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Website Development</a></h4>
-                                <p>We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi.</p>
+                                <p>We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi. We are experts in re-designing a website, landing page or developing a new user-friendly website in UAE.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -292,7 +286,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Social Media Marketing</a></h4>
-                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy</p>
+                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -310,7 +304,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Google Ads</a></h4>
-                                <p>Our google ads service provides budget-friendly, cheaper, quick customer attention & transparent solutions</p>
+                                <p>Our Google ads service provides budget-friendly, cheaper, quick customer attention & transparent solutions to start-ups and businesses who are planning to launch a new product or service in Abu Dhabi & Dubai and those companies who wanted to introduce themselves as market-leading brand or rebrand.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -328,7 +322,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Search Engine Optimization (SEO)</a></h4>
-                                <p>Social Media Management, Search engine optimization, Social Media advertisement, Smart Ads, and Google Ads.</p>
+                                <p>Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family & enjoying the fruitful outcomes of our great cheaper, state of the art SEO services solutions.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -346,7 +340,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Graphic Desigining</a></h4>
-                                <p>We believe smart, effective, creative results start with truly understanding your cause and taking a holistic perspective</p>
+                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy.</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -964,7 +958,7 @@
                                 d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
                                 fill="#3C72FC" mask="url(#path-2-inside-1_1120_297)" />
                         </svg>
-                        FROM OUR CASE studies
+                        FROM OUR WORK
                     </h5>
                     <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         Our Work</h2>
