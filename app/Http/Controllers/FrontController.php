@@ -138,4 +138,8 @@ class FrontController extends Controller
     {
         return view('front.marketingSolution');
     }
+    public function appSolution()
+    {
+        return view('front.appSolution');
+    }
 }
