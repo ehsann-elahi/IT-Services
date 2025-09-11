@@ -39,17 +39,17 @@
                         </div>
                     </div>
                     <h3 class="title mb-30">Website Development Service</h3>
-                    <p class="mb-20"> We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi. We are experts in re-designing a website, landing page or developing a new user-friendly website in UAE.</p>
-                    <p>Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
+                    <p class="mb-20"> We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi.</p>
+                    <p>Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.At MetaDigital Marketing we offer professional Web Development Services that aim at developing customer friendliness dynamics and responsiveness websites to attract visitors and turn them into customers. </p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Professional Online Presence</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Custom & Scalable Solutions</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>SEO-Friendly Development</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Responsive & Mobile-Friendly</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Local Expertise in Dubai</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -59,14 +59,8 @@
                         </div>
                     </div>
                     <p class="mb-40">Our digital marketing services are designed to help your business grow smarter and faster.we provide solutions that increase visibility attract the right customers and deliver measurable results..</p>
-                    <h3 class="title mb-30">Most Comment Question?</h3>
-                    <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac
-                        habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <h3 class="title mb-30">Common Queries About Our Web Development Services</h3>
+                    <p class="mb-30">Choosing the right partner for your website can be confusing. Businesses often ask about pricing customization SEO benefits and the overall process of web development. At MetaDigital Marketing, we understand these concerns and provide clear answers</p>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                             data-wow-duration="1500ms">
@@ -74,16 +68,14 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Where should I incorporate my business?
+                                    What makes your Web Development Services different?
+
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>At MetaDigital Marketing we focus on custom solutions SEO-friendly coding and responsive designs that help businesses grow online.
                                     </p>
                                 </div>
                             </div>
@@ -94,16 +86,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    What happens my free trial?
+                                    Do you provide Professional Website Development for small businesses?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Yes Our Professional Website Development services are affordable and tailored for startups SMEs and large enterprises.
                                     </p>
                                 </div>
                             </div>
@@ -114,17 +103,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                     aria-expanded="false" aria-controls="collapsethree">
-                                    What is included in your services?
+                                    How long does it take to build a website?
                                 </button>
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
-                                    </p>
+                                    <p>The timeline depends on the project scope. A simple website may take 2–3 weeks while a complex Professional Website Development project may take 6–8 weeks.                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -134,16 +119,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    What type of company is measured?
+                                    How does SEO-Friendly Website Development help my business?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>With SEO-Friendly Website Development your site ranks higher on Google loads faster digital appearance, trust on International client and attracts more qualified leads.
                                     </p>
                                 </div>
                             </div>
