@@ -53,5 +53,9 @@ Route::get('/contact-us', [FrontController::class, 'contact'])->name('contact');
 Route::post('/contact-us', [FrontController::class, 'store'])->name('contact.store');
 Route::get('/pricing', [FrontController::class, 'price'])->name('price');
 Route::get('/mission-vision', [FrontController::class, 'missionvision'])->name('missionvision');
+Route::get('/google-ads', [FrontController::class, 'googleads'])->name('googleads');
+Route::get('/our-work', [FrontController::class, 'ourwork'])->name('ourwork');
+Route::get('/web-solution', [FrontController::class, 'websolution'])->name('websolution');
+Route::get('/marketing-solution', [FrontController::class, 'marketingSolution'])->name('marketingSolution');
 
 

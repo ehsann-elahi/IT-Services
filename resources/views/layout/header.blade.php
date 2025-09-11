@@ -12,7 +12,7 @@
                              <a href="{{route('index')}}">Home</a>
 
                          </li>
-                         
+
                          <li>
                              <a href="{{route('service')}}">Services</a>
                              <ul class="sub-menu">
@@ -35,7 +35,7 @@
                                      <a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a>
                                  </li>
                                  <li>
-                                     <a href="{{route('Socialmediamarketing')}}">Google Ads</a>
+                                     <a href="{{route('googleads')}}">Google Ads</a>
                                  </li>
 
                              </ul>
@@ -45,15 +45,34 @@
 
                          </li>
                          <li>
-                             <a href="{{route('ourteam')}}">Our Work</a>
-
+                             <a href="{{route('ourwork')}}">Our Work</a>
+                             <ul class="sub-menu">
+                                 <li>
+                                     <a href="{{route('websolution')}}">Web Development Solutions</a>
+                                 </li>
+                                 <li>
+                                     <a href="{{route('marketingSolution')}}">Digital Marketing Solutions</a>
+                                 </li>
+                                 <li>
+                                     <a href="{{route('AppDevelopment')}}">App Development Solutions</a>
+                                 </li>
+                                 <li>
+                                     <a href="{{route('Graphicdesigning')}}">Graphic Desigining Solutions</a>
+                                 </li>
+                                 <li>
+                                     <a href="{{route('Seo')}}">SEO Solutions</a>
+                                 </li>
+                                 <li>
+                                     <a href="{{route('Socialmediamarketing')}}">Social Media Marketing Solutions</a>
+                                 </li>
+                             </ul>
                          </li>
                          <li>
                              <a href="{{route('blog')}}">Blog</a>
 
                          </li>
                          <li><a href="{{route('contact.store')}}">Contact</a></li>
-                        
+
                      </ul>
                  </nav>
              </div>
@@ -61,7 +80,7 @@
                  <a href="{{route('contact.store')}}" class="btn-one">Get Our Services <i
                          class="fa-regular fa-arrow-right-long"></i></a>
                  <div class="about-three__left-item d-flex flex-wrap gap-2 align-items-center">
-                    
+
                      <div class="info">
                          <span class="sm-font fw-600 text-white">Call Us Now</span>
                          <h5 class="text-white">+208-555-0112</h5>

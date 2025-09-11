@@ -982,7 +982,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/case-two-image1.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/web.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Build Your Idea</span>
@@ -996,7 +996,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/case-two-image2.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/digital.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Busness Growth</span>
@@ -1010,7 +1010,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/case-two-image3.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/seo.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Ranking</span>
@@ -1024,11 +1024,11 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/case-two-image4.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/graphic.jpg')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Solution of Idea</span>
-                                <h4><a href="case-details.html" clss="text-white">Graphic Designing</a></h4>
+                                <h4><a href="case-details.html" class="text-white">Graphic Designing</a></h4>
                             </div>
                             <a href="case-details.html" class="case-two__btn">
                                 <i class="fa-regular fa-arrow-right"></i>

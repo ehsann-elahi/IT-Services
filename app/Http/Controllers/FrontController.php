@@ -122,4 +122,20 @@ class FrontController extends Controller
     {
         return view('front.vision');
     }
+    public function googleads()
+    {
+        return view('front.googleads');
+    }
+    public function ourwork()
+    {
+        return view('front.portfolio');
+    }
+    public function websolution()
+    {
+        return view('front.webSolution');
+    }
+    public function marketingSolution()
+    {
+        return view('front.marketingSolution');
+    }
 }
