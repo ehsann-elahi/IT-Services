@@ -146,4 +146,8 @@ class FrontController extends Controller
     {
         return view('front.graphicSolution');
     }
+    public function seosolution()
+    {
+        return view('front.seosolution');
+    }
 }

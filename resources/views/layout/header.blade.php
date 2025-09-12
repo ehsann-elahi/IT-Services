@@ -60,7 +60,7 @@
                                      <a href="{{route('graphicSolution')}}">Graphic Desigining Solutions</a>
                                  </li>
                                  <li>
-                                     <a href="{{route('Seo')}}">SEO Solutions</a>
+                                     <a href="{{route('seosolution')}}">SEO Solutions</a>
                                  </li>
                                  <li>
                                      <a href="{{route('Socialmediamarketing')}}">Social Media Marketing Solutions</a>

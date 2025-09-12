@@ -186,23 +186,23 @@
                 </div>
             </div>
             <div class="col-md-6">
-    <h3 class="case-single__title">Creative Graphic Designing Solutions for Laundry Service UAE</h3>
-    <p>We delivered a complete range of <strong>graphic designing services</strong> for 
-        <strong><a href="https://laundryservice.ae/">laundryservice.ae</a></strong>, 
-        creating a <strong>modern and professional brand identity</strong> that stands out in the UAE market. 
-        From <em>logo design, brand identity, social media creatives, marketing banners, and promotional designs</em>, 
-        we helped Laundry Service establish a <strong>trustworthy and visually appealing presence</strong>.  
-        Our creative approach boosted their <strong>customer engagement, brand awareness, and overall credibility</strong>.  
-        The client is <strong>extremely satisfied</strong> with the designs and results achieved.
-    </p>
-    <ul class="case-challenge mt-3">
-        <li><i class="fa-solid fa-check"></i> Professional Logo & Branding for a Strong Market Identity</li>
-        <li><i class="fa-solid fa-check"></i> Consistent Visual Identity Across Digital Platforms</li>
-        <li><i class="fa-solid fa-check"></i> Eye-Catching Social Media Graphics for Higher Engagement</li>
-        <li><i class="fa-solid fa-check"></i> Marketing Banners & Print Designs to Attract UAE Clients</li>
-        <li><i class="fa-solid fa-check"></i> Improved Customer Trust & Stronger Business Growth</li>
-    </ul>
-</div>
+                <h3 class="case-single__title">Creative Graphic Designing Solutions for Laundry Service UAE</h3>
+                <p>We delivered a complete range of <strong>graphic designing services</strong> for
+                    <strong><a href="https://laundryservice.ae/">laundryservice.ae</a></strong>,
+                    creating a <strong>modern and professional brand identity</strong> that stands out in the UAE market.
+                    From <em>logo design, brand identity, social media creatives, marketing banners, and promotional designs</em>,
+                    we helped Laundry Service establish a <strong>trustworthy and visually appealing presence</strong>.
+                    Our creative approach boosted their <strong>customer engagement, brand awareness, and overall credibility</strong>.
+                    The client is <strong>extremely satisfied</strong> with the designs and results achieved.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Professional Logo & Branding for a Strong Market Identity</li>
+                    <li><i class="fa-solid fa-check"></i> Consistent Visual Identity Across Digital Platforms</li>
+                    <li><i class="fa-solid fa-check"></i> Eye-Catching Social Media Graphics for Higher Engagement</li>
+                    <li><i class="fa-solid fa-check"></i> Marketing Banners & Print Designs to Attract UAE Clients</li>
+                    <li><i class="fa-solid fa-check"></i> Improved Customer Trust & Stronger Business Growth</li>
+                </ul>
+            </div>
 
 
         </div>

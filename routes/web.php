@@ -59,5 +59,6 @@ Route::get('/web-solution', [FrontController::class, 'websolution'])->name('webs
 Route::get('/marketing-solution', [FrontController::class, 'marketingSolution'])->name('marketingSolution');
 Route::get('/app-solution', [FrontController::class, 'appSolution'])->name('appSolution');
 Route::get('/graphic-solution', [FrontController::class, 'graphicSolution'])->name('graphicSolution');
+Route::get('/seo-solution', [FrontController::class, 'seosolution'])->name('seosolution');
 
 
