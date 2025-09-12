@@ -58,5 +58,6 @@ Route::get('/our-work', [FrontController::class, 'ourwork'])->name('ourwork');
 Route::get('/web-solution', [FrontController::class, 'websolution'])->name('websolution');
 Route::get('/marketing-solution', [FrontController::class, 'marketingSolution'])->name('marketingSolution');
 Route::get('/app-solution', [FrontController::class, 'appSolution'])->name('appSolution');
+Route::get('/graphic-solution', [FrontController::class, 'graphicSolution'])->name('graphicSolution');
 
 

@@ -142,4 +142,8 @@ class FrontController extends Controller
     {
         return view('front.appSolution');
     }
+    public function graphicSolution()
+    {
+        return view('front.graphicSolution');
+    }
 }
