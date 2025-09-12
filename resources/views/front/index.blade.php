@@ -90,7 +90,7 @@
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
-                                Meta Digital Marketing
+                                MetaDigital Marketing
                             </h2>
                             <h1 data-animation="fadeInUp" data-delay=".5s" class="text-white">
                               Customer Support 24/7 
@@ -274,7 +274,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Website Development</a></h4>
-                                <p>We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi. We are experts in re-designing a website, landing page or developing a new user-friendly website in UAE.</p>
+                                <p>We are professional team who are passionate to transform the business into digital. Web development can be first step to showing your brand/services on digital platforms in Dubai & Abu Dhabi </p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -292,7 +292,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Social Media Marketing</a></h4>
-                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy.</p>
+                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -310,7 +310,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Google Ads</a></h4>
-                                <p>Our Google ads service provides budget-friendly, cheaper, quick customer attention & transparent solutions to start-ups and businesses who are planning to launch a new product or service in Abu Dhabi & Dubai and those companies who wanted to introduce themselves as market-leading brand or rebrand.</p>
+                                <p>Our Google ads service provides budget friendly cheaper quick customer attention  solutions to start-ups and businesses who are planning to launch a new product or service</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -327,8 +327,8 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Search Engine Optimization (SEO)</a></h4>
-                                <p>Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family & enjoying the fruitful outcomes of our great cheaper, state of the art SEO services solutions.</p>
+                                <h4><a href="service-details.html" class="primary-hover">Search Engine Optimization</a></h4>
+                                <p>Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -346,7 +346,7 @@
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
                                 <h4><a href="service-details.html" class="primary-hover">Graphic Desigining</a></h4>
-                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy.</p>
+                                <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
                                 <a class="read-more-btn" href="service-details.html">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
@@ -367,8 +367,8 @@
                     <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
                     PRICE PLANS
                 </h5>
-                <h2>Affordable IT & Marketing Solutions in Dubai</h2>
-                <p>MetaDigital Marketing offers Digital Marketing, Web Development, and App Development and many more services in UAE with packages designed to suit every business need.</p>
+                <h2>Affordable Digital Marketing Solutions</h2>
+                <p>MetaDigital Marketing is a global digital marketing agency based in Dubai & Abu Dhabi that furnish out and out marketing solutions to the clients in UAE covering social media marketing website SEO</p>
             </div>
 
             <div class="row g-4">
@@ -849,7 +849,7 @@
                             </svg>
                             FAQ
                         </h5>
-                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Most Common
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Most Frequently Ask
                             Question?</h2>
                     </div>
                     <div class="faq__item">
@@ -860,16 +860,13 @@
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true"
                                         aria-controls="collapseOne">
-                                        Where should I incorporate my business?
+                                        What makes you the best digital marketing agency for small businesses?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>It is a long established fact that a reader be distracted by
-                                            the readable content of a page when looking a its layout.
-                                            Many desktop publishing packages and web page editors now use Lorem
-                                            Ipsum
+                                        <p>We focus on cost-effective solutions personalized campaigns and growth-driven results that suit startups as well as established brands.
                                         </p>
                                     </div>
                                 </div>
@@ -880,16 +877,13 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                         aria-expanded="false" aria-controls="collapseTwo">
-                                        What happens my free trial?
+                                        Do I still need SEO if I run ads?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>It is a long established fact that a reader be distracted by
-                                            the readable content of a page when looking a its layout.
-                                            Many desktop publishing packages and web page editors now use Lorem
-                                            Ipsum
+                                        <p>Yes Ads stop showing when you stop paying, but SEO builds lasting visibility and trust. Both work even better together.
                                         </p>
                                     </div>
                                 </div>
@@ -900,16 +894,13 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                         aria-expanded="false" aria-controls="collapsethree">
-                                        What is included in your services?
+                                        Can I request revisions if I am not satisfied with the design?
                                     </button>
                                 </h2>
                                 <div id="collapsethree" class="accordion-collapse collapse"
                                     aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>It is a long established fact that a reader be distracted by
-                                            the readable content of a page when looking a its layout.
-                                            Many desktop publishing packages and web page editors now use Lorem
-                                            Ipsum
+                                        <p>Yes absolutely We offer revisions to make sure the final design perfectly matches your brand vision and requirements.
                                         </p>
                                     </div>
                                 </div>
@@ -920,16 +911,13 @@
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                         aria-expanded="false" aria-controls="collapseFour">
-                                        What type of company is measured?
+                                        How do you measure the success of Social Media Marketing campaigns?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse"
                                     aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>It is a long established fact that a reader be distracted by
-                                            the readable content of a page when looking a its layout.
-                                            Many desktop publishing packages and web page editors now use Lorem
-                                            Ipsum
+                                        <p>We track key metrics like reach impressions engagement rate click-through rate (CTR) lead generation, and return on ad spend (ROAS). These insights help us optimize your campaigns for maximum ROI.
                                         </p>
                                     </div>
                                 </div>
