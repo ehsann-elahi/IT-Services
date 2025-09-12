@@ -57,7 +57,7 @@
                                      <a href="{{route('appSolution')}}">App Development Solutions</a>
                                  </li>
                                  <li>
-                                     <a href="{{route('Graphicdesigning')}}">Graphic Desigining Solutions</a>
+                                     <a href="{{route('graphicSolution')}}">Graphic Desigining Solutions</a>
                                  </li>
                                  <li>
                                      <a href="{{route('Seo')}}">SEO Solutions</a>
