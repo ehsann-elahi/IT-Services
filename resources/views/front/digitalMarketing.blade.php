@@ -45,16 +45,17 @@
                         </div>
                     </div>
                     <h3 class="title mb-30">Digital Marketing Service</h3>
-                    <p class="mb-20"> At Meta Digital Marketing we help businesses in the Dubai stand out online. Our team combines creativity strategy and data-driven campaigns to bring you more leads sales and loyal customers.</p>
+                    <p class="mb-20"> At MetaDigital Marketing we help businesses in the Dubai stand out online. Our team combines creativity strategy and data-driven campaigns to bring you more leads sales and loyal customers.From startups to established businesses our expert team ensures your brand stands out in today competitive market.</p>
+                    <p>Recognized as one of the best digital marketing agencies for delivering measurable results.Specialized as a social media marketing agency helping you boost engagement and reach the right audience.</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Increase Online Visibility</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Reach the Right Audience</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Cost-Effective Growth</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Trackable & Measurable Results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Faster Business Expansion</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -63,15 +64,9 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
-                    <h3 class="title mb-30">Most Comment Question?</h3>
-                    <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac
-                        habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.If you are looking for reliable digital marketing services or the expertise of a freelance digital marketing professional, we are here to help. Our mission is to deliver growth-driven strategies</p>
+                    <h3 class="title mb-30">Most Common Queries About Our Digital Marketing Services</h3>
+                    <p class="mb-30">At MetaDigital Marketing Agency we understand that businesses often have questions before investing in digital marketing services. Whether you are looking for the best digital marketing agency exploring the role of a social media marketing agency our experts are here to guide you.</p>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                             data-wow-duration="1500ms">
@@ -79,16 +74,14 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Where should I incorporate my business?
+                                    What makes you the best digital marketing agency for small businesses?
+
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>We focus on cost-effective solutions personalized campaigns and growth-driven results that suit startups as well as established brands.
                                     </p>
                                 </div>
                             </div>
@@ -99,16 +92,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    What happens my free trial?
+                                   Do you provide freelance digital marketing services?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Yes we also offer freelance digital marketing support for businesses that need flexible and customized solutions.
                                     </p>
                                 </div>
                             </div>
@@ -119,16 +109,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                     aria-expanded="false" aria-controls="collapsethree">
-                                    What is included in your services?
+                                   Can digital marketing increase my sales?
                                 </button>
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Absolutely With targeted ads SEO and social media campaigns digital marketing services can generate more leads and conversions.
                                     </p>
                                 </div>
                             </div>
@@ -139,16 +126,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    What type of company is measured?
+                                   How long does it take to see results from digital marketing?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Most campaigns show noticeable results within 3–6 months depending on competition strategy and business goals.
                                     </p>
                                 </div>
                             </div>

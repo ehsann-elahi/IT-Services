@@ -46,15 +46,16 @@
                     </div>
                     <h3 class="title mb-30">Graphic Designing Service</h3>
                     <p class="mb-20">Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy..</p>
+                    <p>We have the view that great design creates strong relationships. With graphic designing our services can enable businesses to cut above the crowd with images that will be remembered. Logos to social media creatives we design it keeping your brand in mind.</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Strong First Impression</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Better Brand Recognition</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Engagement</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Competitive Advantage</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Trust & Credibility</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -63,15 +64,9 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
-                    <h3 class="title mb-30">Most Comment Question?</h3>
-                    <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac
-                        habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.Every design is made exclusively for your business.</p>
+                    <h3 class="title mb-30">Common Queries About Our Graphic Designing Services</h3>
+                    <p class="mb-30">We often receive questions from businesses about our graphic designing services such as how the design process works what types of designs we offer and how long it takes to deliver a project. At MetaDigital we provide complete solutions</p>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                             data-wow-duration="1500ms">
@@ -79,16 +74,13 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Where should I incorporate my business?
+                                    What types of graphic designing services do you provide?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>We offer a wide range of services including logo design social media creatives brochures flyers business cards web graphics infographics and complete branding solutions tailored to your business needs.
                                     </p>
                                 </div>
                             </div>
@@ -99,16 +91,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    What happens my free trial?
+                                    Can I request revisions if I am not satisfied with the design?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Yes absolutely We offer revisions to make sure the final design perfectly matches your brand vision and requirements.
                                     </p>
                                 </div>
                             </div>
@@ -119,16 +108,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                     aria-expanded="false" aria-controls="collapsethree">
-                                    What is included in your services?
+                                    Why should I choose your agency for graphic designing services?
                                 </button>
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>At MetaDigital we combine creativity strategy and professionalism. Our designs are not only visually appealing but also aligned with your brand identity helping you attract more customers and build long-term recognition
                                     </p>
                                 </div>
                             </div>
@@ -139,16 +125,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    What type of company is measured?
+                                   Do you provide custom graphic designs or use templates?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>All our designs are 100% custom-made. We do not rely on templates ensuring that your brand gets unique and original visuals that stand out.
                                     </p>
                                 </div>
                             </div>

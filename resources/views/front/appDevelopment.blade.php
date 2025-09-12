@@ -45,17 +45,17 @@
                         </div>
                     </div>
                     <h3 class="title mb-30">App Development Service</h3>
-                    <p class="mb-20">At Meta Digital Marketing we design and develop mobile apps that do more than just look good they solve real problems. Our expert team creates user friendly iOS and Android applications tailored to your business needs.</p>
-                    <p>We believe smart, effective, creative results start with truly understanding your cause and taking a holistic perspective.</p>
+                    <p class="mb-20">At MetaDigital Marketing we design and develop mobile apps that do more than just look good they solve real problems. Our expert team creates user friendly iOS and Android applications tailored to your business needs.</p>
+                    <p>We build powerful user-friendly mobile and web applications tailored to your business needs. From idea to launch our expert developers ensure seamless performancea engaging designs and scalable solutions that help you stand out in today digital market.</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Customized Solutions</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Better User Experience</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Business Growth</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Latest Technology</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Ongoing Support</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -64,15 +64,9 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
-                    <h3 class="title mb-30">Most Comment Question?</h3>
-                    <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac
-                        habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.We believe smart, effective, creative results start with truly understanding your cause and taking a holistic perspectiv</p>
+                    <h3 class="title mb-30">Common Queries About Our App Development Services</h3>
+                    <p class="mb-30">Before venturing into the app development business we know that businesses usually possess questions. We guide our team through the selection of the appropriate platform: iOS Android or cross-platform project schedule. We provide scalability ease of use in terms of performance security.</p>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                             data-wow-duration="1500ms">
@@ -80,16 +74,13 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Where should I incorporate my business?
+                                    How much does custom app development cost?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>The cost of app development depends on features complexity and platform (iOS Android or cross-platform). We provide tailored pricing to ensure you get a high-quality app that fits your budget.
                                     </p>
                                 </div>
                             </div>
@@ -100,16 +91,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    What happens my free trial?
+                                    How long does it take to develop a mobile app?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>On average a standard mobile app takes 2–6 months to develop. The timeline varies based on functionality design requirements and integration needs.
                                     </p>
                                 </div>
                             </div>
@@ -120,16 +108,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                     aria-expanded="false" aria-controls="collapsethree">
-                                    What is included in your services?
+                                    Will my app be secure and scalable?
                                 </button>
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Absolutely We follow industry best practices to ensure your app is secure scalable and ready to handle growth as your business expands.
                                     </p>
                                 </div>
                             </div>
@@ -140,16 +125,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    What type of company is measured?
+                                    Can you integrate my app with existing systems or APIs?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Of course We specialize in integrating apps with third-party APIs CRMs payment gateways and other systems to enhance functionality.
                                     </p>
                                 </div>
                             </div>

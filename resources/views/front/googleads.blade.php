@@ -20,6 +20,7 @@
     <div class="container">
         <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Google Ads</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <p class="text-white">We specialize in creating customized ad campaigns that bring real results</p>
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Service
                 Details</span>
         </div>
@@ -44,23 +45,17 @@
                         </div>
                     </div>
                     <h3 class="title mb-30">Google Ads Service</h3>
-                    <p class="mb-20"> Our Google ads service provides budget-friendly, cheaper, quick customer attention & transparent solutions to start-ups and businesses who are planning to launch a new product or service in Abu Dhabi & Dubai and those companies who wanted to introduce themselves as market-leading brand or rebrand.</p>
-                    <p>lacus sed pretium pretium justo. Integer is vitae venenatis lorem. Maecenas lacinia
-                        turpis the in
-                        nunc quam hendrerit
-                        scelerisque at finibus enim sagittis. Aliquam erat is volutpat nam nec purus at is orci
-                        volutpat
-                        semper vel id turpis In
-                        a malesuada arcu ac hendrerit.</p>
+                    <p class="mb-20"> Our Google ads service provides budget-friendly cheaper quick customer attention & transparent solutions to start-ups and businesses who are planning to launch a new product or service in Abu Dhabi & Dubai and those companies who wanted to introduce themselves as market-leading brand or rebrand.</p>
+                    <p>we offer professional Google Ads Services to help businesses reach the right customers at the right time. Whether you want more leads sales or brand awareness our certified PPC experts design and manage campaigns that deliver measurable results.</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Technology Consultancy</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Maintenance And Support</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Requirements Gathering</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Business Growth</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Get instant traffic and leads</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Pay only when someone clicks</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Highly measurable results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Drive targeted traffic that converts</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Compete effectively against bigger brands</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -69,22 +64,9 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore of
-                        magna
-                        aliqua. Ut enim ad minim
-                        veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        dolor
-                        commodo consequat. Duis
-                        aute irure and dolor in reprehenderit.</p>
-                    <h3 class="title mb-30">Most Comment Question?</h3>
-                    <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac
-                        habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <p class="mb-40">If your target customers are in Dubai and Abu Dhabi our team can manage both local PPC campaigns and Google Ads campaigns</p>
+                    <h3 class="title mb-30">Common Queries About Our Google Ads Services</h3>
+                    <p class="mb-30">we understand that businesses often have questions before investing in Google Ads Services. That is why our team provides clear guidance on campaign setup keyword targeting budget planning and ad optimization.</p>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                             data-wow-duration="1500ms">
@@ -92,16 +74,13 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Where should I incorporate my business?
+                                    What are Google Ads and how can they help my business?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Google Ads is an online advertising platform that helps your business appear at the top of Google search results. It drives highly targeted traffic generates leads and increases sales by showing your ads to people already searching for your products or services.
                                     </p>
                                 </div>
                             </div>
@@ -112,16 +91,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    What happens my free trial?
+                                    How much does it cost to run Google Ads?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>The cost of Google Ads depends on your industry competition and keywords. We create a budget-friendly strategy to maximize ROI so you only pay when someone clicks your ad
                                     </p>
                                 </div>
                             </div>
@@ -132,16 +108,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                     aria-expanded="false" aria-controls="collapsethree">
-                                    What is included in your services?
+                                    How quickly can I see results from Google Ads?
                                 </button>
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Unlike SEO which takes time Google Ads can deliver instant visibility and traffic as soon as your campaign goes live. However optimizing for the best results may take a few weeks.
                                     </p>
                                 </div>
                             </div>
@@ -152,16 +125,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    What type of company is measured?
+                                    Do I need a big budget to start Google Ads?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>No you do not need a large budget. Even small businesses can run effective campaigns with the right targeting and strategy. Our team ensures every dollar of your ad spend works efficiently.
                                     </p>
                                 </div>
                             </div>

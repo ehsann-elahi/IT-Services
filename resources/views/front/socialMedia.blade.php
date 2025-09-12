@@ -44,17 +44,18 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="title mb-30">Social Media Marketing</h3>
+                    <h3 class="title mb-30">Social Media Marketing Services</h3>
                     <p class="mb-20">Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy.</p>
+                    <p>In today digital world your customers are spending most of their time on Facebook Instagram TikTok LinkedIn and Twitter. Our social media marketing service helps your business connect with the right audience build trust and generate real results.</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Increase brand awareness</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Build trust with your audience</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Drive website traffic & leads</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Generate more sales</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Stay ahead of competitors</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -63,15 +64,9 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
-                    <h3 class="title mb-30">Most Comment Question?</h3>
-                    <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac
-                        habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <p class="mb-40">At MetaDigital we have helped businesses across the UAE grow online with effective social media marketing services. Whether you are a startup or an established brand. Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
+                    <h3 class="title mb-30">Common Queries About Our Social Media Marketing Services</h3>
+                    <p class="mb-30">Businesses often ask how our social media marketing services can help them grow. At MetaDigital we design tailored strategies for platforms like Facebook Instagram LinkedIn and TikTok to build brand awareness increase engagement, and drive sales.</p>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                             data-wow-duration="1500ms">
@@ -79,16 +74,13 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Where should I incorporate my business?
+                                    How can social media marketing help my business grow?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Social media marketing helps increase brand awareness attract new customers engage with your audience and drive traffic to your website. With targeted ads you can also generate high-quality leads and boost sales.
                                     </p>
                                 </div>
                             </div>
@@ -99,16 +91,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    What happens my free trial?
+                                    How long does it take to see results?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Social media growth is a process but with consistent posting and ad campaigns most businesses start seeing engagement and traffic improvements within the first 1–3 months. Paid campaigns can deliver quicker results.
                                     </p>
                                 </div>
                             </div>
@@ -119,16 +108,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                     aria-expanded="false" aria-controls="collapsethree">
-                                    What is included in your services?
+                                    Which platforms do you manage?
                                 </button>
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>We manage all major platforms including Facebook, Instagram, LinkedIn TikTok and Twitter (X). Depending on your business goals we select the best channels to reach your target audience
                                     </p>
                                 </div>
                             </div>
@@ -139,16 +125,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    What type of company is measured?
+                                    How do you measure the success of Social Media Marketing campaigns?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>We track key metrics like reach impressions engagement rate click-through rate (CTR) lead generation, and return on ad spend (ROAS). These insights help us optimize your campaigns for maximum ROI.
                                     </p>
                                 </div>
                             </div>

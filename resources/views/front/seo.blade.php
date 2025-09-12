@@ -46,15 +46,16 @@
                     </div>
                     <h3 class="title mb-30">Search Engine Optimization Services</h3>
                     <p class="mb-20">Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family & enjoying the fruitful outcomes of our great cheaper, state of the art SEO services solutions..</p>
+                    <p>Our SEO strategies are designed to bring your website to the top of Google and other search engines so when people search for services like yours they find you first.We offer a full range of SEO solutions tailored to your business goals</p>
                     <div class="row g-5 mt-40 mb-40 align-items-center">
                         <div class="col-lg-5">
                             <h4 class="mb-20">Benefits With Our Service</h4>
                             <ul>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Boost Your Online Visibility</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Targeted Marketing Strategies</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>We Provide best services</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Brand Awareness & Engagement</li>
-                                <li class="mb-15"><i class="fa-solid fa-check"></i>Data-Driven Results</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Higher Rankings on Google</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>More Targeted Traffic</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Increased Brand Credibility</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Strong Local Presence</li>
+                                <li class="mb-15"><i class="fa-solid fa-check"></i>Long-Term Business Growth</li>
                             </ul>
                         </div>
                         <div class="col-lg-7">
@@ -63,15 +64,9 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
-                    <h3 class="title mb-30">Most Comment Question?</h3>
-                    <p class="mb-30">The is ipsum dolor sit amet consectetur adipiscing elit. Fusce is eleifend
-                        porta
-                        arcu In hac
-                        habitasse the platea
-                        thelorem turpoi dictumst. In lacus libero faucibus malesuada sagittis placerat eros sed
-                        istincidunt augue ac ante rutrum
-                        sed the is sodales augue consequat.</p>
+                    <p class="mb-40">Thousands of people search online for solutions your business offers. Without SEO your website might get lost in the crowd.Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
+                    <h3 class="title mb-30">Common Queries About Our SEO Services</h3>
+                    <p class="mb-30">Many businesses have questions before starting their SEO journey. From how long SEO takes to deliver results to whether it works better than paid ads we are here to clear your doubts.We make sure you feel confident about investing in search engine optimization for long-term growth.</p>
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
                             data-wow-duration="1500ms">
@@ -79,16 +74,13 @@
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
-                                    Where should I incorporate my business?
+                                    Is SEO suitable for small businesses?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Absolutely. Local SEO helps small businesses get discovered in their area making it easier to compete with bigger brands.
                                     </p>
                                 </div>
                             </div>
@@ -99,16 +91,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    What happens my free trial?
+                                    How do I know SEO is working?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>We provide regular reports on traffic keyword rankings and leads so you can track real growth.
                                     </p>
                                 </div>
                             </div>
@@ -119,16 +108,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapsethree"
                                     aria-expanded="false" aria-controls="collapsethree">
-                                    What is included in your services?
+                                    How long does SEO take to show results?
                                 </button>
                             </h2>
                             <div id="collapsethree" class="accordion-collapse collapse"
                                 aria-labelledby="headingthree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>SEO is a long-term investment. Most businesses start seeing improvements in 3–6 months with stronger results over time.
                                     </p>
                                 </div>
                             </div>
@@ -139,16 +125,13 @@
                                 <button class="accordion-button collapsed" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    What type of company is measured?
+                                    Do I still need SEO if I run ads?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>It is a long established fact that a reader be distracted by
-                                        the readable content of a page when looking a its layout.
-                                        Many desktop publishing packages and web page editors now use Lorem
-                                        Ipsum
+                                    <p>Yes Ads stop showing when you stop paying, but SEO builds lasting visibility and trust. Both work even better together.
                                     </p>
                                 </div>
                             </div>
