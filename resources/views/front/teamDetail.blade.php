@@ -1,8 +1,8 @@
 @extends('layout.app')
-@section('title','Secure Shopping at the Best Place to Buy Window Curtains')
-@section('description','We understand the importance of trust when shopping online. That is why we ensure safe transactions and strict privacy standards. Whether you are browsing luxury window curtains Dubai residents love or looking for the best place to buy window curtains')
-@section('og:description','We understand the importance of trust when shopping online. That is why we ensure safe transactions and strict privacy standards. Whether you are browsing luxury window curtains Dubai residents love or looking for the best place to buy window curtains')
-@section('og:title','Secure Shopping at the Best Place to Buy Window Curtains')
+@section('title','We are extremely proud of our results-driven')
+@section('description','We are extremely proud of our results-driven, client-concentrated work, and the wide range of businesses, non-profits, and government associations we have produced it for.')
+@section('og:description','We are extremely proud of our results-driven, client-concentrated work, and the wide range of businesses, non-profits, and government associations we havve produced it for.')
+@section('og:title','We are extremely proud of our results-driven')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')
