@@ -79,7 +79,7 @@
                     </ul>
                 </div>
                 <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <a href="#0" class="btn-one">Explore More <i class="fa-regular fa-arrow-right-long"></i></a>
+                    <a href="{{route('contact')}}" class="btn-one">Explore More <i class="fa-regular fa-arrow-right-long"></i></a>
                     <img src="{{asset('assets/front/images/about/singature.png')}}" alt="singature">
                 </div>
             </div>
@@ -110,7 +110,7 @@
                 </h5>
                 <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Transforming Ideas into Digital Success</h2>
             </div>
-            <a href="pricing.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+            <a href="{{route('price')}}" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                 data-wow-duration="1500ms">Explore
                 More <i class="fa-regular fa-arrow-right-long"></i></a>
         </div>
@@ -274,73 +274,73 @@
                 </h5>
                 <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Our Work</h2>
             </div>
-            <a href="case.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+            <a href="{{route('ourwork')}}" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                 data-wow-duration="1500ms">view All
                 Case <i class="fa-regular fa-arrow-right-long"></i></a>
         </div>
     </div>
-    <div class="swiper case__slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="case__item">
-                    <div class="image case__image">
-                        <img src="{{asset('assets/front/images/case/case-image1.jpg')}}" alt="image">
+    <div class="case-two__container">
+            <div class="swiper case-two__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="case-two__item">
+                            <div class="image case-two__image">
+                                <img src="{{asset('assets/front/images/case/web.jpg')}}" alt="image">
+                            </div>
+                            <div class="case-two__content">
+                                <span>Build Your Idea</span>
+                                <h4><a href="{{route('websolution')}}" class="text-white">Web Development</a></h4>
+                            </div>
+                            <a href="{{route('websolution')}}" class="case-two__btn">
+                                <i class="fa-regular fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="case__content">
-                        <span class="primary-color sm-font">Marketing</span>
-                        <h3><a href="case-details.html" class="text-white primary-hover">Digtal Marketing</a></h3>
+                    <div class="swiper-slide">
+                        <div class="case-two__item">
+                            <div class="image case-two__image">
+                                <img src="{{asset('assets/front/images/case/digital.jpg')}}" alt="image">
+                            </div>
+                            <div class="case-two__content">
+                                <span>Busness Growth</span>
+                                <h4><a href="{{route('marketingSolution')}}" class="text-white">Digital Marketing</a></h4>
+                            </div>
+                            <a href="{{route('marketingSolution')}}" class="case-two__btn">
+                                <i class="fa-regular fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
-                    <a href="case-details.html" class="case__btn">
-                        <i class="fa-regular fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="case__item">
-                    <div class="image case__image">
-                        <img src="{{asset('assets/front/images/case/case-image2.jpg')}}" alt="image">
+                    <div class="swiper-slide">
+                        <div class="case-two__item">
+                            <div class="image case-two__image">
+                                <img src="{{asset('assets/front/images/case/seo.jpg')}}" alt="image">
+                            </div>
+                            <div class="case-two__content">
+                                <span>Ranking</span>
+                                <h4><a href="{{route('seosolution')}}" class="text-white">SEO</a></h4>
+                            </div>
+                            <a href="{{route('seosolution')}}" class="case-two__btn">
+                                <i class="fa-regular fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="case__content">
-                        <span class="primary-color sm-font">Build Your Idea</span>
-                        <h3><a href="case-details.html" class="text-white primary-hover">Graphic Designer</a></h3>
+                    <div class="swiper-slide">
+                        <div class="case-two__item">
+                            <div class="image case-two__image">
+                                <img src="{{asset('assets/front/images/case/graphic.jpg')}}" alt="image">
+                            </div>
+                            <div class="case-two__content">
+                                <span>Solution of Idea</span>
+                                <h4><a href="{{route('graphicSolution')}}" class="text-white">Graphic Designing</a></h4>
+                            </div>
+                            <a href="{{route('graphicSolution')}}" class="case-two__btn">
+                                <i class="fa-regular fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
-                    <a href="case-details.html" class="case__btn">
-                        <i class="fa-regular fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="case__item">
-                    <div class="image case__image">
-                        <img src="{{asset('assets/front/images/case/case-image3.jpg')}}" alt="image">
-                    </div>
-                    <div class="case__content">
-                        <span class="primary-color sm-font">Solution</span>
-                        <h3><a href="case-details.html" class="text-white primary-hover">Web Development</a>
-                        </h3>
-                    </div>
-                    <a href="case-details.html" class="case__btn">
-                        <i class="fa-regular fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="case__item">
-                    <div class="image case__image">
-                        <img src="{{asset('assets/front/images/case/case-image4.jpg')}}" alt="image">
-                    </div>
-                    <div class="case__content">
-                        <span class="primary-color sm-font">Globally Ranking</span>
-                        <h3><a href="case-details.html" class="text-white primary-hover">SEO</a>
-                        </h3>
-                    </div>
-                    <a href="case-details.html" class="case__btn">
-                        <i class="fa-regular fa-arrow-right"></i>
-                    </a>
                 </div>
             </div>
         </div>
-    </div>
     <div class="mt-60 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
         <div class="dot case__dot"></div>
     </div>
@@ -507,19 +507,10 @@
                         <img src="{{asset('assets/front/images/team/shakeel.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">MR. SHAKEEL AHMAD</a></h4>
+                        <h4><a class="text-white" href="#">MR. SHAKEEL AHMAD</a></h4>
                         <span class="text-white">HR MANAGER</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
@@ -529,19 +520,10 @@
                         <img src="{{asset('assets/front/images/team/nouman.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">MR. NOUMAN</a></h4>
+                        <h4><a class="text-white" href="#">MR. NOUMAN</a></h4>
                         <span class="text-white">SR. Developer (Team Lead)</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
@@ -551,19 +533,10 @@
                         <img src="{{asset('assets/front/images/team/ehsaan.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">EHSAN ELLAHI</a></h4>
+                        <h4><a class="text-white" href="#">EHSAN ELLAHI</a></h4>
                         <span class="text-white">Developer</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
@@ -573,19 +546,10 @@
                         <img src="{{asset('assets/front/images/team/ummar.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">MR. UMAR</a></h4>
+                        <h4><a class="text-white" href="#">MR. UMAR</a></h4>
                         <span class="text-white">Digital Marketing (Team Lead)</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
@@ -595,19 +559,10 @@
                         <img src="{{asset('assets/front/images/team/amina.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">MS. AMINA MALIK</a></h4>
+                        <h4><a class="text-white" href="#">MS. AMINA MALIK</a></h4>
                         <span class="text-white">Graphic Designer</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
@@ -617,19 +572,10 @@
                         <img src="{{asset('assets/front/images/team/ishrat.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">MS. ISHRAT FATIMA</a></h4>
+                        <h4><a class="text-white" href="#">MS. ISHRAT FATIMA</a></h4>
                         <span class="text-white">SEO SPECIALIST</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
@@ -639,19 +585,10 @@
                         <img src="{{asset('assets/front/images/team/minahil.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">MS. MINAHIL</a></h4>
+                        <h4><a class="text-white" href="#">MS. MINAHIL</a></h4>
                         <span class="text-white">Social Media Marketing SPECIALIST</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
@@ -661,19 +598,10 @@
                         <img src="{{asset('assets/front/images/team/farwa.png')}}" alt="image">
                     </div>
                     <div class="team__content">
-                        <h4><a class="text-white" href="team-details-2.html">MS. FARWA</a></h4>
+                        <h4><a class="text-white" href="#">MS. FARWA</a></h4>
                         <span class="text-white">Email Marketing</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                        <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                    </div>
+                    
                 </div>
             </div>
 

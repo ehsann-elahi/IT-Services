@@ -50,7 +50,7 @@
                                         d="M17.2631 14.6707C17.1039 14.9459 16.9228 15.2074 16.7156 15.4768L16.7155 15.4767L16.7076 15.4874C16.419 15.879 16.0832 16.2375 15.7281 16.5925C15.4313 16.8893 15.0919 17.1862 14.7554 17.4386C13.0781 18.6912 11.0608 19.35 8.97684 19.35C6.89705 19.35 4.88376 18.6939 3.20845 17.4462C2.84457 17.1506 2.51237 16.8794 2.22556 16.5925L2.21859 16.5856L2.21141 16.5788C1.85532 16.2437 1.54107 15.8878 1.24614 15.4875L1.24616 15.4875L1.24283 15.483C1.06061 15.2401 0.8719 14.9757 0.717887 14.7171C0.834879 14.456 0.983241 14.1848 1.1439 13.9527L1.14402 13.9528L1.15153 13.9415C2.06854 12.5557 3.53574 11.6389 5.16512 11.4149L5.18469 11.4122L5.20407 11.4083C5.22956 11.4032 5.29364 11.4118 5.34417 11.4497L5.34416 11.4497L5.34817 11.4527C6.4152 12.2402 7.68499 12.6454 8.99949 12.6454C10.314 12.6454 11.5838 12.2402 12.6508 11.4527L12.6508 11.4527L12.6548 11.4497C12.6702 11.4381 12.739 11.4081 12.8479 11.4168C14.4675 11.6437 15.9108 12.5569 16.8511 13.947L16.8511 13.947L16.8551 13.9527C17.0152 14.1841 17.1543 14.4232 17.2631 14.6707Z"
                                         stroke="#3C72FC" stroke-width="1.3" />
                                 </svg>
-                                <a href="blog-single.html"><span class="primary-hover transition">By
+                                <a href="#"><span class="primary-hover transition">By
                                         Admin</span></a>
                             </li>
                             <li>
@@ -113,38 +113,26 @@
 
                     <div class="item sub-bg mb-30">
                         <h5 class="title">Category</h5>
-                        <ul class="category">
-                            <li class="active"><a href="#0">Digital Marketing</a> <i
+                        <ul class="category service-category">
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-<li><a href="#0">Google Ads</a> <i
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
-                  
-                    <div class="item sub-bg">
-                        <h5 class="title">Tags</h5>
-                        <div class="tags">
-                            <a href="#0">business</a>
-                            <a href="#0">marketing</a>
-                            <a href="#0">solution</a>
-                            <a href="#0">SMM</a>
-                            <a href="#0">startup</a>
-                            <a href="#0">strategy</a>
-                            <a href="#0">SEO</a>
-                            <a href="#0">services</a>
-                            <a href="#0">top</a>
-                        </div>
-                    </div>
+
+                    
+                    
                 </div>
             </div>
         </div>

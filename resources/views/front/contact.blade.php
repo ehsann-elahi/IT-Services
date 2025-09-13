@@ -24,7 +24,7 @@
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <p class="text-white">Want Meta Digital Marketing to Produce A Customize Solutions for your Business?</p>
 
-            <a href="index-2.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Contact Us</span>
+            <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Contact Us</span>
         </div>
     </div>
 </section>
@@ -54,7 +54,7 @@
                             </i>
                             <div>
                                 <span class="text-white">Call Us 7/24</span>
-                                <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">+208-555-0112</a>
+                                <h3 class="mt-1"><a class="text-white" href="tel:+2085550112">+971 52 541 2617</a>
                                 </h3>
                             </div>
                         </li>

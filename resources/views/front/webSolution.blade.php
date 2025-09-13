@@ -74,7 +74,7 @@
     <div class="container">
         <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Web Application Development Solution</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <a href="index-2.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Case Study
+            <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Case Study
                 Details</span>
         </div>
     </div>

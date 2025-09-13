@@ -6,6 +6,59 @@
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')
+@section('styles')
+<style>
+    .client-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2rem 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        transition: all 0.3s ease;
+        height: 100%;
+    }
+
+    .client-card:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Icon Circle */
+    .icon-circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #fff;
+        background: linear-gradient(90deg, #06b6d4, #3b82f6);
+        margin: 0 auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Quote Text */
+    .client-quote {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #555;
+        font-style: italic;
+        margin: 0.75rem 0 1rem;
+    }
+
+    /* Link Style */
+    .client-link {
+        font-weight: 600;
+        color: var(--primary-color, #06b6d4);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .client-link:hover {
+        color: #3b82f6;
+    }
+</style>
+@endsection
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/banner-inner-page.jpg')}}">
     <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -25,74 +78,110 @@
     </div>
 </section>
 <!-- Page banner area end here -->
-<section class="vision-mission-area pt-100 pb-30">
-    <div class="container">
-        <div class="section-header text-center mb-60">
-            <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
-                GOOGLE ADS
-            </h5>
-            <h2>Our Google Ads Expertise</h2>
-            <p>We create <strong>high-converting Google Ads campaigns</strong> that drive targeted traffic,
-                generate qualified leads, and maximize your ROI with <strong>data-driven strategies and proven results</strong>.</p>
-        </div>
 
+<section class="clients-area pt-120 pb-100">
+    <div class="container">
+        <div class="section-header text-center mb-20">
+            <h5 class="wow fadeInUp" data-wow-delay="00ms">Our Google Ads Clients</h5>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms">
+                High-ROI Campaigns by <span class="text-gradient">MetaDigital Marketing</span>
+            </h2>
+            <p class="wow fadeInUp mt-3" data-wow-delay="400ms">
+                We create targeted Google Ads campaigns that maximize conversions, reduce cost-per-click, and deliver measurable ROI for UAE businesses.
+            </p>
+        </div>
 
         <div class="row g-4">
-    <!-- Google Ads Success -->
-    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-        <div class="pricing__item">
-            <div class="pricing-head">
-                <div>
-                    <h4 class="text-white mb-10">Our Google Ads Approach</h4>
-                </div>
-                <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
-                    <i class="fas fa-bullhorn text-white"></i>
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="00ms">
+                    <div class="icon-circle mb-3"><i class="fa-brands fa-google"></i></div>
+                    <h4 class="case-single__title">LaundryService</h4>
+                    <p class="client-quote">Google Ads campaign reduced CPA by 40% and generated 3x more monthly bookings.</p>
+                    <a href="https://www.laundryservice.ae/" target="_blank" class="client-link">View Campaign →</a>
                 </div>
             </div>
-            <ul>
-                <li>Data-driven campaigns designed for maximum ROI</li>
-                <li>Targeted ads that reach the right audience in UAE</li>
-                <li>Smart bidding & budget optimization for cost efficiency</li>
-                <li>Proven strategies to generate high-quality leads</li>
-            </ul>
-        </div>
-    </div>
 
-    <!-- Client Satisfaction -->
-    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <div class="pricing__item">
-            <div class="pricing-head">
-                <div>
-                    <h4 class="text-white mb-10">Why Clients Choose Us</h4>
-                </div>
-                <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
-                    <i class="fas fa-handshake text-white"></i>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="200ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-bullseye"></i></div>
+                    <h4 class="case-single__title">CurtainCleaning</h4>
+                    <p class="client-quote">Smart bidding + location targeting doubled leads with 35% lower ad spend.</p>
+                    <a href="https://curtaincleaning.ae/" target="_blank" class="client-link">View Campaign →</a>
                 </div>
             </div>
-            <ul>
-                <li>Hundreds of successful Google Ads campaigns</li>
-                <li>Proven track record of boosting conversions</li>
-                <li>Transparent reports with measurable results</li>
-                <li>Trusted by businesses across Dubai & UAE</li>
-            </ul>
-        </div>
-    </div>
-</div>
 
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="400ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4 class="case-single__title">CurtainLaundry</h4>
+                    <p class="client-quote">Optimized PPC campaigns increased ROI by 65% with better keyword targeting.</p>
+                    <a href="https://curtainlaundry.ae/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="600ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-person-swimming"></i></div>
+                    <h4 class="case-single__title">SeaHeroWaterSports</h4>
+                    <p class="client-quote">Seasonal Google Ads drove 70% more tourist bookings with high conversion ads.</p>
+                    <a href="https://seaherowatersports.com/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="800ms">
+                    <div class="icon-circle mb-3"><i class="fa-brands fa-google"></i></div>
+                    <h4 class="case-single__title">CarpetWashing</h4>
+                    <p class="client-quote">Targeted display + search ads ranked in top results, doubling monthly inquiries.</p>
+                    <a href="https://carpetwashing.ae/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="1000ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-coins"></i></div>
+                    <h4 class="case-single__title">AlKhyalCurtain</h4>
+                    <p class="client-quote">E-commerce Google Ads increased sales by 120% with smart shopping campaigns.</p>
+                    <a href="https://alkhyalcurtain.ae/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="{{route('contact')}}" class="btn-one">Run Ads With Us <i class="fa-regular fa-arrow-right-long"></i></a>
+        </div>
     </div>
 </section>
+
+<!-- Vision & Mission area start here -->
+<!-- Google Ads Success & Client Satisfaction start here -->
+
 
 <!-- SEO Work Process start here -->
 <!-- Google Ads Work Process start here -->
 <section class="projects-area pt-40 pb-50">
     <div class="container">
+        <div class="section-header text-center mb-60">
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                GOOGLE ADS SOLUTIONS
+            </h5>
+            <h2>High-Converting Google Ads Campaigns</h2>
+            <p>At MetaDigital Marketing, we design <strong>data-driven Google Ads campaigns</strong> that deliver <strong>targeted traffic, quality leads, and maximum ROI</strong>. From <strong>keyword research to smart bidding</strong>, we help UAE businesses achieve <strong>measurable growth</strong> with paid advertising.</p>
+        </div>
+
 
         <!-- Step 1 -->
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/googleads-research.png')}}" alt="Google Ads Research">
+                    <img src="{{asset('assets/front/images/case/g1.png')}}" alt="Google Ads Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -113,7 +202,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/googleads-setup.png')}}" alt="Campaign Setup">
+                    <img src="{{asset('assets/front/images/case/g2.png')}}" alt="Campaign Setup">
                 </div>
             </div>
             <div class="col-md-6">
@@ -134,7 +223,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/googleads-optimization.png')}}" alt="Campaign Optimization">
+                    <img src="{{asset('assets/front/images/case/g3.png')}}" alt="Campaign Optimization">
                 </div>
             </div>
             <div class="col-md-6">
@@ -154,7 +243,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/googleads-results.png')}}" alt="Google Ads Results">
+                    <img src="{{asset('assets/front/images/case/g4.png')}}" alt="Google Ads Results">
                 </div>
             </div>
             <div class="col-md-6">

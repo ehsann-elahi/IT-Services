@@ -40,7 +40,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner1.png')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/1.png')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -86,7 +86,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner1.png')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/2.png')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -130,7 +130,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/banner1.png')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/3.png')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -159,68 +159,73 @@
     <!-- Banner area end here -->
 
     <!-- Process area start here -->
-    <section class="process-area pt-120 pb-120">
-        <div class="container">
-            <div class="section-header text-center mb-60">
-                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
-                    Work Process
-                </h5>
-                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Development Process
-                </h2>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="process__item mb-100">
-                        <div class="process-arry bobble__animation">
-                            <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
-                        </div>
-                        <div class="process__image">
-                            <img src="{{asset('assets/front/images/process/process-image1.png')}}" alt="image">
-                            <span class="process-number">1</span>
-                        </div>
-                        <div class="process__content">
-                            <h4 class="mt-25 mb-10">
-                                Discovery
-                            </h4>
-                            <p>Business analysis, Campaign objective, Preparing proposal, Deciding deliverables</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="process__item mb-100">
-                        <div class="process-arry bobble__animation">
-                            <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
-                        </div>
-                        <div class="process__image">
-                            <img src="{{asset('assets/front/images/process/process-image2.png')}}" alt="image">
-                            <span class="process-number">2</span>
-                        </div>
-                        <div class="process__content">
-                            <h4 class="mt-25 mb-10">
-                                Planning
-                            </h4>
-                            <p>Industry research, Competitor research, Selecting marketing channels, Strategy development</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <div class="process__item">
-                        <div class="process__image">
-                            <img src="{{asset('assets/front/images/process/process-image3.png')}}" alt="image">
-                            <span class="process-number">3</span>
-                        </div>
-                        <div class="process__content">
-                            <h4 class="mt-25 mb-10">
-                                Execution
-                            </h4>
-                            <p>Creating campaign, Content production, Strategy optimization, Campaign analysis</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Work Process area start here -->
+<section class="process-area pt-40 pb-50">
+    <div class="container">
+        <div class="section-header text-center mb-60">
+            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                OUR PROCESS
+            </h5>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                How We Deliver Success for Our Clients
+            </h2>
+            <p class="wow fadeInUp mt-3" data-wow-delay="300ms" data-wow-duration="1500ms">
+                At <strong>MetaDigital Marketing</strong>, we follow a <em>proven step-by-step process</em> 
+                to ensure every project—whether it’s <strong>SEO, Web Development, App Development, or Digital Marketing</strong>—
+                delivers measurable growth and long-term success. Our approach combines <strong>research, strategy, execution, and optimization</strong>.
+            </p>
         </div>
-    </section>
+
+        <div class="row g-4">
+            <!-- Step 1 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <div class="process__item mb-100 text-center">
+                    <div class="process__image">
+                        <img src="{{asset('assets/front/images/process/process-image1.png')}}" alt="Discovery">
+                        <span class="process-number">1</span>
+                    </div>
+                    <div class="process__content">
+                        <h4 class="mt-25 mb-10">Research & Discovery</h4>
+                        <p>We analyze your <strong>business goals, competitors, and target audience</strong> to build a strong foundation for success.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="process__item mb-100 text-center">
+                    <div class="process__image">
+                        <img src="{{asset('assets/front/images/process/process-image2.png')}}" alt="Strategy">
+                        <span class="process-number">2</span>
+                    </div>
+                    <div class="process__content">
+                        <h4 class="mt-25 mb-10">Strategy & Planning</h4>
+                        <p>We craft a <strong>custom roadmap</strong>—covering design, marketing, or technology—that aligns with your goals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div class="process__item mb-100 text-center">
+                    <div class="process__image">
+                        <img src="{{asset('assets/front/images/process/process-image3.png')}}" alt="Execution">
+                        <span class="process-number">3</span>
+                    </div>
+                    <div class="process__content">
+                        <h4 class="mt-25 mb-10">Execution & Development</h4>
+                        <p>Our team executes with <strong>precision & creativity</strong>, delivering websites, apps, and campaigns that perform.</p>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+</section>
+<!-- Work Process area end here -->
+
     <!-- Process area end here -->
 
 
@@ -540,7 +545,7 @@
                                 </div>
                                 <div class="info">
                                     <span class="sm-font fw-600 secondary-color">Call Us Now</span>
-                                    <h5>+208-555-0112</h5>
+                                    <h5>+971 52 541 2617</h5>
                                 </div>
                             </div>
                         </div>
@@ -787,28 +792,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/farwa.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">MS. FARWA</a></h4>
-                            <span class="text-white">Email Marketing</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div>
         </div>

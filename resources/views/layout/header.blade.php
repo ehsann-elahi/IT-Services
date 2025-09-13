@@ -2,7 +2,7 @@
  <header class="header-area header-two-area">
      <div class="container header__container">
          <div class="header__main">
-             <a href="index-2.html" class="logo">
+             <a href="{{route('index')}}" class="logo">
                  <img src="{{asset('assets/front/images/logo/metalogo.png')}}" alt="logo">
              </a>
              <div class="main-menu">
@@ -86,7 +86,7 @@
 
                      <div class="info">
                          <span class="sm-font fw-600 text-white">Call Us Now</span>
-                         <h5 class="text-white">+208-555-0112</h5>
+                         <h5 class="text-white">+971 52 541 2617</h5>
                      </div>
                  </div>
              </div>

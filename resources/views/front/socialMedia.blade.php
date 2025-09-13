@@ -166,7 +166,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-research.png')}}" alt="Social Media Research">
+                    <img src="{{asset('assets/front/images/case/social.webp')}}" alt="Social Media Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -188,7 +188,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-content.png')}}" alt="Content Creation">
+                    <img src="{{asset('assets/front/images/case/google3.png')}}" alt="Content Creation">
                 </div>
             </div>
             <div class="col-md-6">
@@ -209,7 +209,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-analytics.png')}}" alt="Monitoring & Analytics">
+                    <img src="{{asset('assets/front/images/case/sociall.png')}}" alt="Monitoring & Analytics">
                 </div>
             </div>
             <div class="col-md-6">
@@ -231,7 +231,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-success.png')}}" alt="Client Success">
+                    <img src="{{asset('assets/front/images/case/social6.webp')}}" alt="Client Success">
                 </div>
             </div>
             <div class="col-md-6">
@@ -253,7 +253,7 @@
 <!-- Social Media Marketing Work Process end here -->
 
 <!-- Service area end here -->
-<div class="container mt-30  pt-30">
+<div class="container mt-30 pt-30 pb-40">
     <h3 class="title mb-30 text-center">Common Queries About Our Social Media Marketing Services</h3>
     <p class="mb-30">Businesses often ask how our social media marketing services can help them grow. At MetaDigital we design tailored strategies for platforms like Facebook Instagram LinkedIn and TikTok to build brand awareness increase engagement, and drive sales.</p>
     <div class="accordion" id="accordionExample">
@@ -328,4 +328,37 @@
     </div>
 </div>
 
+<!-- Quote area start here -->
+<section class="quote-area pt-20 pb-80">
+    <div class="container">
+        <div class="quote__wrp gradient-bg">
+            <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+            </div>
+            <div class="quote__shape bobble__animation">
+                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+            </div>
+            <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
+                <div class="section-header">
+                    <h5 class="wow fadeInLeft text-white" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <svg class="me-1" width="28" height="12" viewBox="0 0 28 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="white"
+                                stroke-width="1.5" />
+                            <rect x="8.75" y="0.75" width="18.5" height="10.5" rx="5.25" fill="white"
+                                stroke="white" stroke-width="1.5" />
+                        </svg>
+                        GET IN TOUCH
+                    </h5>
+                    <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        So What you are
+                        Waiting <br> For?</h2>
+                </div>
+                <a href="{{route('contact')}}" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+                    data-wow-duration="1500ms">Get Our Services <i class="fa-regular fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Quote area end here -->
 @endsection

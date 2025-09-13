@@ -178,7 +178,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-research.png')}}" alt="SMM Research">
+                    <img src="{{asset('assets/front/images/case/gg1.png')}}" alt="SMM Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -197,7 +197,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-content.png')}}" alt="SMM Content">
+                    <img src="{{asset('assets/front/images/case/gg2.png')}}" alt="SMM Content">
                 </div>
             </div>
             <div class="col-md-6">
@@ -216,7 +216,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-management.png')}}" alt="Community Management">
+                    <img src="{{asset('assets/front/images/case/gg3.png')}}" alt="Community Management">
                 </div>
             </div>
             <div class="col-md-6">
@@ -235,7 +235,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/smm-results.png')}}" alt="SMM Results">
+                    <img src="{{asset('assets/front/images/case/gg4.png')}}" alt="SMM Results">
                 </div>
             </div>
             <div class="col-md-6">

@@ -247,7 +247,7 @@
 
 
 <!-- Service area end here -->
-<div class="container mt-30  pt-30">
+<div class="container mt-30 pt-30 pb-40">
 
     <h3 class="title mb-30 text-center">Common Queries About Our App Development Services</h3>
     <p class="mb-30">Before venturing into the app development business we know that businesses usually possess questions. We guide our team through the selection of the appropriate platform: iOS Android or cross-platform project schedule. We provide scalability ease of use in terms of performance security.</p>
@@ -323,4 +323,38 @@
     </div>
 
 </div>
+
+<!-- Quote area start here -->
+<section class="quote-area pt-20 pb-80">
+    <div class="container">
+        <div class="quote__wrp gradient-bg">
+            <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+            </div>
+            <div class="quote__shape bobble__animation">
+                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+            </div>
+            <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
+                <div class="section-header">
+                    <h5 class="wow fadeInLeft text-white" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <svg class="me-1" width="28" height="12" viewBox="0 0 28 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="white"
+                                stroke-width="1.5" />
+                            <rect x="8.75" y="0.75" width="18.5" height="10.5" rx="5.25" fill="white"
+                                stroke="white" stroke-width="1.5" />
+                        </svg>
+                        GET IN TOUCH
+                    </h5>
+                    <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        So What you are
+                        Waiting <br> For?</h2>
+                </div>
+                <a href="{{route('contact')}}" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+                    data-wow-duration="1500ms">Get Our Services <i class="fa-regular fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Quote area end here -->
 @endsection

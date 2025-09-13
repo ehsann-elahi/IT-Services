@@ -1,7 +1,7 @@
 <!-- Sidebar area start here -->
     <div id="targetElement" class="sidebar-area sidebar__hide">
         <div class="sidebar__overlay"></div>
-        <a href="index-2.html" class="logo mb-40">
+        <a href="{{route('index')}}" class="logo mb-40">
             <img src="{{asset('assets/front/images/logo/logo.svg')}}" alt="logo">
         </a>
         <div class="sidebar__search mb-30">

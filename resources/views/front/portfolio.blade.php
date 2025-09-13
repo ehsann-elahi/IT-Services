@@ -21,7 +21,7 @@
             <div class="container">
                 <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Our Work</h2>
                 <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <a href="index-2.html">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Our Work</span>
+                    <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Our Work</span>
                 </div>
             </div>
         </section>
@@ -127,11 +127,12 @@
                 </div>
             </div>
 
+            
             <!-- Google Ads -->
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/google-ads.jpg')}}" alt="Google Ads">
+                        <img src="{{asset('assets/front/images/case/google.jpg')}}" alt="Google Ads">
                     </div>
                     <div class="case-two__content">
                         <span>Advertising</span>

@@ -18,7 +18,7 @@
         <div class="container">
             <div class="footer__wrp pt-100 pb-100">
                 <div class="footer__item item-big wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <a href="index-2.html" class="logo mb-30">
+                    <a href="{{route('index')}}" class="logo mb-30">
                         <img src="{{asset('assets/front/images/logo/metalogo.png')}}" alt="image">
                     </a>
                     <p>MetaDigital Marketing is a global digital marketing agency based in Dubai & Abu Dhabi that furnish out and out marketing solutions to the clients in UAE.</p>
@@ -40,7 +40,8 @@
                                 Optimization</a>
                         </li>
                         <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>App Development</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>Graphic Desiner</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>Graphic Designer</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>SM Marketing</a></li>
                     </ul>
                 </div>
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -51,7 +52,7 @@
                         </li>
                         <li><a href="{{route('price')}}"><i class="fa-regular fa-angles-right me-1"></i> Pricing Plan</a>
                         </li>
-                        <li><a href="case.html"><i class="fa-regular fa-angles-right me-1"></i> Our Projects</a></li>
+                        <li><a href="{{route('ourwork')}}"><i class="fa-regular fa-angles-right me-1"></i> Our Projects</a></li>
                         <li><a href="{{route('ourteam')}}"><i class="fa-regular fa-angles-right me-1"></i> Our Team</a></li>
                     </ul>
                 </div>
@@ -86,7 +87,7 @@
                 <div
                     class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
                     <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2025
-                        by <a href="#0">Meta Digital</a></p>
+                        by <a href="{{route('index')}}">MetaDigital</a></p>
                     <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <li><a href="#0">Terms & Condition</a></li>
