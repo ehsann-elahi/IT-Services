@@ -6,6 +6,7 @@
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')
+<!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/banner-inner-page.jpg')}}">
     <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -34,16 +35,20 @@
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
-                    <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/service-single-image1.jpg')}}" alt="image">
-                        <div class="service-single__video-btn">
-                            <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
-                                data-wow-duration="1500ms">
-                                <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                        class="fa-solid fa-play"></i></a>
-                            </div>
+                    <div class="video-wrapper" id="youtube-player" style="position: relative; cursor: pointer; max-width: 100%; border-radius: 10px; overflow: hidden;">
+                        <!-- Thumbnail -->
+                        <img src="https://img.youtube.com/vi/eSg_s0gQR8Y/hqdefault.jpg"
+                            alt="Video Thumbnail"
+                            style="width:100%; display:block;">
+
+                        <!-- Play Button Overlay -->
+                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+                background: rgba(0,0,0,0.6); border-radius: 50%; width: 70px; height: 70px; 
+                display: flex; justify-content: center; align-items: center; color: white; font-size: 30px;">
+                            ▶
                         </div>
                     </div>
+
                     <h3 class="title mb-30">Website Development Service</h3>
                     <p class="mb-20"> We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi.</p>
                     <p>Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.At MetaDigital Marketing we offer professional Web Development Services that aim at developing customer friendliness dynamics and responsiveness websites to attract visitors and turn them into customers. </p>
@@ -64,79 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Our digital marketing services are designed to help your business grow smarter and faster.we provide solutions that increase visibility attract the right customers and deliver measurable results..</p>
-                    <h3 class="title mb-30">Common Queries About Our Web Development Services</h3>
-                    <p class="mb-30">Choosing the right partner for your website can be confusing. Businesses often ask about pricing customization SEO benefits and the overall process of web development. At MetaDigital Marketing, we understand these concerns and provide clear answers</p>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    What makes your Web Development Services different?
 
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>At MetaDigital Marketing we focus on custom solutions SEO-friendly coding and responsive designs that help businesses grow online.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    Do you provide Professional Website Development for small businesses?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Yes Our Professional Website Development services are affordable and tailored for startups SMEs and large enterprises.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingthree">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                    aria-expanded="false" aria-controls="collapsethree">
-                                    How long does it take to build a website?
-                                </button>
-                            </h2>
-                            <div id="collapsethree" class="accordion-collapse collapse"
-                                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>The timeline depends on the project scope. A simple website may take 2–3 weeks while a complex Professional Website Development project may take 6–8 weeks.                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    How does SEO-Friendly Website Development help my business?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>With SEO-Friendly Website Development your site ranks higher on Google loads faster digital appearance, trust on International client and attracts more qualified leads.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -144,17 +77,19 @@
                     <div class="item sub-bg mb-30">
                         <h4 class="mb-20">All Services</h4>
                         <ul class="category service-category">
-                            <li class="active"><a href="#0">Digital Marketing</a> <i
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
@@ -218,4 +153,193 @@
 </section>
 <!-- Service area end here -->
 
+<!-- Web Development Work Process start here -->
+<section class="projects-area pt-80 pb-50">
+    <div class="container">
+        <div class="section-header text-center mb-60">
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                WEB DEVELOPMENT
+            </h5>
+            <h2>Our Web Development Expertise</h2>
+            <p>We build <strong>modern, responsive, and scalable websites</strong> that deliver seamless user experiences and drive measurable business growth in the UAE and beyond.</p>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/webs1.png')}}" alt="Web Analysis & Planning">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 1: Discovery & Planning</h3>
+                <p>We begin by understanding your <strong>business goals, target audience, and industry needs</strong>.
+                    Our team conducts a detailed <strong>website audit and competitor analysis</strong> to design a
+                    <strong>custom web development strategy</strong> that ensures your business stands out and achieves measurable growth.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> In-depth business & competitor analysis</li>
+                    <li><i class="fa-solid fa-check"></i> Clear website architecture & planning</li>
+                    <li><i class="fa-solid fa-check"></i> Tailored solutions for your target audience</li>
+                    <li><i class="fa-solid fa-check"></i> Scalable roadmap for future growth</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/webs4.png')}}" alt="UI/UX Design">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 2: UI/UX Design & Prototyping</h3>
+                <p>Our designers craft <strong>modern, user-friendly, and visually stunning website designs</strong>.
+                    We focus on <strong>seamless navigation, mobile responsiveness, and engaging user experiences</strong>
+                    that keep visitors on your site and increase conversions.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Professional, modern website designs</li>
+                    <li><i class="fa-solid fa-check"></i> User-focused UI/UX for higher engagement</li>
+                    <li><i class="fa-solid fa-check"></i> Mobile-friendly & responsive layouts</li>
+                    <li><i class="fa-solid fa-check"></i> Wireframes & prototypes before development</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/webs3.png')}}" alt="Custom Development">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 3: Custom Development & Integration</h3>
+                <p>We build websites using the <strong>latest technologies</strong> and <strong>best coding practices</strong>.
+                    Whether it’s <strong>corporate websites, eCommerce platforms, or web applications</strong>,
+                    our solutions are <strong>secure, scalable, and performance-driven</strong> to give your business an edge online.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Custom web development solutions</li>
+                    <li><i class="fa-solid fa-check"></i> eCommerce, CMS, and web app expertise</li>
+                    <li><i class="fa-solid fa-check"></i> Secure & high-performing code</li>
+                    <li><i class="fa-solid fa-check"></i> Seamless third-party integrations</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/webs2.png')}}" alt="Testing & Launch">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 4: Testing, Launch & Ongoing Support</h3>
+                <p>Before going live, we conduct <strong>rigorous testing</strong> for speed, security, and performance.
+                    Once launched, we provide <strong>continuous monitoring, updates, and maintenance</strong> to ensure your website
+                    runs smoothly and keeps delivering <strong>100% client satisfaction</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Full website testing before launch</li>
+                    <li><i class="fa-solid fa-check"></i> SEO-friendly & optimized for performance</li>
+                    <li><i class="fa-solid fa-check"></i> Ongoing support & maintenance</li>
+                    <li><i class="fa-solid fa-check"></i> 100% satisfaction with every project</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Web Development Work Process end here -->
+
+<!-- FAQ area start here -->
+<div class="container mt-70  pt-70">
+    <h3 class="title mb-30 text-center">Common Queries About Our Web Development Services</h3>
+    <p class="mb-30">Choosing the right partner for your website can be confusing. Businesses often ask about pricing customization SEO benefits and the overall process of web development. At MetaDigital Marketing, we understand these concerns and provide clear answers</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    What makes your Web Development Services different?
+
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>At MetaDigital Marketing we focus on custom solutions SEO-friendly coding and responsive designs that help businesses grow online.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Do you provide Professional Website Development for small businesses?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Yes Our Professional Website Development services are affordable and tailored for startups SMEs and large enterprises.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="false" aria-controls="collapsethree">
+                    How long does it take to build a website?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse"
+                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>The timeline depends on the project scope. A simple website may take 2–3 weeks while a complex Professional Website Development project may take 6–8 weeks. </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    How does SEO-Friendly Website Development help my business?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>With SEO-Friendly Website Development your site ranks higher on Google loads faster digital appearance, trust on International client and attracts more qualified leads.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FAQ area end here -->
+
+
+<script>
+document.getElementById("youtube-player").addEventListener("click", function() {
+    this.innerHTML = `<iframe width="100%" height="400" 
+        src="https://www.youtube.com/embed/eSg_s0gQR8Y?autoplay=1&mute=1&modestbranding=1&rel=0&controls=1" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>`;
+});
+</script>
 @endsection

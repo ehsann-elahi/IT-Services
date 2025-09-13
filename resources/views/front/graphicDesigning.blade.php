@@ -29,7 +29,7 @@
 <!-- Page banner area end here -->
 
 <!-- Service area start here -->
-<section class="service-single-area pt-120 pb-120">
+<section class="service-single-area pt-120 pb-60">
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
@@ -64,79 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.Every design is made exclusively for your business.</p>
-                    <h3 class="title mb-30">Common Queries About Our Graphic Designing Services</h3>
-                    <p class="mb-30">We often receive questions from businesses about our graphic designing services such as how the design process works what types of designs we offer and how long it takes to deliver a project. At MetaDigital we provide complete solutions</p>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    What types of graphic designing services do you provide?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>We offer a wide range of services including logo design social media creatives brochures flyers business cards web graphics infographics and complete branding solutions tailored to your business needs.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    Can I request revisions if I am not satisfied with the design?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Yes absolutely We offer revisions to make sure the final design perfectly matches your brand vision and requirements.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingthree">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                    aria-expanded="false" aria-controls="collapsethree">
-                                    Why should I choose your agency for graphic designing services?
-                                </button>
-                            </h2>
-                            <div id="collapsethree" class="accordion-collapse collapse"
-                                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>At MetaDigital we combine creativity strategy and professionalism. Our designs are not only visually appealing but also aligned with your brand identity helping you attract more customers and build long-term recognition
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                   Do you provide custom graphic designs or use templates?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>All our designs are 100% custom-made. We do not rely on templates ensuring that your brand gets unique and original visuals that stand out.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -144,17 +72,19 @@
                     <div class="item sub-bg mb-30">
                         <h4 class="mb-20">All Services</h4>
                         <ul class="category service-category">
-                           <li class="active"><a href="#0">Digital Marketing</a> <i
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
@@ -217,5 +147,183 @@
     </div>
 </section>
 <!-- Service area end here -->
+
+<!-- Graphic Designing Work Process start here -->
+<section class="projects-area pt-40 pb-50">
+    <div class="container">
+        <div class="section-header text-center mb-60">
+    <h5>
+        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+        GRAPHIC DESIGNING
+    </h5>
+    <h2>Our Creative Graphic Designing</h2>
+    <p>We design <strong>visually stunning and brand-focused graphics</strong> that capture attention, inspire trust, and create a lasting impact across all digital platforms.</p>
+</div>
+
+
+        <!-- Step 1 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/apps5.png')}}" alt="Design Research & Strategy">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 1: Research & Creative Strategy</h3>
+                <p>We begin every project with a deep understanding of your <strong>brand, audience, and goals</strong>. 
+                Our creative team conducts <strong>market research and competitor analysis</strong> to craft a design strategy 
+                that ensures your brand <strong>stands out and connects with your audience</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Brand analysis & creative planning</li>
+                    <li><i class="fa-solid fa-check"></i> Competitor research for unique positioning</li>
+                    <li><i class="fa-solid fa-check"></i> Strategy aligned with business objectives</li>
+                    <li><i class="fa-solid fa-check"></i> Creative roadmap for consistent branding</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/design.png')}}" alt="UI/UX Design & Branding">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 2: Conceptualization & Design</h3>
+                <p>Our designers bring ideas to life with <strong>creative concepts, mood boards, and mockups</strong>. 
+                From <strong>logo design and brand identity</strong> to <strong>social media creatives and marketing materials</strong>, 
+                we ensure your brand <strong>looks professional, modern, and memorable</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Unique & modern logo design</li>
+                    <li><i class="fa-solid fa-check"></i> Engaging brand identity & style guides</li>
+                    <li><i class="fa-solid fa-check"></i> Creative social media & marketing visuals</li>
+                    <li><i class="fa-solid fa-check"></i> Custom designs tailored to your audience</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/webs3.png')}}" alt="Design Execution">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 3: Design Execution & Delivery</h3>
+                <p>Once the concept is approved, our team creates <strong>high-quality, visually stunning designs</strong> 
+                optimized for both <strong>digital and print platforms</strong>. Every design is created with attention to detail, 
+                ensuring it strengthens your <strong>brand recognition and customer engagement</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> High-resolution designs for print & digital</li>
+                    <li><i class="fa-solid fa-check"></i> Consistent branding across all channels</li>
+                    <li><i class="fa-solid fa-check"></i> Marketing banners, posters & promotional graphics</li>
+                    <li><i class="fa-solid fa-check"></i> Eye-catching visuals that drive engagement</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/laundrydesign.png')}}" alt="Client Success & Results">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 4: Client Success & Brand Growth</h3>
+                <p>We focus on delivering <strong>100% client satisfaction</strong> with designs that not only look good 
+                but also <strong>deliver results</strong>. Our creative solutions have helped multiple businesses across the UAE 
+                achieve <strong>stronger brand recognition, customer trust, and higher engagement</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Proven record of happy, satisfied clients</li>
+                    <li><i class="fa-solid fa-check"></i> Stronger brand recognition & credibility</li>
+                    <li><i class="fa-solid fa-check"></i> Improved customer engagement & trust</li>
+                    <li><i class="fa-solid fa-check"></i> Long-term creative partnership for growth</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Graphic Designing Work Process end here -->
+
+
+<div class="container mt-30  pt-30">
+
+    <h3 class="title mb-30 text-center">Common Queries About Our Graphic Designing Services</h3>
+    <p class="mb-30">We often receive questions from businesses about our graphic designing services such as how the design process works what types of designs we offer and how long it takes to deliver a project. At MetaDigital we provide complete solutions</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    What types of graphic designing services do you provide?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>We offer a wide range of services including logo design social media creatives brochures flyers business cards web graphics infographics and complete branding solutions tailored to your business needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Can I request revisions if I am not satisfied with the design?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Yes absolutely We offer revisions to make sure the final design perfectly matches your brand vision and requirements.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="false" aria-controls="collapsethree">
+                    Why should I choose your agency for graphic designing services?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse"
+                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>At MetaDigital we combine creativity strategy and professionalism. Our designs are not only visually appealing but also aligned with your brand identity helping you attract more customers and build long-term recognition
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    Do you provide custom graphic designs or use templates?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>All our designs are 100% custom-made. We do not rely on templates ensuring that your brand gets unique and original visuals that stand out.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection

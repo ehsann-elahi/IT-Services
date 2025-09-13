@@ -29,7 +29,7 @@
 <!-- Page banner area end here -->
 
 <!-- Service area start here -->
-<section class="service-single-area pt-120 pb-120">
+<section class="service-single-area pt-120 pb-60">
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
@@ -64,79 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.We believe smart, effective, creative results start with truly understanding your cause and taking a holistic perspectiv</p>
-                    <h3 class="title mb-30">Common Queries About Our App Development Services</h3>
-                    <p class="mb-30">Before venturing into the app development business we know that businesses usually possess questions. We guide our team through the selection of the appropriate platform: iOS Android or cross-platform project schedule. We provide scalability ease of use in terms of performance security.</p>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    How much does custom app development cost?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>The cost of app development depends on features complexity and platform (iOS Android or cross-platform). We provide tailored pricing to ensure you get a high-quality app that fits your budget.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    How long does it take to develop a mobile app?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>On average a standard mobile app takes 2–6 months to develop. The timeline varies based on functionality design requirements and integration needs.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingthree">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                    aria-expanded="false" aria-controls="collapsethree">
-                                    Will my app be secure and scalable?
-                                </button>
-                            </h2>
-                            <div id="collapsethree" class="accordion-collapse collapse"
-                                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Absolutely We follow industry best practices to ensure your app is secure scalable and ready to handle growth as your business expands.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    Can you integrate my app with existing systems or APIs?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Of course We specialize in integrating apps with third-party APIs CRMs payment gateways and other systems to enhance functionality.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -144,17 +72,19 @@
                     <div class="item sub-bg mb-30">
                         <h4 class="mb-20">All Services</h4>
                         <ul class="category service-category">
-                            <li class="active"><a href="#0">Digital Marketing</a> <i
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
@@ -216,6 +146,181 @@
         </div>
     </div>
 </section>
-<!-- Service area end here -->
 
+<!-- App Development Work Process start here -->
+<section class="projects-area pt-20 pb-50">
+    <div class="container">
+        <div class="section-header text-center mb-60">
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                APP DEVELOPMENT
+            </h5>
+            <h2>Our App Development Solutions</h2>
+            <p>From concept to launch, we create <strong>intuitive, feature-rich, and high-performing mobile apps</strong> that empower businesses to connect with their audience anytime, anywhere.</p>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/apps1.png')}}" alt="App Research & Strategy">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 1: Research & Strategy</h3>
+                <p>Our app development journey starts with <strong>in-depth market research, competitor analysis, and user profiling</strong>.
+                    We design a <strong>custom app strategy</strong> tailored to your business goals, ensuring your app delivers <strong>real value and growth</strong> from day one.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Business & market research for app success</li>
+                    <li><i class="fa-solid fa-check"></i> Clear roadmap aligned with client goals</li>
+                    <li><i class="fa-solid fa-check"></i> User-focused development strategies</li>
+                    <li><i class="fa-solid fa-check"></i> Scalable architecture for future growth</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/apps5.png')}}" alt="App UI/UX Design">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 2: UI/UX Design & Prototyping</h3>
+                <p>We create <strong>engaging, intuitive, and user-friendly app designs</strong> that keep users hooked.
+                    With a focus on <strong>mobile-first, responsive design</strong>, we ensure your app delivers a <strong>seamless user experience</strong> across all devices.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Modern, attractive app interface design</li>
+                    <li><i class="fa-solid fa-check"></i> User-friendly navigation & interactions</li>
+                    <li><i class="fa-solid fa-check"></i> Mobile-first & responsive app design</li>
+                    <li><i class="fa-solid fa-check"></i> Wireframes & prototypes for client approval</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/apps2.png')}}" alt="App Development">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 3: App Development & Integration</h3>
+                <p>Using the <strong>latest technologies</strong>, our team builds apps that are <strong>fast, secure, and scalable</strong>.
+                    We specialize in both <strong>iOS and Android app development</strong>, as well as <strong>cross-platform solutions</strong>
+                    that maximize your reach and performance.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Native & cross-platform app development</li>
+                    <li><i class="fa-solid fa-check"></i> Secure, high-performance coding standards</li>
+                    <li><i class="fa-solid fa-check"></i> API & third-party service integrations</li>
+                    <li><i class="fa-solid fa-check"></i> Scalable apps designed for growth</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/app3.png')}}" alt="App Launch & Support">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 4: Testing, Launch & Ongoing Support</h3>
+                <p>Before launch, we run <strong>extensive testing</strong> to ensure your app is bug-free, fast, and user-ready.
+                    Once deployed, we provide <strong>continuous updates, app store optimization, and long-term support</strong>
+                    to guarantee <strong>100% client satisfaction</strong> and <strong>maximum ROI</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Rigorous testing for flawless performance</li>
+                    <li><i class="fa-solid fa-check"></i> App Store & Google Play optimization</li>
+                    <li><i class="fa-solid fa-check"></i> Continuous monitoring & updates</li>
+                    <li><i class="fa-solid fa-check"></i> Proven track record of successful app launches</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- App Development Work Process end here -->
+
+
+<!-- Service area end here -->
+<div class="container mt-30  pt-30">
+
+    <h3 class="title mb-30 text-center">Common Queries About Our App Development Services</h3>
+    <p class="mb-30">Before venturing into the app development business we know that businesses usually possess questions. We guide our team through the selection of the appropriate platform: iOS Android or cross-platform project schedule. We provide scalability ease of use in terms of performance security.</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    How much does custom app development cost?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>The cost of app development depends on features complexity and platform (iOS Android or cross-platform). We provide tailored pricing to ensure you get a high-quality app that fits your budget.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    How long does it take to develop a mobile app?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>On average a standard mobile app takes 2–6 months to develop. The timeline varies based on functionality design requirements and integration needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="false" aria-controls="collapsethree">
+                    Will my app be secure and scalable?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse"
+                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Absolutely We follow industry best practices to ensure your app is secure scalable and ready to handle growth as your business expands.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    Can you integrate my app with existing systems or APIs?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Of course We specialize in integrating apps with third-party APIs CRMs payment gateways and other systems to enhance functionality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 @endsection

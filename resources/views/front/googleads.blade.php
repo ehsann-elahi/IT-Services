@@ -29,7 +29,7 @@
 <!-- Page banner area end here -->
 
 <!-- Service area start here -->
-<section class="service-single-area pt-120 pb-120">
+<section class="service-single-area pt-120 pb-50">
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
@@ -64,79 +64,6 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">If your target customers are in Dubai and Abu Dhabi our team can manage both local PPC campaigns and Google Ads campaigns</p>
-                    <h3 class="title mb-30">Common Queries About Our Google Ads Services</h3>
-                    <p class="mb-30">we understand that businesses often have questions before investing in Google Ads Services. That is why our team provides clear guidance on campaign setup keyword targeting budget planning and ad optimization.</p>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    What are Google Ads and how can they help my business?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Google Ads is an online advertising platform that helps your business appear at the top of Google search results. It drives highly targeted traffic generates leads and increases sales by showing your ads to people already searching for your products or services.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    How much does it cost to run Google Ads?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>The cost of Google Ads depends on your industry competition and keywords. We create a budget-friendly strategy to maximize ROI so you only pay when someone clicks your ad
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingthree">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                    aria-expanded="false" aria-controls="collapsethree">
-                                    How quickly can I see results from Google Ads?
-                                </button>
-                            </h2>
-                            <div id="collapsethree" class="accordion-collapse collapse"
-                                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Unlike SEO which takes time Google Ads can deliver instant visibility and traffic as soon as your campaign goes live. However optimizing for the best results may take a few weeks.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    Do I need a big budget to start Google Ads?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>No you do not need a large budget. Even small businesses can run effective campaigns with the right targeting and strategy. Our team ensures every dollar of your ad spend works efficiently.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -144,17 +71,19 @@
                     <div class="item sub-bg mb-30">
                         <h4 class="mb-20">All Services</h4>
                         <ul class="category service-category">
-                            <li class="active"><a href="#0">Digital Marketing</a> <i
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
@@ -217,5 +146,186 @@
     </div>
 </section>
 <!-- Service area end here -->
+
+<!-- Google Ads Work Process start here -->
+<section class="projects-area pt-40 pb-50">
+    <div class="container">
+
+        <div class="section-header text-center mb-60">
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                GOOGLE ADS
+            </h5>
+            <h2>Our Google Ads Expertise</h2>
+            <p>We create <strong>high-converting Google Ads campaigns</strong> that drive targeted traffic,
+                generate qualified leads, and maximize your ROI with <strong>data-driven strategies and proven results</strong>.</p>
+        </div>
+
+
+        <!-- Step 1 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/google-ads-analysis.png')}}" alt="Campaign Research & Strategy">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 1: Campaign Research & Strategy</h3>
+                <p>We begin by understanding your <strong>business goals, target audience, and budget</strong>.
+                    Our experts conduct a detailed <strong>market and competitor analysis</strong> to build a
+                    <strong>Google Ads strategy</strong> that maximizes ROI and ensures every click counts.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> In-depth keyword & audience research</li>
+                    <li><i class="fa-solid fa-check"></i> Competitor campaign analysis</li>
+                    <li><i class="fa-solid fa-check"></i> Tailored Google Ads strategy</li>
+                    <li><i class="fa-solid fa-check"></i> Clear ROI-driven roadmap</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/google-ads-setup.png')}}" alt="Ad Creation & Setup">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 2: Ad Creation & Setup</h3>
+                <p>We design <strong>compelling ad copies, creatives, and targeting structures</strong> to ensure your
+                    campaigns attract the right customers. From <strong>search and display ads</strong> to
+                    <strong>remarketing and shopping campaigns</strong>, we set up everything for success.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> High-converting ad copy & visuals</li>
+                    <li><i class="fa-solid fa-check"></i> Search, Display & Shopping campaign setup</li>
+                    <li><i class="fa-solid fa-check"></i> Advanced targeting for UAE audience</li>
+                    <li><i class="fa-solid fa-check"></i> Smart bidding & budget optimization</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/google-ads-optimization.png')}}" alt="Campaign Optimization">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 3: Campaign Optimization</h3>
+                <p>We continuously monitor and optimize campaigns with <strong>A/B testing, audience refinements, and
+                        bid adjustments</strong>. This ensures your ads perform at their best and deliver <strong>higher conversions at lower costs</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Ongoing campaign monitoring</li>
+                    <li><i class="fa-solid fa-check"></i> A/B testing of ads & landing pages</li>
+                    <li><i class="fa-solid fa-check"></i> Conversion rate optimization</li>
+                    <li><i class="fa-solid fa-check"></i> Cost-per-click & ROI improvements</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/google-ads-reporting.png')}}" alt="Reporting & Results">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 4: Reporting & Measurable Results</h3>
+                <p>We provide <strong>transparent performance reports</strong> that show exactly how your budget is being spent.
+                    With real-time tracking of <strong>clicks, leads, and conversions</strong>, you can see the value and
+                    success of your campaigns.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Transparent monthly performance reports</li>
+                    <li><i class="fa-solid fa-check"></i> Real-time tracking of ROI & conversions</li>
+                    <li><i class="fa-solid fa-check"></i> Actionable insights for better decisions</li>
+                    <li><i class="fa-solid fa-check"></i> 100% client satisfaction with proven results</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Google Ads Work Process end here -->
+
+
+<div class="container mt-30  pt-30">
+
+    <h3 class="title mb-30 text-center">Common Queries About Our Google Ads Services</h3>
+    <p class="mb-30">we understand that businesses often have questions before investing in Google Ads Services. That is why our team provides clear guidance on campaign setup keyword targeting budget planning and ad optimization.</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    What are Google Ads and how can they help my business?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Google Ads is an online advertising platform that helps your business appear at the top of Google search results. It drives highly targeted traffic generates leads and increases sales by showing your ads to people already searching for your products or services.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    How much does it cost to run Google Ads?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>The cost of Google Ads depends on your industry competition and keywords. We create a budget-friendly strategy to maximize ROI so you only pay when someone clicks your ad
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="false" aria-controls="collapsethree">
+                    How quickly can I see results from Google Ads?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse"
+                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Unlike SEO which takes time Google Ads can deliver instant visibility and traffic as soon as your campaign goes live. However optimizing for the best results may take a few weeks.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    Do I need a big budget to start Google Ads?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>No you do not need a large budget. Even small businesses can run effective campaigns with the right targeting and strategy. Our team ensures every dollar of your ad spend works efficiently.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection

@@ -6,6 +6,59 @@
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')
+@section('styles')
+<style>
+    .client-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2rem 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        transition: all 0.3s ease;
+        height: 100%;
+    }
+
+    .client-card:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Icon Circle */
+    .icon-circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #fff;
+        background: linear-gradient(90deg, #06b6d4, #3b82f6);
+        margin: 0 auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Quote Text */
+    .client-quote {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #555;
+        font-style: italic;
+        margin: 0.75rem 0 1rem;
+    }
+
+    /* Link Style */
+    .client-link {
+        font-weight: 600;
+        color: var(--primary-color, #06b6d4);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .client-link:hover {
+        color: #3b82f6;
+    }
+</style>
+@endsection
 
 <!-- Page banner area -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -28,6 +81,87 @@
     </div>
 </section>
 <!-- Page banner area end here -->
+
+<section class="clients-area pt-120 pb-120 bg-light">
+  <div class="container">
+    <div class="section-header text-center mb-60">
+      <h5 class="wow fadeInUp" data-wow-delay="00ms">Our Graphic Design Clients</h5>
+      <h2 class="wow fadeInUp" data-wow-delay="200ms">
+        Creative Designs by <span class="text-gradient">MetaDigital Marketing</span>
+      </h2>
+      <p class="wow fadeInUp mt-3" data-wow-delay="400ms">
+        From branding to social media creatives, we design stunning visuals that boost engagement and build strong identities for UAE businesses.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="00ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-palette"></i></div>
+          <h4 class="case-single__title">LaundryService</h4>
+          <p class="client-quote">Custom brand visuals & social media creatives — improving brand recall and digital presence.</p>
+          <a href="https://www.laundryservice.ae/" target="_blank" class="client-link">View Designs →</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="200ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-pen-nib"></i></div>
+          <h4 class="case-single__title">CurtainCleaning</h4>
+          <p class="client-quote">Elegant banner ads & graphic campaigns — boosting brand visibility in Dubai & Abu Dhabi.</p>
+          <a href="https://curtaincleaning.ae/" target="_blank" class="client-link">View Designs →</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="400ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-brush"></i></div>
+          <h4 class="case-single__title">CurtainLaundry</h4>
+          <p class="client-quote">Creative social media graphics and ad visuals — building trust & stronger online appeal.</p>
+          <a href="https://curtainlaundry.ae/" target="_blank" class="client-link">View Designs →</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="600ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-image"></i></div>
+          <h4 class="case-single__title">SeaHeroWaterSports</h4>
+          <p class="client-quote">Designed promo posters & digital campaigns — driving tourist engagement & adventure bookings.</p>
+          <a href="https://seaherowatersports.com/" target="_blank" class="client-link">View Designs →</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="800ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-pen-ruler"></i></div>
+          <h4 class="case-single__title">CarpetWashing</h4>
+          <p class="client-quote">Designed impactful branding & advertising creatives — helping the brand stand out in search & social.</p>
+          <a href="https://carpetwashing.ae/" target="_blank" class="client-link">View Designs →</a>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="1000ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-layer-group"></i></div>
+          <h4 class="case-single__title">AlKhyalCurtain</h4>
+          <p class="client-quote">Designed e-commerce banners, product graphics & ads — boosting sales with creative visuals.</p>
+          <a href="https://alkhyalcurtain.ae/" target="_blank" class="client-link">View Designs →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="{{route('contact')}}" class="btn-one">Design With Us <i class="fa-regular fa-arrow-right-long"></i></a>
+    </div>
+  </div>
+</section>
+
 
 <!-- Process area start here -->
 <section class="process-area pt-40 pb-50">
@@ -119,6 +253,16 @@
 <!-- Projects Showcase start here -->
 <section class="projects-area pt-40 pb-50">
     <div class="container">
+
+    <div class="section-header text-center mb-60">
+    <h5>
+        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+        GRAPHIC DESIGN SOLUTIONS
+    </h5>
+    <h2>Creative Graphic Design for UAE Brands</h2>
+    <p>At MetaDigital Marketing, we craft <strong>stunning visuals, brand identities, and creative designs</strong> that inspire audiences and build strong brand recognition. From <strong>logos to marketing collateral</strong>, we deliver designs that <strong>communicate your brand story with impact</strong>.</p>
+</div>
+
 
         <!-- Project 3 -->
         <div class="row align-items-center mb-100">

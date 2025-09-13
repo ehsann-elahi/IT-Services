@@ -29,7 +29,7 @@
 <!-- Page banner area end here -->
 
 <!-- Service area start here -->
-<section class="service-single-area pt-120 pb-120">
+<section class="service-single-area pt-120 pb-50">
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
@@ -64,79 +64,6 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">At MetaDigital we have helped businesses across the UAE grow online with effective social media marketing services. Whether you are a startup or an established brand. Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
-                    <h3 class="title mb-30">Common Queries About Our Social Media Marketing Services</h3>
-                    <p class="mb-30">Businesses often ask how our social media marketing services can help them grow. At MetaDigital we design tailored strategies for platforms like Facebook Instagram LinkedIn and TikTok to build brand awareness increase engagement, and drive sales.</p>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    How can social media marketing help my business grow?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Social media marketing helps increase brand awareness attract new customers engage with your audience and drive traffic to your website. With targeted ads you can also generate high-quality leads and boost sales.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    How long does it take to see results?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Social media growth is a process but with consistent posting and ad campaigns most businesses start seeing engagement and traffic improvements within the first 1–3 months. Paid campaigns can deliver quicker results.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingthree">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                    aria-expanded="false" aria-controls="collapsethree">
-                                    Which platforms do you manage?
-                                </button>
-                            </h2>
-                            <div id="collapsethree" class="accordion-collapse collapse"
-                                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>We manage all major platforms including Facebook, Instagram, LinkedIn TikTok and Twitter (X). Depending on your business goals we select the best channels to reach your target audience
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    How do you measure the success of Social Media Marketing campaigns?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>We track key metrics like reach impressions engagement rate click-through rate (CTR) lead generation, and return on ad spend (ROAS). These insights help us optimize your campaigns for maximum ROI.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -144,17 +71,19 @@
                     <div class="item sub-bg mb-30">
                         <h4 class="mb-20">All Services</h4>
                         <ul class="category service-category">
-                            <li class="active"><a href="#0">Digital Marketing</a> <i
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
@@ -217,5 +146,186 @@
     </div>
 </section>
 <!-- Service area end here -->
+
+
+<!-- Social Media Marketing Work Process start here -->
+<section class="projects-area pt-40 pb-30">
+    <div class="container">
+
+        <div class="section-header text-center mb-60">
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                SOCIAL MEDIA MARKETING
+            </h5>
+            <h2>Our Social Media Marketing</h2>
+            <p>We grow brands with <strong>creative content, powerful campaigns, and audience-driven strategies</strong> that build communities and turn followers into loyal customers.</p>
+        </div>
+
+
+        <!-- Step 1 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/smm-research.png')}}" alt="Social Media Research">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 1: Audience Research & Strategy</h3>
+                <p>We begin by analyzing your <strong>brand, competitors, and audience behavior</strong> across platforms like
+                    <strong>Instagram, Facebook, TikTok, LinkedIn, and X (Twitter)</strong>.
+                    Our team creates a <strong>customized SMM strategy</strong> designed to boost <strong>brand awareness, engagement, and conversions</strong>.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Competitor & audience behavior analysis</li>
+                    <li><i class="fa-solid fa-check"></i> Platform selection for maximum impact</li>
+                    <li><i class="fa-solid fa-check"></i> Content calendar & posting strategy</li>
+                    <li><i class="fa-solid fa-check"></i> Goal-driven SMM roadmap</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/smm-content.png')}}" alt="Content Creation">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 2: Creative Content & Campaigns</h3>
+                <p>Our creative team designs <strong>eye-catching posts, videos, reels, and stories</strong>
+                    that align with your brand identity.
+                    We execute <strong>organic campaigns and paid ads</strong> to <strong>increase reach, followers, and engagement</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Professional post & reel design</li>
+                    <li><i class="fa-solid fa-check"></i> Hashtag & trend optimization</li>
+                    <li><i class="fa-solid fa-check"></i> Social media ad campaigns</li>
+                    <li><i class="fa-solid fa-check"></i> Engagement-focused strategies</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/smm-analytics.png')}}" alt="Monitoring & Analytics">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 3: Monitoring & Optimization</h3>
+                <p>We continuously track <strong>campaign performance, audience engagement, and ad ROI</strong>.
+                    By using advanced analytics, we <strong>optimize strategies in real-time</strong> to ensure your brand achieves
+                    <strong>consistent growth</strong> across social media platforms.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Real-time engagement monitoring</li>
+                    <li><i class="fa-solid fa-check"></i> Data-driven campaign adjustments</li>
+                    <li><i class="fa-solid fa-check"></i> Audience interaction tracking</li>
+                    <li><i class="fa-solid fa-check"></i> Higher ROI with optimized ads</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/smm-success.png')}}" alt="Client Success">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 4: Client Success & Growth</h3>
+                <p>We deliver <strong>measurable results</strong> with increased <strong>followers, engagement, leads, and sales</strong>.
+                    Our proven SMM strategies have helped multiple UAE businesses build <strong>strong online communities</strong>
+                    and achieve <strong>100% client satisfaction</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Consistent brand visibility</li>
+                    <li><i class="fa-solid fa-check"></i> Higher engagement & loyal audience</li>
+                    <li><i class="fa-solid fa-check"></i> Increased leads & conversions</li>
+                    <li><i class="fa-solid fa-check"></i> 100% satisfied clients across UAE</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Social Media Marketing Work Process end here -->
+
+<!-- Service area end here -->
+<div class="container mt-30  pt-30">
+    <h3 class="title mb-30 text-center">Common Queries About Our Social Media Marketing Services</h3>
+    <p class="mb-30">Businesses often ask how our social media marketing services can help them grow. At MetaDigital we design tailored strategies for platforms like Facebook Instagram LinkedIn and TikTok to build brand awareness increase engagement, and drive sales.</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    How can social media marketing help my business grow?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Social media marketing helps increase brand awareness attract new customers engage with your audience and drive traffic to your website. With targeted ads you can also generate high-quality leads and boost sales.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    How long does it take to see results?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Social media growth is a process but with consistent posting and ad campaigns most businesses start seeing engagement and traffic improvements within the first 1–3 months. Paid campaigns can deliver quicker results.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="false" aria-controls="collapsethree">
+                    Which platforms do you manage?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse"
+                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>We manage all major platforms including Facebook, Instagram, LinkedIn TikTok and Twitter (X). Depending on your business goals we select the best channels to reach your target audience
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    How do you measure the success of Social Media Marketing campaigns?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>We track key metrics like reach impressions engagement rate click-through rate (CTR) lead generation, and return on ad spend (ROAS). These insights help us optimize your campaigns for maximum ROI.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection

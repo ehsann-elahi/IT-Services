@@ -64,80 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.If you are looking for reliable digital marketing services or the expertise of a freelance digital marketing professional, we are here to help. Our mission is to deliver growth-driven strategies</p>
-                    <h3 class="title mb-30">Most Common Queries About Our Digital Marketing Services</h3>
-                    <p class="mb-30">At MetaDigital Marketing Agency we understand that businesses often have questions before investing in digital marketing services. Whether you are looking for the best digital marketing agency exploring the role of a social media marketing agency our experts are here to guide you.</p>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    What makes you the best digital marketing agency for small businesses?
 
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>We focus on cost-effective solutions personalized campaigns and growth-driven results that suit startups as well as established brands.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                   Do you provide freelance digital marketing services?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Yes we also offer freelance digital marketing support for businesses that need flexible and customized solutions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingthree">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                    aria-expanded="false" aria-controls="collapsethree">
-                                   Can digital marketing increase my sales?
-                                </button>
-                            </h2>
-                            <div id="collapsethree" class="accordion-collapse collapse"
-                                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Absolutely With targeted ads SEO and social media campaigns digital marketing services can generate more leads and conversions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                   How long does it take to see results from digital marketing?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Most campaigns show noticeable results within 3–6 months depending on competition strategy and business goals.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -145,17 +72,19 @@
                     <div class="item sub-bg mb-30">
                         <h4 class="mb-20">All Services</h4>
                         <ul class="category service-category">
-                            <li class="active"><a href="#0">Digital Marketing</a> <i
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
@@ -219,4 +148,183 @@
 </section>
 <!-- Service area end here -->
 
+<!-- Digital Marketing Work Process start here -->
+<section class="projects-area pt-40 pb-20">
+    <div class="container">
+        <div class="section-header text-center mb-60">
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                DIGITAL MARKETING
+            </h5>
+            <h2>Our Digital Marketing Strategies</h2>
+            <p>We craft <strong>data-driven marketing campaigns</strong> that boost brand visibility, generate quality leads, and maximize ROI with measurable, long-term success.</p>
+        </div>
+
+
+        <!-- Step 1 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/digis1.png')}}" alt="Digital Marketing Research">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 1: Market Research & Strategy</h3>
+                <p>We start by analyzing your <strong>business goals, target audience, and competitors</strong>.
+                    Our team creates a <strong>customized digital marketing strategy</strong> designed to maximize your
+                    <strong>brand visibility, engagement, and ROI</strong> in the UAE and beyond.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> In-depth market & competitor research</li>
+                    <li><i class="fa-solid fa-check"></i> Audience targeting & customer insights</li>
+                    <li><i class="fa-solid fa-check"></i> Data-driven marketing roadmap</li>
+                    <li><i class="fa-solid fa-check"></i> Goal-oriented strategy for maximum ROI</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/seadigital.png')}}" alt="Campaign Setup">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 2: Campaign Setup & Execution</h3>
+                <p>Our experts launch <strong>multi-channel campaigns</strong> including
+                    <strong>SEO, Social Media, PPC, Email, and Content Marketing</strong>.
+                    We use proven strategies to <strong>attract, engage, and convert</strong> your target audience into loyal customers.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> SEO optimization for higher rankings</li>
+                    <li><i class="fa-solid fa-check"></i> Social media campaigns for engagement</li>
+                    <li><i class="fa-solid fa-check"></i> Paid ads (Google & Meta) for instant results</li>
+                    <li><i class="fa-solid fa-check"></i> Content & email marketing for conversions</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/seo3.png')}}" alt="Optimization & Monitoring">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 3: Optimization & Monitoring</h3>
+                <p>We continuously <strong>track, analyze, and optimize</strong> every campaign to ensure maximum efficiency.
+                    Our data-driven approach ensures your <strong>ads, content, and strategies deliver consistent growth</strong>
+                    and stay ahead of competitors.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Real-time campaign monitoring</li>
+                    <li><i class="fa-solid fa-check"></i> Data-driven decision making</li>
+                    <li><i class="fa-solid fa-check"></i> Conversion rate optimization (CRO)</li>
+                    <li><i class="fa-solid fa-check"></i> A/B testing for best performance</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/webs3.png')}}" alt="Client Success & Results">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 4: Results & Client Success</h3>
+                <p>Our ultimate goal is <strong>client satisfaction</strong>.
+                    We provide detailed reports showing <strong>increased leads, conversions, and brand visibility</strong>.
+                    With multiple success stories across UAE, we are trusted for delivering <strong>100% results-driven digital marketing</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Transparent performance reporting</li>
+                    <li><i class="fa-solid fa-check"></i> Higher leads, sales & revenue growth</li>
+                    <li><i class="fa-solid fa-check"></i> Increased online visibility & engagement</li>
+                    <li><i class="fa-solid fa-check"></i> 100% client satisfaction guaranteed</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Digital Marketing Work Process end here -->
+
+
+<div class="container mt-30  pt-30">
+    <h3 class="title mb-30 text-center">Most Common Queries About Our Digital Marketing Services</h3>
+    <p class="mb-30">At MetaDigital Marketing Agency we understand that businesses often have questions before investing in digital marketing services. Whether you are looking for the best digital marketing agency exploring the role of a social media marketing agency our experts are here to guide you.</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    What makes you the best digital marketing agency for small businesses?
+
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>We focus on cost-effective solutions personalized campaigns and growth-driven results that suit startups as well as established brands.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Do you provide freelance digital marketing services?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Yes we also offer freelance digital marketing support for businesses that need flexible and customized solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="false" aria-controls="collapsethree">
+                    Can digital marketing increase my sales?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse"
+                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Absolutely With targeted ads SEO and social media campaigns digital marketing services can generate more leads and conversions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    How long does it take to see results from digital marketing?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Most campaigns show noticeable results within 3–6 months depending on competition strategy and business goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

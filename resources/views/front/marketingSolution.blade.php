@@ -6,6 +6,60 @@
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')
+
+@section('styles')
+<style>
+    .client-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2rem 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        transition: all 0.3s ease;
+        height: 100%;
+    }
+
+    .client-card:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Icon Circle */
+    .icon-circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #fff;
+        background: linear-gradient(90deg, #06b6d4, #3b82f6);
+        margin: 0 auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Quote Text */
+    .client-quote {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #555;
+        font-style: italic;
+        margin: 0.75rem 0 1rem;
+    }
+
+    /* Link Style */
+    .client-link {
+        font-weight: 600;
+        color: var(--primary-color, #06b6d4);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .client-link:hover {
+        color: #3b82f6;
+    }
+</style>
+@endsection
 <!-- Page banner area -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/banner-inner-page.jpg')}}">
@@ -19,7 +73,7 @@
         <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
     </div>
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Digital Marketing</h2>
+        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Digital Marketing Solutions</h2>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Case Study
                 Details</span>
@@ -28,80 +82,88 @@
 </section>
 <!-- Page banner area end here -->
 
-<!-- About area start here -->
-<section class="about-two-area pt-120">
-    <div class="about-two__shape">
-        <img src="{{asset('assets/front/images/shape/about-two-shape.png')}}" alt="shape">
-    </div>
+<section class="clients-area pt-120 pb-60">
     <div class="container">
+        <div class="section-header text-center mb-40">
+            
+            <h5 class="wow fadeInUp" data-wow-delay="00ms">Our Digital Marketing Clients</h5>
+            <h2 class="wow fadeInUp" data-wow-delay="200ms">
+                Driving Growth with <span class="text-gradient">MetaDigital Marketing</span>
+            </h2>
+            <p class="wow fadeInUp mt-3" data-wow-delay="400ms">
+                From SEO to paid campaigns, we help UAE businesses boost visibility, generate leads, and grow revenue online.
+            </p>
+        </div>
+
         <div class="row g-4">
-            <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="about-two__left-item">
-                    <div class="dots">
-                        <img class="sway_Y__animation" src="{{asset('assets/front/images/shape/about-two-dot.png')}}" alt="shape">
-                    </div>
-                    <div class="shape-halper">
-                        <img class="sway__animation" src="{{asset('assets/front/images/shape/about-circle-helper.png')}}"
-                            alt="shape">
-                    </div>
-                    <div class="image big-image">
-                        <img src="{{asset('assets/front/images/about/about-two-image1.jpg')}}" alt="image">
-                    </div>
-                    <div class="image sm-image">
-                        <img src="{{asset('assets/front/images/about/about-two-image2.png')}}" alt="image">
-                    </div>
-                    <div class="circle-shape">
-                        <img class="animation__rotate" src="{{asset('assets/front/images/shape/about-two-circle.png')}}"
-                            alt="shape">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="section-header mb-20">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                stroke-width="1.5" />
-                            <mask id="path-2-inside-1_668_146" fill="white">
-                                <path
-                                    d="M3 6C3 3.79086 4.79086 2 7 2H13C15.2091 2 17 3.79086 17 6C17 8.20914 15.2091 10 13 10H7C4.79086 10 3 8.20914 3 6Z" />
-                            </mask>
-                            <path
-                                d="M3 6C3 2.96243 5.46243 0.5 8.5 0.5H11.5C14.5376 0.5 17 2.96243 17 6C17 4.61929 15.2091 3.5 13 3.5H7C4.79086 3.5 3 4.61929 3 6ZM17 6C17 9.03757 14.5376 11.5 11.5 11.5H8.5C5.46243 11.5 3 9.03757 3 6C3 7.38071 4.79086 8.5 7 8.5H13C15.2091 8.5 17 7.38071 17 6ZM3 10V2V10ZM17 2V10V2Z"
-                                fill="#3C72FC" mask="url(#path-2-inside-1_668_146)" />
-                        </svg>
-                        Digital Marketing Solutions
-                    </h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        Empowering Businesses with Proven Digital Marketing Strategies
-                    </h2>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        We specialize in delivering <strong>data-driven digital marketing solutions</strong>
-                        designed to help businesses grow online, attract qualified leads, and maximize ROI.
-                        From <em>SEO optimization</em> and <em>social media marketing</em> to
-                        <em>pay-per-click advertising</em> and <em>content creation</em>, our
-                        expert team ensures your brand stands out in a competitive digital landscape.
-                        Whether you're a startup or an established enterprise, we tailor our services
-                        to your unique goals and industry needs.
-                    </p>
-                </div>
-
-                <div class="about-two__right-item wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i> Search Engine Optimization (SEO)</li>
-                        <li><i class="fa-solid fa-check"></i> Social Media Management & Growth</li>
-                    </ul>
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i> Content Marketing & Branding</li>
-                    </ul>
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="00ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4 class="case-single__title">LaundryService</h4>
+                    <p class="client-quote">Ranked top in UAE searches with SEO + Google Ads — 3x more bookings in 6 months.</p>
+                    <a href="https://www.laundryservice.ae/" target="_blank" class="client-link">View Campaign →</a>
                 </div>
             </div>
 
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="200ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h4 class="case-single__title">CurtainCleaning</h4>
+                    <p class="client-quote">Launched targeted ad campaigns and content strategy — doubling customer inquiries.</p>
+                    <a href="https://curtaincleaning.ae/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="400ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-chart-line"></i></div>
+
+                    <h4 class="case-single__title">CurtainLaundry</h4>
+                    <p class="client-quote">Boosted organic rankings with SEO & local marketing — increased visibility in Dubai & Abu Dhabi.</p>
+                    <a href="https://curtainlaundry.ae/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="600ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-person-swimming"></i></div>
+                    <h4 class="case-single__title">SeaHeroWaterSports</h4>
+                    <p class="client-quote">Social media + influencer campaigns boosted tourist bookings by 65% in one season.</p>
+                    <a href="https://seaherowatersports.com/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="800ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-trophy"></i></div>
+                    <h4 class="case-single__title">CarpetWashing</h4>
+                    <p class="client-quote">Optimized for SEO + Google Maps — site now ranks top 3 for “Carpet Cleaning UAE.”</p>
+                    <a href="https://carpetwashing.ae/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="client-card text-center wow fadeInUp" data-wow-delay="1000ms">
+                    <div class="icon-circle mb-3"><i class="fa-solid fa-store"></i></div>
+                    <h4 class="case-single__title">AlKhyalCurtain</h4>
+                    <p class="client-quote">E-commerce growth through SEO & Facebook Ads — online sales increased by 120%.</p>
+                    <a href="https://alkhyalcurtain.ae/" target="_blank" class="client-link">View Campaign →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="{{route('contact')}}" class="btn-one">Grow With Us <i class="fa-regular fa-arrow-right-long"></i></a>
         </div>
     </div>
 </section>
-<!-- About area end here -->
+
 
 <!-- Process area start here -->
 <section class="process-area pt-40 pb-50">
@@ -193,6 +255,16 @@
 <!-- Projects Showcase start here -->
 <section class="projects-area pt-40 pb-50">
     <div class="container">
+
+    <div class="section-header text-center mb-60">
+    <h5>
+        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+        DIGITAL MARKETING SOLUTIONS
+    </h5>
+    <h2>Result-Driven Digital Marketing in UAE</h2>
+    <p>At MetaDigital Marketing, we provide <strong>360° digital marketing solutions</strong> including <strong>SEO, Google Ads, Social Media Marketing, and Content Strategies</strong>. Our goal is to <strong>increase visibility, drive qualified traffic, and maximize ROI</strong> for businesses across the UAE.</p>
+</div>
+
 
         <!-- Project 2 -->
         <div class="row align-items-center flex-row-reverse mb-100">

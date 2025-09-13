@@ -150,4 +150,12 @@ class FrontController extends Controller
     {
         return view('front.seosolution');
     }
+    public function socialsolution()
+    {
+        return view('front.socialSolution');
+    }
+    public function googleadssolution()
+    {
+        return view('front.googleSolution');
+    }
 }

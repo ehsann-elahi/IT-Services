@@ -126,6 +126,8 @@
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                             <li><a href="#0">Social Media Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
+<li><a href="#0">Google Ads</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
                   

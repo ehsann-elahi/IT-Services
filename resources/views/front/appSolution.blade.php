@@ -6,8 +6,62 @@
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')
+
+@section('styles')
+<style>
+    .client-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2rem 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        transition: all 0.3s ease;
+        height: 100%;
+    }
+
+    .client-card:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Icon Circle */
+    .icon-circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: #fff;
+        background: linear-gradient(90deg, #06b6d4, #3b82f6);
+        margin: 0 auto;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Quote Text */
+    .client-quote {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #555;
+        font-style: italic;
+        margin: 0.75rem 0 1rem;
+    }
+
+    /* Link Style */
+    .client-link {
+        font-weight: 600;
+        color: var(--primary-color, #06b6d4);
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .client-link:hover {
+        color: #3b82f6;
+    }
+</style>
+@endsection
 <!-- Page banner area -->
-<section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
+<section class="banner__inner-page bg-image pt-180 pb-100 bg-image"
     data-background="{{asset('assets/front/images/banner/banner-inner-page.jpg')}}">
     <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
         <img src="{{asset('assets/front/images/banner/inner-banner-shape2.png')}}" alt="shape">
@@ -28,81 +82,81 @@
 </section>
 <!-- Page banner area end here -->
 
-<!-- About area start here -->
-<section class="about-two-area pt-120">
-    <div class="about-two__shape">
-        <img src="{{asset('assets/front/images/shape/about-two-shape.png')}}" alt="shape">
+
+<section class="clients-area pt-120 pb-120">
+  <div class="container">
+    <div class="section-header text-center mb-30">
+      <h5 class="wow fadeInUp" data-wow-delay="00ms">Our App Development Clients</h5>
+      <h2 class="wow fadeInUp" data-wow-delay="200ms">
+        Smart Applications by <span class="text-gradient">MetaDigital Marketing</span>
+      </h2>
+      <p class="wow fadeInUp mt-3" data-wow-delay="400ms">
+        From mobile apps to enterprise dashboards, we develop responsive, user-friendly, and secure applications that empower UAE businesses.  
+        Here are two of our flagship apps live on the <strong>Google Play Store</strong> — along with many more solutions we’ve delivered.
+      </p>
     </div>
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="about-two__left-item">
-                    <div class="dots">
-                        <img class="sway_Y__animation" src="{{asset('assets/front/images/shape/about-two-dot.png')}}" alt="shape">
-                    </div>
-                    <div class="shape-halper">
-                        <img class="sway__animation" src="{{asset('assets/front/images/shape/about-circle-helper.png')}}"
-                            alt="shape">
-                    </div>
-                    <div class="image big-image">
-                        <img src="{{asset('assets/front/images/about/about-two-image1.jpg')}}" alt="image">
-                    </div>
-                    <div class="image sm-image">
-                        <img src="{{asset('assets/front/images/about/about-two-image2.png')}}" alt="image">
-                    </div>
-                    <div class="circle-shape">
-                        <img class="animation__rotate" src="{{asset('assets/front/images/shape/about-two-circle.png')}}"
-                            alt="shape">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="section-header mb-20">
-                    <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0.75" y="0.75" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                                stroke-width="1.5" />
-                            <mask id="path-2-inside-1_668_146" fill="white">
-                                <path
-                                    d="M3 6C3 3.79086 4.79086 2 7 2H13C15.2091 2 17 3.79086 17 6C17 8.20914 15.2091 10 13 10H7C4.79086 10 3 8.20914 3 6Z" />
-                            </mask>
-                            <path
-                                d="M3 6C3 2.96243 5.46243 0.5 8.5 0.5H11.5C14.5376 0.5 17 2.96243 17 6C17 4.61929 15.2091 3.5 13 3.5H7C4.79086 3.5 3 4.61929 3 6ZM17 6C17 9.03757 14.5376 11.5 11.5 11.5H8.5C5.46243 11.5 3 9.03757 3 6C3 7.38071 4.79086 8.5 7 8.5H13C15.2091 8.5 17 7.38071 17 6ZM3 10V2V10ZM17 2V10V2Z"
-                                fill="#3C72FC" mask="url(#path-2-inside-1_668_146)" />
-                        </svg>
-                        App Development Solutions
-                    </h5>
-                    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        Building Scalable & User-Friendly Mobile Applications
-                    </h2>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        We specialize in creating <strong>custom mobile and web applications</strong> designed to deliver
-                        seamless user experiences and drive business growth. Our team develops
-                        <em>cross-platform apps</em>, <em>iOS & Android native applications</em>, and
-                        <em>enterprise-grade software solutions</em> with a focus on performance, scalability,
-                        and security. From startups to enterprises, we ensure your app idea turns into a
-                        <strong>high-performing digital product</strong> that stands out in the competitive market.
-                    </p>
-                </div>
 
-                <div class="about-two__right-item wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i> Custom iOS & Android App Development</li>
-                        <li><i class="fa-solid fa-check"></i> Cross-Platform & Hybrid App Solutions</li>
-                    </ul>
-                    <ul>
-                        <li><i class="fa-solid fa-check"></i> UI/UX Design for Engaging User Experience</li>
-                        <li><i class="fa-solid fa-check"></i> Scalable & Secure Enterprise Applications</li>
-                    </ul>
-                </div>
-            </div>
-
-
+    <div class="row g-4">
+      <!-- Featured App 1 -->
+      <div class="col-md-6">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="00ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h4 class="case-single__title">Laundry Service App</h4>
+          <p class="client-quote">Cross-platform laundry booking app with online payments, order tracking, and push notifications.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.metadigital.laundry_service" target="_blank" class="client-link">View on Play Store →</a>
         </div>
+      </div>
+
+      <!-- Featured App 2 -->
+      <div class="col-md-6">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="200ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-code"></i></div>
+          <h4 class="case-single__title">Curtain Cleaning App</h4>
+          <p class="client-quote">Custom booking app with CRM integration, secure payments, and real-time status updates.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.metadigital.curtain_cleaning" target="_blank" class="client-link">View on Play Store →</a>
+        </div>
+      </div>
     </div>
+
+    <!-- More Clients -->
+    <div class="row g-4 mt-4">
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="400ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-gears"></i></div>
+          <h4 class="case-single__title">CurtainLaundry.ae</h4>
+          <p class="client-quote">Progressive web app with admin dashboard — making bookings seamless across devices.</p>
+          <a href="https://curtainlaundry.ae/" target="_blank" class="client-link">View Project →</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="600ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-water"></i></div>
+          <h4 class="case-single__title">SeaHeroWaterSports</h4>
+          <p class="client-quote">Adventure booking mobile app with instant reservations and chatbot support.</p>
+          <a href="https://seaherowatersports.com/" target="_blank" class="client-link">View Project →</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4">
+        <div class="client-card text-center wow fadeInUp" data-wow-delay="800ms">
+          <div class="icon-circle mb-3"><i class="fa-solid fa-shield-halved"></i></div>
+          <h4 class="case-single__title">CarpetWashing.ae</h4>
+          <p class="client-quote">Secure Laravel mobile app with payment integration and role-based access control.</p>
+          <a href="https://carpetwashing.ae/" target="_blank" class="client-link">View Project →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="{{route('contact')}}" class="btn-one">Build Your App <i class="fa-regular fa-arrow-right-long"></i></a>
+    </div>
+  </div>
 </section>
-<!-- About area end here -->
+
 
 <!-- Process area start here -->
 <section class="process-area pt-40 pb-50">
@@ -193,6 +247,15 @@
 <!-- Projects Showcase start here -->
 <section class="projects-area pt-40 pb-50">
     <div class="container">
+
+    <div class="section-header text-center mb-60">
+    <h5>
+        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+        APP DEVELOPMENT SOLUTIONS
+    </h5>
+    <h2>Innovative Mobile Apps for UAE Businesses</h2>
+    <p>At MetaDigital Marketing, we design and develop <strong>custom mobile applications</strong> that are <strong>intuitive, scalable, and user-friendly</strong>. Our iOS and Android solutions empower UAE businesses with <strong>seamless functionality, engaging designs, and secure payment integrations</strong>.</p>
+</div>
 
         <!-- Project 1 -->
         <div class="row align-items-center flex-row-reverse mb-100">

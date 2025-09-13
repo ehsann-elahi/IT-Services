@@ -29,7 +29,7 @@
 <!-- Page banner area end here -->
 
 <!-- Service area start here -->
-<section class="service-single-area pt-120 pb-120">
+<section class="service-single-area pt-120 pb-50">
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
@@ -64,79 +64,6 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mb-40">Thousands of people search online for solutions your business offers. Without SEO your website might get lost in the crowd.Every project is handled with care, ensuring your website not only looks professional but also helps your business grow online.</p>
-                    <h3 class="title mb-30">Common Queries About Our SEO Services</h3>
-                    <p class="mb-30">Many businesses have questions before starting their SEO journey. From how long SEO takes to deliver results to whether it works better than paid ads we are here to clear your doubts.We make sure you feel confident about investing in search engine optimization for long-term growth.</p>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-                                    Is SEO suitable for small businesses?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Absolutely. Local SEO helps small businesses get discovered in their area making it easier to compete with bigger brands.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                    aria-expanded="false" aria-controls="collapseTwo">
-                                    How do I know SEO is working?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>We provide regular reports on traffic keyword rankings and leads so you can track real growth.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingthree">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                                    aria-expanded="false" aria-controls="collapsethree">
-                                    How long does SEO take to show results?
-                                </button>
-                            </h2>
-                            <div id="collapsethree" class="accordion-collapse collapse"
-                                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>SEO is a long-term investment. Most businesses start seeing improvements in 3–6 months with stronger results over time.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-                            data-wow-duration="1500ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                    aria-expanded="false" aria-controls="collapseFour">
-                                    Do I still need SEO if I run ads?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Yes Ads stop showing when you stop paying, but SEO builds lasting visibility and trust. Both work even better together.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2">
@@ -144,17 +71,19 @@
                     <div class="item sub-bg mb-30">
                         <h4 class="mb-20">All Services</h4>
                         <ul class="category service-category">
-                            <li class="active"><a href="#0">Digital Marketing</a> <i
+                            <li><a href="{{route('WebDevelopment')}}">Web Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Web Development</a> <i
+                            <li class="active"><a href="{{route('Digitalmarketing')}}">Digital Marketing</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">App Development</a> <i
+                            <li><a href="{{route('AppDevelopment')}}">App Development</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">SEO</a> <i
+                            <li><a href="{{route('Seo')}}">SEO</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Graphic Desigining</a> <i
+                            <li><a href="{{route('Graphicdesigning')}}">Graphic Desigining</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
-                            <li><a href="#0">Social Media Marketing</a> <i
+                            <li><a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a> <i
+                                    class="fa-regular fa-arrow-right-long primary-color"></i></li>
+                            <li><a href="{{route('googleads')}}">Google Ads</a> <i
                                     class="fa-regular fa-arrow-right-long primary-color"></i></li>
                         </ul>
                     </div>
@@ -218,4 +147,184 @@
 </section>
 <!-- Service area end here -->
 
+<!-- SEO Work Process start here -->
+<section class="projects-area pt-40 pb-50">
+    <div class="container">
+
+    
+
+        <div class="section-header text-center mb-60">
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                SEO SOLUTIONS
+            </h5>
+            <h2>Our SEO Expertise</h2>
+            <p>With proven SEO strategies, we help businesses achieve <strong>top Google rankings, high-quality traffic, and 100% measurable results</strong> across the UAE market.</p>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/seo1.png')}}" alt="SEO Audit & Strategy">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 1: SEO Audit & Strategy</h3>
+                <p>We start with a detailed <strong>SEO audit and competitor analysis</strong> to understand your
+                    current rankings, industry trends, and target audience. Based on insights, we create a
+                    <strong>custom SEO strategy</strong> to help your business rank higher and gain more organic traffic.
+                </p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Comprehensive website SEO audit</li>
+                    <li><i class="fa-solid fa-check"></i> In-depth competitor & keyword analysis</li>
+                    <li><i class="fa-solid fa-check"></i> Tailored SEO strategy for your business</li>
+                    <li><i class="fa-solid fa-check"></i> Clear roadmap for long-term rankings</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/seo2.png')}}" alt="On-Page Optimization">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 2: On-Page Optimization</h3>
+                <p>We optimize your website with <strong>SEO best practices</strong> including meta tags, site speed,
+                    mobile responsiveness, and content structure. Our goal is to create a <strong>user-friendly and
+                        search-engine-friendly</strong> website that drives better rankings and conversions.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Optimized titles, meta descriptions & headings</li>
+                    <li><i class="fa-solid fa-check"></i> Improved site speed & mobile performance</li>
+                    <li><i class="fa-solid fa-check"></i> SEO-friendly content & internal linking</li>
+                    <li><i class="fa-solid fa-check"></i> Error-free technical SEO setup</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/seo3.png')}}" alt="Off-Page SEO & Link Building">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 3: Off-Page SEO & Link Building</h3>
+                <p>We strengthen your online authority with <strong>high-quality backlinks, content marketing, and local SEO strategies</strong>.
+                    This ensures your business gains <strong>trust, visibility, and higher Google rankings</strong> in the UAE and beyond.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> White-hat link building strategies</li>
+                    <li><i class="fa-solid fa-check"></i> Local SEO for UAE business growth</li>
+                    <li><i class="fa-solid fa-check"></i> Content-driven outreach campaigns</li>
+                    <li><i class="fa-solid fa-check"></i> Stronger brand authority & visibility</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="{{asset('assets/front/images/case/seo4.png')}}" alt="Tracking & Results">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">Step 4: Tracking, Reporting & Results</h3>
+                <p>We continuously monitor your <strong>rankings, traffic, and conversions</strong> to ensure
+                    100% measurable results. With transparent reports and ongoing optimization, we help you
+                    maintain <strong>top rankings and long-term SEO success</strong>.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Monthly performance reports</li>
+                    <li><i class="fa-solid fa-check"></i> Keyword ranking & traffic tracking</li>
+                    <li><i class="fa-solid fa-check"></i> Continuous SEO improvements</li>
+                    <li><i class="fa-solid fa-check"></i> 100% client satisfaction guaranteed</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- SEO Work Process end here -->
+
+
+
+<div class="container mt-30  pt-30">
+
+    <h3 class="title mb-30 text-center">Common Queries About Our SEO Services</h3>
+    <p class="mb-30">Many businesses have questions before starting their SEO journey. From how long SEO takes to deliver results to whether it works better than paid ads we are here to clear your doubts.We make sure you feel confident about investing in search engine optimization for long-term growth.</p>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    Is SEO suitable for small businesses?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Absolutely. Local SEO helps small businesses get discovered in their area making it easier to compete with bigger brands.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    How do I know SEO is working?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>We provide regular reports on traffic keyword rankings and leads so you can track real growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingthree">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                    aria-expanded="false" aria-controls="collapsethree">
+                    How long does SEO take to show results?
+                </button>
+            </h2>
+            <div id="collapsethree" class="accordion-collapse collapse"
+                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>SEO is a long-term investment. Most businesses start seeing improvements in 3–6 months with stronger results over time.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+            data-wow-duration="1500ms">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
+                    Do I still need SEO if I run ads?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Yes Ads stop showing when you stop paying, but SEO builds lasting visibility and trust. Both work even better together.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
