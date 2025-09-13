@@ -1,8 +1,8 @@
 @extends('layout.app')
-@section('title','Secure Shopping at the Best Place to Buy Window Curtains')
-@section('description','We understand the importance of trust when shopping online. That is why we ensure safe transactions and strict privacy standards. Whether you are browsing luxury window curtains Dubai residents love or looking for the best place to buy window curtains')
-@section('og:description','We understand the importance of trust when shopping online. That is why we ensure safe transactions and strict privacy standards. Whether you are browsing luxury window curtains Dubai residents love or looking for the best place to buy window curtains')
-@section('og:title','Secure Shopping at the Best Place to Buy Window Curtains')
+@section('title','Social Media Marketing & Management in Dubai and Abu Dhabi')
+@section('description','We offer various high-quality and affordable social media marketing bundle packages. Unlike other digital agencies in Abu Dhabi & Dubai regions')
+@section('og:description','We offer various high-quality and affordable social media marketing bundle packages. Unlike other digital agencies in Abu Dhabi & Dubai regions')
+@section('og:title','Social Media Marketing & Management in Dubai and Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')

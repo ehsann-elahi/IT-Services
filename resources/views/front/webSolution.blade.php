@@ -1,8 +1,8 @@
 @extends('layout.app')
-@section('title','Secure Shopping at the Best Place to Buy Window Curtains')
-@section('description','We understand the importance of trust when shopping online. That is why we ensure safe transactions and strict privacy standards. Whether you are browsing luxury window curtains Dubai residents love or looking for the best place to buy window curtains')
-@section('og:description','We understand the importance of trust when shopping online. That is why we ensure safe transactions and strict privacy standards. Whether you are browsing luxury window curtains Dubai residents love or looking for the best place to buy window curtains')
-@section('og:title','Secure Shopping at the Best Place to Buy Window Curtains')
+@section('title','Connect with the best Web Development companies')
+@section('description','Looking for expert web development? MetaDigital creates responsive SEO-optimized websites that boost visibility conversions and long-term success.')
+@section('og:description','Looking for expert web development? MetaDigital creates responsive SEO-optimized websites that boost visibility conversions and long-term success.')
+@section('og:title','Connect with the best Web Development companies.')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')
