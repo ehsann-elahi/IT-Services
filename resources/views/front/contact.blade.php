@@ -37,8 +37,7 @@
             <div class="col-lg-5">
                 <div class="contact__left-item primary-bg">
                     <h3 class="text-white mb-30">Contact Information</h3>
-                    <p class="text-white">Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut
-                        blandit felis odio in turpis. Quisque.</p>
+                    <p class="text-white">Let's speak with our expert to discuss further on your requirements & solutions contact@metadigitalmarketing.ae</p>
                     <ul class="mt-40 mb-40">
                         <li>
                             <i>
@@ -117,7 +116,7 @@
                             GET IN TOUCH
                         </h5>
                         <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Transform Business into Digital</h2>
-                        <p class="wow fadeInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">Let's speak with our expert to discuss further on your requirements & solutions contact@metadigitalmarketing.ae</p>
+                        <p class="wow fadeInUp mt-3" data-wow-delay="400ms" data-wow-duration="1500ms">MetaDigital Marketing is a global digital marketing agency based in Dubai & Abu Dhabi that furnish out and out marketing solutions to the clients in UAE</p>
                     </div>
                     <div class="contact__form">
                         @if(session('success'))
