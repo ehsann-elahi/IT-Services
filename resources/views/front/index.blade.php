@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('title','Leading SEO and Digital Marketing Agency in Dubai & Abu Dhabi')
-@section('description','Meta Digital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
-@section('og:description','Meta Digital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
+@section('description','MetaDigital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
+@section('og:description','MetaDigital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
 @section('og:title','Leading SEO and Digital Marketing Agency in Dubai & Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())

@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('title','Services Designed to Boost Visibility & Conversions')
-@section('description','Discover Meta Digital’s proven results. Explore our portfolio of successful digital marketing campaigns, web design projects, and creative solutions that helped businesses grow online.')
-@section('og:description','Discover Meta Digital’s proven results. Explore our portfolio of successful digital marketing campaigns, web design projects, and creative solutions that helped businesses grow online.')
+@section('description','Discover MetaDigital’s proven results. Explore our portfolio of successful digital marketing campaigns, web design projects, and creative solutions that helped businesses grow online.')
+@section('og:description','Discover MetaDigital’s proven results. Explore our portfolio of successful digital marketing campaigns, web design projects, and creative solutions that helped businesses grow online.')
 @section('og:title','Services Designed to Boost Visibility & Conversions')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())

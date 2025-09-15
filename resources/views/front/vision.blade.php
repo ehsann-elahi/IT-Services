@@ -1,7 +1,7 @@
 @extends('layout.app')
-@section('title','Meta Digital’s Mission to Empower Businesses in UAE')
-@section('description','At Meta Digital, our mission is to help businesses grow with innovative digital marketing, web development, and SEO strategies in UAE.')
-@section('og:description','At Meta Digital, our mission is to help businesses grow with innovative digital marketing, web development, and SEO strategies in UAE.')
+@section('title','MetaDigital’s Mission to Empower Businesses in UAE')
+@section('description','At MetaDigital, our mission is to help businesses grow with innovative digital marketing, web development, and SEO strategies in UAE.')
+@section('og:description','At MetaDigital, our mission is to help businesses grow with innovative digital marketing, web development, and SEO strategies in UAE.')
 @section('og:title','Meta Digital’s Mission to Empower Businesses in UAE')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
