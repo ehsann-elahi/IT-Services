@@ -75,18 +75,10 @@
 
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/banner-inner-page.jpg')}}">
-    <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-        <img src="{{asset('assets/front/images/banner/inner-banner-shape2.png')}}" alt="shape">
-    </div>
-    <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <img src="{{asset('assets/front/images/banner/inner-banner-shape1.png')}}" alt="shape">
-    </div>
-    <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
-    </div>
+    data-background="{{asset('assets/front/images/banner/vision.png')}}">
+         
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Vision & Mission</h2>
+        <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Vision & Mission</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>Vision & Mission</span>
         </div>
@@ -172,7 +164,7 @@
                         <div class="portfolio-content">
                             <h4>Digital Marketing Campaign</h4>
                             <p>Boosted client visibility in Dubai with SEO, Google Ads & social media strategy, driving 300% more leads.</p>
-                            <a href="#" class="btn-one">View Case Study <i class="fa-regular fa-arrow-right-long"></i></a>
+                            <a href="{{route('marketingSolution')}}" class="btn-one">View Case Study <i class="fa-regular fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
@@ -186,7 +178,7 @@
                         <div class="portfolio-content">
                             <h4>Corporate Website Development</h4>
                             <p>Developed a responsive and SEO-friendly corporate website that increased client engagement by 250%.</p>
-                            <a href="#" class="btn-one">View Case Study <i class="fa-regular fa-arrow-right-long"></i></a>
+                            <a href="{{route('websolution')}}" class="btn-one">View Case Study <i class="fa-regular fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
@@ -200,7 +192,7 @@
                         <div class="portfolio-content">
                             <h4>Mobile App Solution</h4>
                             <p>Created a user-friendly mobile app for a UAE-based startup, streamlining operations & boosting revenue.</p>
-                            <a href="#" class="btn-one">View Case Study <i class="fa-regular fa-arrow-right-long"></i></a>
+                            <a href="{{route('appSolution')}}" class="btn-one">View Case Study <i class="fa-regular fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>

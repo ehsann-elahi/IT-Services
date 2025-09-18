@@ -9,18 +9,10 @@
 
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/banner-inner-page.jpg')}}">
-    <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-        <img src="{{asset('assets/front/images/banner/inner-banner-shape2.png')}}" alt="shape">
-    </div>
-    <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <img src="{{asset('assets/front/images/banner/inner-banner-shape1.png')}}" alt="shape">
-    </div>
-    <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
-    </div>
+    data-background="{{asset('assets/front/images/banner/contact.png')}}">
+         
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Contact Us</h2>
+        <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Contact Us</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <p class="text-white">Want Meta Digital Marketing to Produce A Customize Solutions for your Business?</p>
 
@@ -75,7 +67,7 @@
                             </i>
                             <div>
                                 <span class="text-white">Make a Quote</span>
-                                <h3 class="mt-1"><a class="text-white" href="#0">info@gmail.com</a>
+                                <h3 class="mt-1"><a class="text-white" href="#0">contact@metadigitalmarketing.ae</a>
                                 </h3>
                             </div>
                         </li>

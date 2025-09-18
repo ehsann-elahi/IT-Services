@@ -3121,18 +3121,15 @@ input.main-search-input::placeholder {
   bottom: 0;
   z-index: -1;
 }
-.banner__inner-page::before {
-  background: linear-gradient(270.07deg, #002b98 0.07%, #00060c 99.95%);
-  z-index: -1;
-  opacity: 0.75;
-}
+
 @media (max-width: 767px) {
   .banner__inner-page {
     padding: 80px 0;
   }
 }
-.banner__inner-page h2 {
+.banner__inner-page h1 {
   margin-bottom: 10px;
+  font-size: 45px;
   color: var(--white);
 }
 .banner__inner-page span {

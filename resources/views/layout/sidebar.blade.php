@@ -10,12 +10,11 @@
         </div>
         <div class="mobile-menu overflow-hidden"></div>
         <ul class="info pt-40">
-            <li><i class="fa-solid primary-color fa-location-dot"></i> <a href="#0">example@example.com</a>
-            </li>
+            
             <li class="py-2"><i class="fa-solid primary-color fa-phone-volume"></i> <a
-                    href="tel:+208-6666-0112">+208-6666-0112</a>
+                    href="tel:+208-6666-0112">+971 52 541 2617</a>
             </li>
-            <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">info@example.com</a></li>
+            <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">contact@metadigitalmarketing.ae</a></li>
         </ul>
         <div class="social-icon mt-20">
             <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>

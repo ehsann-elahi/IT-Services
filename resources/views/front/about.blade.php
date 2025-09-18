@@ -9,18 +9,10 @@
 @section('content')
 
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/banner-inner-page.jpg')}}">
-    <div class="shape2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-        <img src="{{asset('assets/front/images/banner/inner-banner-shape2.png')}}" alt="shape">
-    </div>
-    <div class="shape1 wow slideInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <img src="{{asset('assets/front/images/banner/inner-banner-shape1.png')}}" alt="shape">
-    </div>
-    <div class="shape3 wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <img class="sway__animationX" src="{{asset('assets/front/images/banner/inner-banner-shape3.png')}}" alt="shape">
-    </div>
+    data-background="{{asset('assets/front/images/banner/about.png')}}">
+         
     <div class="container">
-        <h2 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">About Us-Your Trusted Partner in Digital Growth</h2>
+        <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Your Trusted Partner in Digital Growth</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <p class="text-white">At MetaDigital Marketing, we help businesses unlock their full potential in the digital world.</p>
             <a href="{{route('index')}}">Home</a><span><i class="fa-regular fa-angles-right mx-2"></i>About
@@ -365,31 +357,65 @@
                         </h5>
                         <h2 class="text-white">How May We Help You!</h2>
                     </div>
-                    <form action="#">
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <label for="name">Your name*</label>
-                                <input type="text" id="name" value="Robot fox">
+                      <form action="{{ route('contact.store') }}" method="POST">
+                            @csrf
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="name">Your Name*</label>
+                                    <input id="name" class="bg-transparent bor form-control" type="text" name="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col-6">
+                                    <label for="email">Your Email*</label>
+                                    <input class="bg-transparent bor form-control" id="email" type="email" name="email"
+                                        placeholder="Your Email" required>
+                                </div>
                             </div>
-                            <div class="col-sm-6">
-                                <label for="email">Your Email*</label>
-                                <input type="email" id="email" value="info@example.com">
+
+                            {{-- Phone Number --}}
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <label for="country_code">Country Code*</label>
+                                    <select id="country_code" name="country_code" class="form-control" required>
+                                        @foreach($countries as $country)
+                                        <option value="{{ $country['code'] }}">
+                                            {{ $country['name'] }} ({{ $country['code'] }})
+                                        </option>
+                                        @endforeach
+                                    </select>
+
+
+                                </div>
+                                <div class="col-6">
+                                    <label for="phone">Enter Phone Number*</label>
+                                    <input id="phone" type="text" name="phone" class="form-control bg-transparent bor"
+                                        placeholder="Enter Phone Number" required>
+                                </div>
                             </div>
-                            <div class="col-sm-6">
-                                <label for="subject">subject*</label>
-                                <input type="text" id="subject" value="Subject">
+
+                            {{-- Subject --}}
+                            <div class="mt-3">
+                                <label for="subject">Your Subject*</label>
+                                <input id="subject" type="text" name="subject" class="form-control bg-transparent bor"
+                                    placeholder="Your Subject" required>
                             </div>
-                            <div class="col-sm-6">
-                                <label for="number">Your Phone*</label>
-                                <input type="text" id="number" value="+1253 457 7840">
+
+                            {{-- Message --}}
+                            <div class="text-area mt-3">
+                                <label for="message">Write Message*</label>
+                                <textarea class="bg-transparent  bor form-control" id="message" name="message"
+                                    placeholder="Write Message" required></textarea>
                             </div>
-                            <div class="col-12">
-                                <label for="massage">Message*</label>
-                                <textarea id="massage" placeholder="Write Message"></textarea>
+
+                            {{-- Submit Button --}}
+                            <div class="btn-two mt-3">
+                                <span class="btn-circle"></span>
+                                <button type="submit" class="btn-one">
+                                    Send Message <i class="fa-regular fa-arrow-right-long"></i>
+                                </button>
                             </div>
-                        </div>
-                        <button>Sand Message</button>
-                    </form>
+                        </form>
+
                 </div>
             </div>
             <div class="col-lg-6 ps-2 ps-lg-5">
@@ -591,19 +617,7 @@
                     
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/farwa.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">MS. FARWA</a></h4>
-                        <span class="text-white">Email Marketing</span>
-                    </div>
-                    
-                </div>
-            </div>
+           
 
         </div>
     </div>

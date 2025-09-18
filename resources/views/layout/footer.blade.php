@@ -41,7 +41,7 @@
                         </li>
                         <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>App Development</a></li>
                         <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>Graphic Designer</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>SM Marketing</a></li>
+                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>SMM Marketing</a></li>
                     </ul>
                 </div>
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
@@ -88,11 +88,7 @@
                     class="d-flex gap-1 flex-wrap align-items-center justify-content-md-between justify-content-center">
                     <p class="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">&copy; All Copyright 2025
                         by <a href="{{route('index')}}">MetaDigital</a></p>
-                    <ul class="d-flex align-items-center gap-4 wow fadeInDown" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        <li><a href="#0">Terms & Condition</a></li>
-                        <li><a href="#0">Privacy Policy</a></li>
-                    </ul>
+                   
                 </div>
             </div>
         </div>

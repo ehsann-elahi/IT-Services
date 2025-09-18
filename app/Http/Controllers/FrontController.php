@@ -15,6 +15,7 @@ class FrontController extends Controller
 
     public function index()
     {
+        $blogs = Blog::latest()->take(3)->get();
         $countries = [
             ["name" => "United Arab Emirates", "code" => "+971"],
             ["name" => "Afghanistan", "code" => "+93"],
@@ -30,12 +31,27 @@ class FrontController extends Controller
             ["name" => "United Kingdom", "code" => "+44"],
             ["name" => "United States", "code" => "+1"],
         ];
-        return view('front.index', compact('countries'));
+        return view('front.index', compact('countries', 'blogs'));
     }
 
     public function aboutus()
     {
-        return view('front.about');
+         $countries = [
+            ["name" => "United Arab Emirates", "code" => "+971"],
+            ["name" => "Afghanistan", "code" => "+93"],
+            ["name" => "Australia", "code" => "+61"],
+            ["name" => "Canada", "code" => "+1"],
+            ["name" => "China", "code" => "+86"],
+            ["name" => "France", "code" => "+33"],
+            ["name" => "Germany", "code" => "+49"],
+            ["name" => "India", "code" => "+91"],
+            ["name" => "Japan", "code" => "+81"],
+            ["name" => "Pakistan", "code" => "+92"],
+            ["name" => "Saudi Arabia", "code" => "+966"],
+            ["name" => "United Kingdom", "code" => "+44"],
+            ["name" => "United States", "code" => "+1"],
+        ];
+        return view('front.about', compact('countries'));
     }
 
     public function services()

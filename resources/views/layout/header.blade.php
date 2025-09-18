@@ -85,7 +85,7 @@
                  <div class="about-three__left-item d-flex flex-wrap gap-2 align-items-center">
 
                      <div class="info">
-                         <span class="sm-font fw-600 text-white">Call Us Now</span>
+                         <span class="sm-font fw-600 text-white">Contact Us Now</span>
                          <h5 class="text-white">+971 52 541 2617</h5>
                      </div>
                  </div>
