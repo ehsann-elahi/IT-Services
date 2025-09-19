@@ -245,8 +245,23 @@
 
 
 <div class="container mt-30 pt-30 pb-40">
-    <h3 class="title mb-30 text-center">Most Common Queries About Our Digital Marketing Services</h3>
-    <p class="mb-30">At MetaDigital Marketing Agency we understand that businesses often have questions before investing in digital marketing services. Whether you are looking for the best digital marketing agency exploring the role of a social media marketing agency our experts are here to guide you.</p>
+       <h5 class="wow fadeInUp text-center" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
+                                    stroke-width="1.5" />
+                                <mask id="path-2-inside-1_1120_294" fill="white">
+                                    <path
+                                        d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
+                                </mask>
+                                <path
+                                    d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
+                                    fill="#3C72FC" mask="url(#path-2-inside-1_1120_294)" />
+                            </svg>
+                            FAQ
+                        </h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Common Queries About Our Digital Marketing Services</h2>
+    <p class="mb-30 mt-20">At MetaDigital Marketing Agency we understand that businesses often have questions before investing in digital marketing services. Whether you are looking for the best digital marketing agency exploring the role of a social media marketing agency our experts are here to guide you.</p>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
             data-wow-duration="1500ms">

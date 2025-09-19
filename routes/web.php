@@ -46,7 +46,8 @@ Route::get('/social-media-marketing', [FrontController::class, 'Socialmediamarke
 Route::get('/google-ads', [FrontController::class, 'googleads'])->name('googleads');
 Route::get('/our-team', [FrontController::class, 'OurTeam'])->name('ourteam');
 Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
-Route::get('/blog-detail', [FrontController::class, 'blogDetail'])->name('blogDetail');
+Route::get('/blog/{id}', [FrontController::class, 'blogDetail'])->name('blogDetail');
+
 // Show contact form
 Route::get('/contact-us', [FrontController::class, 'contact'])->name('contact');
 

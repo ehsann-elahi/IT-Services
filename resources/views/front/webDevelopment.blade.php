@@ -9,7 +9,7 @@
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/web.png')}}">
-         
+
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Website Development</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -27,18 +27,16 @@
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
-                    <div class="video-wrapper" id="youtube-player" style="position: relative; cursor: pointer; max-width: 100%; border-radius: 10px; overflow: hidden;">
-                        <!-- Thumbnail -->
-                        <img src="https://img.youtube.com/vi/eSg_s0gQR8Y/hqdefault.jpg"
-                            alt="Video Thumbnail"
-                            style="width:100%; display:block;">
-
-                        <!-- Play Button Overlay -->
-                        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-                background: rgba(0,0,0,0.6); border-radius: 50%; width: 70px; height: 70px; 
-                display: flex; justify-content: center; align-items: center; color: white; font-size: 30px;">
-                            ▶
+                    <div class="image mb-50">
+                        <img src="{{asset('assets/front/images/service/service-single-image1.jpg')}}" alt="image">
+                        <div class="service-single__video-btn">
+                            <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
+                                data-wow-duration="1500ms">
+                                <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
+                                        class="fa-solid fa-play"></i></a>
+                            </div>
                         </div>
+
                     </div>
 
                     <h3 class="title mb-30">Website Development Service</h3>
@@ -146,7 +144,7 @@
 <!-- Service area end here -->
 
 <!-- Web Development Work Process start here -->
-<section class="projects-area pt-80 pb-50">
+<section class="projects-area pt-40 pb-50">
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
@@ -247,9 +245,24 @@
 <!-- Web Development Work Process end here -->
 
 <!-- FAQ area start here -->
-<div class="container mt-70 pt-70 pb-40 ">
-    <h3 class="title mb-30 text-center">Common Queries About Our Web Development Services</h3>
-    <p class="mb-30">Choosing the right partner for your website can be confusing. Businesses often ask about pricing customization SEO benefits and the overall process of web development. At MetaDigital Marketing, we understand these concerns and provide clear answers</p>
+<div class="container mt-40 pt-20 pb-40 ">
+    <h5 class="wow fadeInUp text-center" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
+                                    stroke-width="1.5" />
+                                <mask id="path-2-inside-1_1120_294" fill="white">
+                                    <path
+                                        d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
+                                </mask>
+                                <path
+                                    d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
+                                    fill="#3C72FC" mask="url(#path-2-inside-1_1120_294)" />
+                            </svg>
+                            FAQ
+                        </h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Common Queries About Our Web Development Services</h2>
+    <p class="mb-30 mt-20">Choosing the right partner for your website can be confusing. Businesses often ask about pricing customization SEO benefits and the overall process of web development. At MetaDigital Marketing, we understand these concerns and provide clear answers</p>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
             data-wow-duration="1500ms">
@@ -358,13 +371,13 @@
 <!-- Quote area end here -->
 
 <script>
-document.getElementById("youtube-player").addEventListener("click", function() {
-    this.innerHTML = `<iframe width="100%" height="400" 
+    document.getElementById("youtube-player").addEventListener("click", function() {
+        this.innerHTML = `<iframe width="100%" height="400" 
         src="https://www.youtube.com/embed/eSg_s0gQR8Y?autoplay=1&mute=1&modestbranding=1&rel=0&controls=1" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen>
     </iframe>`;
-});
+    });
 </script>
 @endsection

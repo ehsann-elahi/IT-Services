@@ -8,7 +8,7 @@
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/graphic.png')}}">
-         
+
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Graphic Designing</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -144,13 +144,13 @@
 <section class="projects-area pt-40 pb-50">
     <div class="container">
         <div class="section-header text-center mb-60">
-    <h5>
-        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
-        GRAPHIC DESIGNING
-    </h5>
-    <h2>Our Creative Graphic Designing</h2>
-    <p>We design <strong>visually stunning and brand-focused graphics</strong> that capture attention, inspire trust, and create a lasting impact across all digital platforms.</p>
-</div>
+            <h5>
+                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                GRAPHIC DESIGNING
+            </h5>
+            <h2>Our Creative Graphic Designing</h2>
+            <p>We design <strong>visually stunning and brand-focused graphics</strong> that capture attention, inspire trust, and create a lasting impact across all digital platforms.</p>
+        </div>
 
 
         <!-- Step 1 -->
@@ -162,9 +162,9 @@
             </div>
             <div class="col-md-6">
                 <h3 class="case-single__title">Step 1: Research & Creative Strategy</h3>
-                <p>We begin every project with a deep understanding of your <strong>brand, audience, and goals</strong>. 
-                Our creative team conducts <strong>market research and competitor analysis</strong> to craft a design strategy 
-                that ensures your brand <strong>stands out and connects with your audience</strong>.</p>
+                <p>We begin every project with a deep understanding of your <strong>brand, audience, and goals</strong>.
+                    Our creative team conducts <strong>market research and competitor analysis</strong> to craft a design strategy
+                    that ensures your brand <strong>stands out and connects with your audience</strong>.</p>
                 <ul class="case-challenge mt-3">
                     <li><i class="fa-solid fa-check"></i> Brand analysis & creative planning</li>
                     <li><i class="fa-solid fa-check"></i> Competitor research for unique positioning</li>
@@ -183,9 +183,9 @@
             </div>
             <div class="col-md-6">
                 <h3 class="case-single__title">Step 2: Conceptualization & Design</h3>
-                <p>Our designers bring ideas to life with <strong>creative concepts, mood boards, and mockups</strong>. 
-                From <strong>logo design and brand identity</strong> to <strong>social media creatives and marketing materials</strong>, 
-                we ensure your brand <strong>looks professional, modern, and memorable</strong>.</p>
+                <p>Our designers bring ideas to life with <strong>creative concepts, mood boards, and mockups</strong>.
+                    From <strong>logo design and brand identity</strong> to <strong>social media creatives and marketing materials</strong>,
+                    we ensure your brand <strong>looks professional, modern, and memorable</strong>.</p>
                 <ul class="case-challenge mt-3">
                     <li><i class="fa-solid fa-check"></i> Unique & modern logo design</li>
                     <li><i class="fa-solid fa-check"></i> Engaging brand identity & style guides</li>
@@ -204,9 +204,9 @@
             </div>
             <div class="col-md-6">
                 <h3 class="case-single__title">Step 3: Design Execution & Delivery</h3>
-                <p>Once the concept is approved, our team creates <strong>high-quality, visually stunning designs</strong> 
-                optimized for both <strong>digital and print platforms</strong>. Every design is created with attention to detail, 
-                ensuring it strengthens your <strong>brand recognition and customer engagement</strong>.</p>
+                <p>Once the concept is approved, our team creates <strong>high-quality, visually stunning designs</strong>
+                    optimized for both <strong>digital and print platforms</strong>. Every design is created with attention to detail,
+                    ensuring it strengthens your <strong>brand recognition and customer engagement</strong>.</p>
                 <ul class="case-challenge mt-3">
                     <li><i class="fa-solid fa-check"></i> High-resolution designs for print & digital</li>
                     <li><i class="fa-solid fa-check"></i> Consistent branding across all channels</li>
@@ -225,9 +225,9 @@
             </div>
             <div class="col-md-6">
                 <h3 class="case-single__title">Step 4: Client Success & Brand Growth</h3>
-                <p>We focus on delivering <strong>100% client satisfaction</strong> with designs that not only look good 
-                but also <strong>deliver results</strong>. Our creative solutions have helped multiple businesses across the UAE 
-                achieve <strong>stronger brand recognition, customer trust, and higher engagement</strong>.</p>
+                <p>We focus on delivering <strong>100% client satisfaction</strong> with designs that not only look good
+                    but also <strong>deliver results</strong>. Our creative solutions have helped multiple businesses across the UAE
+                    achieve <strong>stronger brand recognition, customer trust, and higher engagement</strong>.</p>
                 <ul class="case-challenge mt-3">
                     <li><i class="fa-solid fa-check"></i> Proven record of happy, satisfied clients</li>
                     <li><i class="fa-solid fa-check"></i> Stronger brand recognition & credibility</li>
@@ -244,7 +244,22 @@
 
 <div class="container mt-30  pt-30 pb-40">
 
-    <h3 class="title mb-30 text-center">Common Queries About Our Graphic Designing Services</h3>
+    <h5 class="wow fadeInUp text-center" data-wow-delay="00ms" data-wow-duration="1500ms">
+        <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
+                stroke-width="1.5" />
+            <mask id="path-2-inside-1_1120_294" fill="white">
+                <path
+                    d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
+            </mask>
+            <path
+                d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
+                fill="#3C72FC" mask="url(#path-2-inside-1_1120_294)" />
+        </svg>
+        FAQ
+    </h5>
+    <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Common Queries About Our Graphic Designing Services</h3>
     <p class="mb-30">We often receive questions from businesses about our graphic designing services such as how the design process works what types of designs we offer and how long it takes to deliver a project. At MetaDigital we provide complete solutions</p>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"

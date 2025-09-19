@@ -32,16 +32,16 @@
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <h3 class="footer-title">IT Solution</h3>
                     <ul>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Web
+                        <li><a href="{{route('WebDevelopment')}}"><i class="fa-regular fa-angles-right me-1"></i> Web
                                 Development</a>
                         </li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> Digital Marketing</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i> SEO
+                        <li><a href="{{route('Digitalmarketing')}}"><i class="fa-regular fa-angles-right me-1"></i> Digital Marketing</a></li>
+                        <li><a href="{{route('Seo')}}"><i class="fa-regular fa-angles-right me-1"></i> SEO
                                 Optimization</a>
                         </li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>App Development</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>Graphic Designer</a></li>
-                        <li><a href="service-details.html"><i class="fa-regular fa-angles-right me-1"></i>SMM Marketing</a></li>
+                        <li><a href="{{route('AppDevelopment')}}"><i class="fa-regular fa-angles-right me-1"></i>App Development</a></li>
+                        <li><a href="{{route('Graphicdesigning')}}"><i class="fa-regular fa-angles-right me-1"></i>Graphic Designer</a></li>
+                        <li><a href="{{route('Socialmediamarketing')}}"><i class="fa-regular fa-angles-right me-1"></i>SMM Marketing</a></li>
                     </ul>
                 </div>
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">

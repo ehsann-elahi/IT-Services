@@ -36,7 +36,7 @@ class FrontController extends Controller
 
     public function aboutus()
     {
-         $countries = [
+        $countries = [
             ["name" => "United Arab Emirates", "code" => "+971"],
             ["name" => "Afghanistan", "code" => "+93"],
             ["name" => "Australia", "code" => "+61"],
@@ -92,11 +92,12 @@ class FrontController extends Controller
         $blogs = Blog::all();
         return view('front.blog', compact('blogs'));
     }
-    public function blogDetail()
+    public function blogDetail($id)
     {
-        $blogs = Blog::all();
-        return view('front.blogDetail', compact('blogs'));
+        $blog = Blog::findOrFail($id);
+        return view('front.blogDetail', compact('blog'));
     }
+
 
     public function store(Request $request)
     {

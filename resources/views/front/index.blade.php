@@ -1106,7 +1106,7 @@
                     <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Don't Miss Our
                         Latest Thoughts</h2>
                 </div>
-                <a href="blog.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+                <a href="{{route('blog')}}" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                     data-wow-duration="1500ms">View All
                     News <i class="fa-regular fa-arrow-right-long"></i></a>
             </div>
