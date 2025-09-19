@@ -43,6 +43,7 @@ Route::get('/digital-marketing', [FrontController::class, 'Digitalmarketing'])->
 Route::get('/seo', [FrontController::class, 'Seo'])->name('Seo');
 Route::get('/graphic-designing', [FrontController::class, 'Graphicdesigning'])->name('Graphicdesigning');
 Route::get('/social-media-marketing', [FrontController::class, 'Socialmediamarketing'])->name('Socialmediamarketing');
+Route::get('/google-ads', [FrontController::class, 'googleads'])->name('googleads');
 Route::get('/our-team', [FrontController::class, 'OurTeam'])->name('ourteam');
 Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
 Route::get('/blog-detail', [FrontController::class, 'blogDetail'])->name('blogDetail');
@@ -53,7 +54,6 @@ Route::get('/contact-us', [FrontController::class, 'contact'])->name('contact');
 Route::post('/contact-us', [FrontController::class, 'store'])->name('contact.store');
 Route::get('/pricing', [FrontController::class, 'price'])->name('price');
 Route::get('/mission-vision', [FrontController::class, 'missionvision'])->name('missionvision');
-Route::get('/google-ads', [FrontController::class, 'googleads'])->name('googleads');
 Route::get('/our-work', [FrontController::class, 'ourwork'])->name('ourwork');
 Route::get('/web-solution', [FrontController::class, 'websolution'])->name('websolution');
 Route::get('/marketing-solution', [FrontController::class, 'marketingSolution'])->name('marketingSolution');

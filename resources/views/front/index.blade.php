@@ -275,9 +275,9 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Website Development</a></h4>
+                                <h4><a href="{{route('WebDevelopment')}}" class="primary-hover">Website Development</a></h4>
                                 <p>We are professional team who are passionate to transform the business into digital. Web development can be first step to showing your brand/services on digital platforms in Dubai & Abu Dhabi </p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
+                                <a class="read-more-btn" href="{{route('WebDevelopment')}}">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -293,9 +293,9 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Social Media Marketing</a></h4>
+                                <h4><a href="{{route('Digitalmarketing')}}" class="primary-hover">Digital Marketing</a></h4>
                                 <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
+                                <a class="read-more-btn" href="{{route('Digitalmarketing')}}">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -311,9 +311,9 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Google Ads</a></h4>
+                                <h4><a href="{{route('googleads')}}" class="primary-hover">Google Ads</a></h4>
                                 <p>Our Google ads service provides budget friendly cheaper quick customer attention solutions to start-ups and businesses who are planning to launch a new product or service</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
+                                <a class="read-more-btn" href="{{route('googleads')}}">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -329,9 +329,9 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Search Engine Optimization</a></h4>
+                                <h4><a href="{{route('Seo')}}" class="primary-hover">Search Engine Optimization</a></h4>
                                 <p>Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
+                                <a class="read-more-btn" href="{{route('Seo')}}">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -347,9 +347,9 @@
                                 </div>
                                 <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
                                         alt="shape"></div>
-                                <h4><a href="service-details.html" class="primary-hover">Graphic Desigining</a></h4>
+                                <h4><a href="{{route('Graphicdesigning')}}" class="primary-hover">Graphic Desigining</a></h4>
                                 <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
-                                <a class="read-more-btn" href="service-details.html">Read More <i
+                                <a class="read-more-btn" href="{{route('Graphicdesigning')}}">Read More <i
                                         class="fa-regular fa-arrow-right-long"></i></a>
                             </div>
                         </div>
@@ -397,7 +397,7 @@
                             <li>Content Creation & Branding</li>
                             <li>Monthly Strategy Reports</li>
                         </ul>
-                        <a href="contact.html" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
+                        <a href="{{route('contact')}}" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
                     </div>
                 </div>
 
@@ -423,7 +423,7 @@
                             <li>Hosting & Domain Setup</li>
                             <li>SEO-Friendly Web Design</li>
                         </ul>
-                        <a href="contact.html" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
+                        <a href="{{route('contact')}}" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
                     </div>
                 </div>
 
@@ -449,7 +449,7 @@
                             <li>Custom App UI/UX Design</li>
                             <li>Maintenance & Support</li>
                         </ul>
-                        <a href="contact.html" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
+                        <a href="{{route('contact')}}" class="btn-one d-block text-center">Get Services <i class="fa-regular fa-arrow-right-long"></i></a>
                     </div>
                 </div>
 
@@ -503,46 +503,6 @@
                                             <h4 class="mb-1">Technology Consultancy</h4>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="about__info mt-30 wow fadeInDown" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <div class="d-flex flex-wrap gap-2 align-items-center">
-                                <img src="{{asset('assets/front/images/about/about-info.png')}}" alt="image">
-                                <div class="info">
-                                    <h5>Ronald Richards</h5>
-                                    <span class="sm-font">Co, Founder</span>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-wrap gap-2 align-items-center">
-                                <div class="about-call-icon">
-                                    <span><svg width="26" height="26" viewBox="0 0 26 26" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_918_1337)">
-                                                <path
-                                                    d="M5.41667 4.33337H9.75L11.9167 9.75004L9.20833 11.375C10.3685 13.7275 12.2725 15.6315 14.625 16.7917L16.25 14.0834L21.6667 16.25V20.5834C21.6667 21.158 21.4384 21.7091 21.0321 22.1154C20.6257 22.5218 20.0746 22.75 19.5 22.75C15.2742 22.4932 11.2885 20.6987 8.2949 17.7051C5.3013 14.7115 3.5068 10.7258 3.25 6.50004C3.25 5.9254 3.47827 5.3743 3.8846 4.96798C4.29093 4.56165 4.84203 4.33337 5.41667 4.33337Z"
-                                                    stroke="white" stroke-width="2" stroke-linecap="round"
-                                                    stroke-linejoin="round" />
-                                                <path
-                                                    d="M16.25 7.58337C16.8246 7.58337 17.3757 7.81165 17.7821 8.21798C18.1884 8.6243 18.4167 9.1754 18.4167 9.75004"
-                                                    stroke="white" stroke-width="2" stroke-linecap="round"
-                                                    stroke-linejoin="round" />
-                                                <path
-                                                    d="M16.25 3.25C17.9739 3.25 19.6272 3.93482 20.8462 5.15381C22.0652 6.37279 22.75 8.02609 22.75 9.75"
-                                                    stroke="white" stroke-width="2" stroke-linecap="round"
-                                                    stroke-linejoin="round" />
-                                            </g>
-                                            <defs>
-                                                <clipPath>
-                                                    <rect width="26" height="26" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg></span>
-                                </div>
-                                <div class="info">
-                                    <span class="sm-font fw-600 secondary-color">Contact Us Now</span>
-                                    <h5>+971 52 541 2617</h5>
                                 </div>
                             </div>
                         </div>
