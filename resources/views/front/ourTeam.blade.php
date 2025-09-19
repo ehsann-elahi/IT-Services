@@ -1,8 +1,8 @@
 @extends('layout.app')
-@section('title','Meet Our Team Meta Digital Experts Behind Your Success')
+@section('title','Meet Our Team MetaDigital Experts Behind Your Success')
 @section('description','You get access to a whole team of digital media specialists for the price of one employee.')
 @section('og:description','You get access to a whole team of digital media specialists for the price of one employee.')
-@section('og:title','Meet Our Team Meta Digital Experts Behind Your Success')
+@section('og:title','Meet Our Team MetaDigital Experts Behind Your Success')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
 @section('content')

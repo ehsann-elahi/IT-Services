@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('title','Leading SEO and Digital Marketing Agency in Dubai & Abu Dhabi')
-@section('description','Meta Digital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
-@section('og:description','Meta Digital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
+@section('description','MetaDigital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
+@section('og:description','MetaDigital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
 @section('og:title','Leading SEO and Digital Marketing Agency in Dubai & Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
 @section('canonical', url()->current())
@@ -57,7 +57,7 @@
                         WHO WE ARE
                     </h5>
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">MetaDigital Marketing</h2>
-                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms"> Meta Digital Marketing is a global digital marketing agency based in Ajman that furnishes out-and-out marketing solutions to clients in UAE covering social media marketing, website SEO, google advertisement, google my business registration, content marketin</p>
+                    <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms"> MetaDigital Marketing is a global digital marketing agency based in Ajman that furnishes out-and-out marketing solutions to clients in UAE covering social media marketing, website SEO, google advertisement, google my business registration, content marketin</p>
                 </div>
                 <div class="about-two__right-item wow fadeInDown" data-wow-delay="200ms"
                     data-wow-duration="1500ms">
