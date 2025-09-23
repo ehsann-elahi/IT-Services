@@ -595,162 +595,38 @@
                 <p class="text-black">You get access to a whole team of digital media specialists for the price of one employee.</p>
             </div>
             <div class="row g-4">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/shakeel.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">MR. SHAKEEL AHMAD</a></h4>
-                            <span class="text-white">HR MANAGER</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
+                 @foreach($teams as $team)
+            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
+                data-wow-duration="1500ms">
+                <div class="team__item">
+                    <div class="image">
+                        <img src="{{ asset('assets/upload/prod/' . $team->image) }}" alt="{{ $team->name }}">
+                    </div>
+                    <div class="team__content">
+                        <h4>
+                            <a class="text-white" href="#">{{ $team->name }}</a>
+                        </h4>
+                        <span class="text-white">{{ $team->expertise }}</span>
+                    </div>
+                    <div class="team__share">
+                        <ul>
+                            <li>
+                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                        <button>
+                            <i class="fa-sharp fa-light fa-share-nodes"></i>
+                        </button>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/nouman.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">MR. NOUMAN</a></h4>
-                            <span class="text-white">SR. Developer (Team Lead)</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/ehsaan.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">EHSAN ELLAHI</a></h4>
-                            <span class="text-white">Developer</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/ummar.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">MR. UMAR</a></h4>
-                            <span class="text-white">Digital Marketing (Team Lead)</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/amina.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">MS. AMINA MALIK</a></h4>
-                            <span class="text-white">Graphic Designer</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/ishrat.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">MS. ISHRAT FATIMA</a></h4>
-                            <span class="text-white">SEO SPECIALIST</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
-                    data-wow-duration="1500ms">
-                    <div class="team__item">
-                        <div class="image">
-                            <img src="{{asset('assets/front/images/team/minahil.png')}}" alt="image">
-                        </div>
-                        <div class="team__content">
-                            <h4><a class="text-white" href="team-details-2.html">MS. MINAHIL</a></h4>
-                            <span class="text-white">Social Media Marketing SPECIALIST</span>
-                        </div>
-                        <div class="team__share">
-                            <ul>
-                                <li>
-                                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li><a href="#0"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            </ul>
-                            <button><i class="fa-sharp fa-light fa-share-nodes"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-
+            </div>
+            @endforeach
             </div>
         </div>
     </section>
@@ -1114,7 +990,7 @@
                   @foreach($blogs as $blog)
             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                 <div class="blog__item">
-                    <a href="{{route('blogDetail')}}" class="blog__image d-block image">
+                    <a href="{{ route('blogDetail', $blog->id) }}" class="blog__image d-block image">
                         <img src="{{ asset('assets/upload/prod/' . $blog->image) }}" alt="image">
                         <div class="blog-tag">
                             <h3 class="text-white">10</h3>
@@ -1132,7 +1008,7 @@
                         </ul>
 
                         <h3>
-                            <a href="{{route('blogDetail')}}" class="primary-hover">
+                            <a href="{{route('blogDetail', $blog->id) }}" class="primary-hover">
                                 {{ $blog->title }}
                             </a>
                         </h3>
@@ -1140,7 +1016,7 @@
                         <p>{!! \Illuminate\Support\Str::limit(strip_tags($blog->description), 150, '...') !!}</p>
 
 
-                        <a class="mt-25 read-more-btn" href="{{route('blogDetail')}}">
+                        <a class="mt-25 read-more-btn" href="{{route('blogDetail' , $blog->id)}}">
                             Read More <i class="fa-regular fa-arrow-right-long"></i>
                         </a>
                     </div>

@@ -1,30 +1,39 @@
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>@yield('title') | {{ config('app.name','Laravel') }}</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>@yield('title') | {{ config('app.name','MetaDigital Marketing') }}</title>
 
 <meta name="description" content="@yield('description')">
-<meta name="og:description" content="@yield('og:description')">
- <!-- Favicon img -->
- <link rel="shortcut icon" href="{{asset('assets/front/images/favicon.png')}}">
- <!-- Bootstarp min css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/bootstrap.min.css')}}">
- <!-- Mean menu css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/meanmenu.css')}}">
- <!-- All min css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/all.min.css')}}">
- <!-- Swiper bundle min css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/swiper-bundle.min.css')}}">
- <!-- Magnigic popup css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/magnific-popup.css')}}">
- <!-- Animate css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/animate.css')}}">
- <!-- Nice select css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/nice-select.css')}}">
- <!-- Style css -->
- <link rel="stylesheet" href="{{asset('assets/front/css/style.css')}}">
+<meta property="og:title" content="@yield('og:title','Leading SEO & Digital Marketing Agency Dubai & Abu Dhabi')">
+<meta property="og:description" content="@yield('og:description')">
+<meta property="og:type" content="website">
+<meta property="og:url" content="@yield('canonical','https://metadigitalmarketing.ae/')">
+<meta property="og:site_name" content="metadigitalmarketing">
+<meta property="og:image" content="https://metadigitalmarketing.ae/assets/img/homeImages/launcher.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 
- <link rel="canonical" href="@yield('canonical')" />
+<link rel="canonical" href="@yield('canonical','https://metadigitalmarketing.ae/')" />
 
- @yield('styles')
- @stack('header')
+<meta name="google-site-verification" content="pPQHy1S6zumy8SsHzj9Dp4ALuCCWbTZpCsWdySPa7Hc"/>
+
+<!-- JSON-LD Schemas -->
+<script type="application/ld+json">{ ... }</script>
+<!-- (keep your existing JSON-LD blocks) -->
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="{{asset('assets/front/images/favicon.png')}}">
+
+<!-- Styles -->
+<link rel="stylesheet" href="{{asset('assets/front/css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{asset('assets/front/css/meanmenu.css')}}">
+<link rel="stylesheet" href="{{asset('assets/front/css/all.min.css')}}">
+<link rel="stylesheet" href="{{asset('assets/front/css/swiper-bundle.min.css')}}">
+<link rel="stylesheet" href="{{asset('assets/front/css/magnific-popup.css')}}">
+<link rel="stylesheet" href="{{asset('assets/front/css/animate.css')}}">
+<link rel="stylesheet" href="{{asset('assets/front/css/nice-select.css')}}">
+<link rel="stylesheet" href="{{asset('assets/front/css/style.css')}}">
+
+@yield('styles')
+@stack('header')

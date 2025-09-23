@@ -27,14 +27,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/service-single-image1.jpg')}}" alt="image">
-                        <div class="service-single__video-btn">
-                            <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
-                                data-wow-duration="1500ms">
-                                <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                        class="fa-solid fa-play"></i></a>
-                            </div>
-                        </div>
+                        <img src="{{asset('assets/front/images/service/graphic.png')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">Graphic Designing Service</h3>
                     <p class="mb-20">Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy..</p>
@@ -52,7 +45,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-single-image2.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/service/graphic1.png')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -260,77 +253,77 @@
         FAQ
     </h5>
     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Common Queries About Our Graphic Designing Services</h3>
-    <p class="mb-30">We often receive questions from businesses about our graphic designing services such as how the design process works what types of designs we offer and how long it takes to deliver a project. At MetaDigital we provide complete solutions</p>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
-            data-wow-duration="1500ms">
-            <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne" aria-expanded="true"
-                    aria-controls="collapseOne">
-                    What types of graphic designing services do you provide?
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show"
-                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>We offer a wide range of services including logo design social media creatives brochures flyers business cards web graphics infographics and complete branding solutions tailored to your business needs.
-                    </p>
+        <p class="mb-30">We often receive questions from businesses about our graphic designing services such as how the design process works what types of designs we offer and how long it takes to deliver a project. At MetaDigital we provide complete solutions</p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="00ms"
+                data-wow-duration="1500ms">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        What types of graphic designing services do you provide?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>We offer a wide range of services including logo design social media creatives brochures flyers business cards web graphics infographics and complete branding solutions tailored to your business needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
+                data-wow-duration="1500ms">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        Can I request revisions if I am not satisfied with the design?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Yes absolutely We offer revisions to make sure the final design perfectly matches your brand vision and requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
+                data-wow-duration="1500ms">
+                <h2 class="accordion-header" id="headingthree">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsethree"
+                        aria-expanded="false" aria-controls="collapsethree">
+                        Why should I choose your agency for graphic designing services?
+                    </button>
+                </h2>
+                <div id="collapsethree" class="accordion-collapse collapse"
+                    aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>At MetaDigital we combine creativity strategy and professionalism. Our designs are not only visually appealing but also aligned with your brand identity helping you attract more customers and build long-term recognition
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
+                data-wow-duration="1500ms">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                        aria-expanded="false" aria-controls="collapseFour">
+                        Do you provide custom graphic designs or use templates?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>All our designs are 100% custom-made. We do not rely on templates ensuring that your brand gets unique and original visuals that stand out.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="200ms"
-            data-wow-duration="1500ms">
-            <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
-                    Can I request revisions if I am not satisfied with the design?
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse"
-                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>Yes absolutely We offer revisions to make sure the final design perfectly matches your brand vision and requirements.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="400ms"
-            data-wow-duration="1500ms">
-            <h2 class="accordion-header" id="headingthree">
-                <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapsethree"
-                    aria-expanded="false" aria-controls="collapsethree">
-                    Why should I choose your agency for graphic designing services?
-                </button>
-            </h2>
-            <div id="collapsethree" class="accordion-collapse collapse"
-                aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>At MetaDigital we combine creativity strategy and professionalism. Our designs are not only visually appealing but also aligned with your brand identity helping you attract more customers and build long-term recognition
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
-            data-wow-duration="1500ms">
-            <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                    aria-expanded="false" aria-controls="collapseFour">
-                    Do you provide custom graphic designs or use templates?
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse"
-                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>All our designs are 100% custom-made. We do not rely on templates ensuring that your brand gets unique and original visuals that stand out.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <!-- Quote area start here -->

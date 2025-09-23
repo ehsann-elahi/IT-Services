@@ -27,14 +27,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/service-single-image1.jpg')}}" alt="image">
-                        <div class="service-single__video-btn">
-                            <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
-                                data-wow-duration="1500ms">
-                                <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                        class="fa-solid fa-play"></i></a>
-                            </div>
-                        </div>
+                        <img src="{{asset('assets/front/images/service/googlead.png')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">Google Ads Service</h3>
                     <p class="mb-20"> Our Google ads service provides budget-friendly cheaper quick customer attention & transparent solutions to start-ups and businesses who are planning to launch a new product or service in Abu Dhabi & Dubai and those companies who wanted to introduce themselves as market-leading brand or rebrand.</p>
@@ -52,7 +45,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-single-image2.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/service/google1.png')}}" alt="image">
                             </div>
                         </div>
                     </div>

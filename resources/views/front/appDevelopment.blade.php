@@ -25,15 +25,8 @@
         <div class="row g-4">
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
-                    <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/service-single-image1.jpg')}}" alt="image">
-                        <div class="service-single__video-btn">
-                            <div class="video-btn video-pulse wow fadeIn" data-wow-delay="200ms"
-                                data-wow-duration="1500ms">
-                                <a class="video-popup" href="https://www.youtube.com/watch?v=iVqz_4M5mA0"><i
-                                        class="fa-solid fa-play"></i></a>
-                            </div>
-                        </div>
+                   <div class="image mb-50">
+                        <img src="{{asset('assets/front/images/service/app.png')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">App Development Service</h3>
                     <p class="mb-20">At MetaDigital Marketing we design and develop mobile apps that do more than just look good they solve real problems. Our expert team creates user friendly iOS and Android applications tailored to your business needs.</p>
@@ -51,7 +44,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-single-image2.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/service/app1.png')}}" alt="image">
                             </div>
                         </div>
                     </div>

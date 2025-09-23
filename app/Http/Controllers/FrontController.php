@@ -5,6 +5,7 @@ namespace  App\Http\Controllers;
 use App\Models\Blog;
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use App\Models\Team;
 use Rinvex\Country\CountryLoader;
 use Illuminate\Support\Str;
 
@@ -15,6 +16,7 @@ class FrontController extends Controller
 
     public function index()
     {
+        $teams = Team::all();
         $blogs = Blog::latest()->take(3)->get();
         $countries = [
             ["name" => "United Arab Emirates", "code" => "+971"],
@@ -31,7 +33,7 @@ class FrontController extends Controller
             ["name" => "United Kingdom", "code" => "+44"],
             ["name" => "United States", "code" => "+1"],
         ];
-        return view('front.index', compact('countries', 'blogs'));
+        return view('front.index', compact('countries', 'blogs', 'teams'));
     }
 
     public function aboutus()
@@ -85,7 +87,8 @@ class FrontController extends Controller
     }
     public function OurTeam()
     {
-        return view('front.ourTeam');
+        $teams = Team::all();
+        return view('front.ourTeam', compact('teams'));
     }
     public function blog()
     {
@@ -94,7 +97,9 @@ class FrontController extends Controller
     }
     public function blogDetail($id)
     {
+
         $blog = Blog::findOrFail($id);
+        
         return view('front.blogDetail', compact('blog'));
     }
 

@@ -35,26 +35,14 @@
                         <div class="card-body text-center">
                             <i class="i-Split-Horizontal-2-Window"></i>
                             <div class="content">
-                                <p class="text-muted mt-2 mb-0">Total Product</p>
-                                <p class="text-primary text-24 line-height-1 mb-2">1234</p>
+                                <p class="text-muted mt-2 mb-0">Total Bookings</p>
+                                <p class="text-primary text-24 line-height-1 mb-2">{{ $totalContacts }}</p>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
-                    <a href="123">
-                        <div class="card-body text-center">
-                            <i class="i-Checkout-Basket"></i>
-                            <div class="content">
-                                <p class="text-muted mt-2 mb-0">Total Order</p>
-                                <p class="text-primary text-24 line-height-1 mb-2">1234</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+
         </div>
     </div>
     @endsection

@@ -3,6 +3,7 @@
 namespace  App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Contact;
 use Illuminate\Http\Request;
 use App\Models\AdminProfile;
 
@@ -20,8 +21,8 @@ class PageController extends Controller
     
          public function dashboard()
         {
-            
-            return view('admin.dashboard');
+            $totalContacts = Contact::count();
+            return view('admin.dashboard', compact('totalContacts'));
         }
 
     public function AdminProfile()
