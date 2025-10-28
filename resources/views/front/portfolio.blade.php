@@ -8,7 +8,7 @@
 @section('content')
  <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-            data-background="{{asset('assets/front/images/banner/service.png')}}">
+            data-background="{{asset('assets/front/images/banner/service.webp')}}">
 
             <div class="container">
                 <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Our Work</h2>
@@ -27,7 +27,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/web.jpg')}}" alt="Web Development">
+                        <img src="{{asset('assets/front/images/case/web.webp')}}" alt="Web Development">
                     </div>
                     <div class="case-two__content">
                         <span>Solution</span>
@@ -43,7 +43,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/digital.jpg')}}" alt="Digital Marketing">
+                        <img src="{{asset('assets/front/images/case/digital.webp')}}" alt="Digital Marketing">
                     </div>
                     <div class="case-two__content">
                         <span>Marketing</span>
@@ -59,7 +59,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/app.jpg')}}" alt="App Development">
+                        <img src="{{asset('assets/front/images/case/app.webp')}}" alt="App Development">
                     </div>
                     <div class="case-two__content">
                         <span>Solution</span>
@@ -75,7 +75,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/graphic.jpg')}}" alt="Graphic Designing">
+                        <img src="{{asset('assets/front/images/case/graphic.webp')}}" alt="Graphic Designing">
                     </div>
                     <div class="case-two__content">
                         <span>Creative</span>
@@ -91,7 +91,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/seo.jpg')}}" alt="SEO">
+                        <img src="{{asset('assets/front/images/case/seo.webp')}}" alt="SEO">
                     </div>
                     <div class="case-two__content">
                         <span>Marketing</span>
@@ -107,7 +107,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/social.jpg')}}" alt="Social Media Marketing">
+                        <img src="{{asset('assets/front/images/case/social.webp')}}" alt="Social Media Marketing">
                     </div>
                     <div class="case-two__content">
                         <span>Marketing</span>

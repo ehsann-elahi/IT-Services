@@ -7,7 +7,7 @@
 @section('canonical', url()->current())
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/googleads.png')}}">
+    data-background="{{asset('assets/front/images/banner/googleads.webp')}}">
          
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Social Media Marketing</h1>
@@ -151,7 +151,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/social.webp')}}" alt="Social Media Research">
+                    <img src="{{asset('assets/front/images/case/gg4.webp')}}" alt="Social Media Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google3.png')}}" alt="Content Creation">
+                    <img src="{{asset('assets/front/images/case/google3.webp')}}" alt="Content Creation">
                 </div>
             </div>
             <div class="col-md-6">
@@ -194,7 +194,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/sociall.png')}}" alt="Monitoring & Analytics">
+                    <img src="{{asset('assets/front/images/case/sociall.webp')}}" alt="Monitoring & Analytics">
                 </div>
             </div>
             <div class="col-md-6">

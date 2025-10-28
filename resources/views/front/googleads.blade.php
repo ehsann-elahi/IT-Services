@@ -7,7 +7,7 @@
 @section('canonical', url()->current())
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/googleads.png')}}">
+    data-background="{{asset('assets/front/images/banner/googleads.webp')}}">
 
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Google Ads</h1>
@@ -151,7 +151,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google.png')}}" alt="Campaign Research & Strategy">
+                    <img src="{{asset('assets/front/images/case/google.webp')}}" alt="Campaign Research & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google1.png')}}" alt="Ad Creation & Setup">
+                    <img src="{{asset('assets/front/images/case/google1.webp')}}" alt="Ad Creation & Setup">
                 </div>
             </div>
             <div class="col-md-6">
@@ -195,7 +195,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google3.png')}}" alt="Campaign Optimization">
+                    <img src="{{asset('assets/front/images/case/google3.webp')}}" alt="Campaign Optimization">
                 </div>
             </div>
             <div class="col-md-6">
@@ -215,7 +215,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google2.png')}}" alt="Reporting & Results">
+                    <img src="{{asset('assets/front/images/case/google2.webp')}}" alt="Reporting & Results">
                 </div>
             </div>
             <div class="col-md-6">

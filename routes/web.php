@@ -6,6 +6,9 @@ use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\TeamController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\NotificationController;
+use App\Http\Controllers\ImageController;
+
 
 
 Route::get('/clear-cache', function () {
@@ -30,8 +33,7 @@ Route::prefix('admin')->middleware('auth:admin')->group(function () {
     Route::resource('teams', TeamController::class);
 
     Route::get('/contacts', [ContactController::class, 'index'])->name('admin.contacts.index');
-Route::delete('/contacts/{id}', [ContactController::class, 'destroy'])->name('admin.contacts.destroy');
-
+    Route::delete('/contacts/{id}', [ContactController::class, 'destroy'])->name('admin.contacts.destroy');
 });
 
 Route::get('/', [FrontController::class, 'index'])->name('index');
@@ -63,5 +65,13 @@ Route::get('/graphic-solution', [FrontController::class, 'graphicSolution'])->na
 Route::get('/seo-solution', [FrontController::class, 'seosolution'])->name('seosolution');
 Route::get('/social-solution', [FrontController::class, 'socialsolution'])->name('socialsolution');
 Route::get('/googleads-solution', [FrontController::class, 'googleadssolution'])->name('googleadssolution');
+Route::get('/free-laundry-management-system', [FrontController::class, 'flms'])->name('flms.index');
 
+Route::get('/notifications', [NotificationController::class, 'getNotifications'])->name('admin.getNotifications');
+Route::post('/notifications/mark-read', [NotificationController::class, 'markNotificationsRead'])->name('admin.markNotificationsRead');
 
+Route::get('/images-to-webp', [ImageController::class, 'index'])->name('images.index');
+Route::post('/upload', [ImageController::class, 'upload'])->name('images.upload');
+Route::get('/download/{filename}', [ImageController::class, 'downloadSingle'])->name('images.downloadSingle');
+Route::get('/download-all', [ImageController::class, 'downloadAll'])->name('images.downloadAll');
+Route::get('//dubai-abu-dhabi/ai-rag-custom-data-chat-bot', [FrontController::class, 'chatbot'])->name('index.chatbot');

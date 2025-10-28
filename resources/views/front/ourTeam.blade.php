@@ -7,7 +7,7 @@
 @section('canonical', url()->current())
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/ourteam.png')}}">
+    data-background="{{asset('assets/front/images/banner/ourteam.webp')}}">
 
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Our Team</h1>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="team__content">
                         <h4>
-                            <a class="text-white" href="#">{{ $team->name }}</a>
+                            <a class="text-white"  >{{ $team->name }}</a>
                         </h4>
                         <span class="text-white">{{ $team->expertise }}</span>
                     </div>

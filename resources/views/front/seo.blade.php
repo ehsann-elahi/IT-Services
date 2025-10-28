@@ -7,7 +7,7 @@
 @section('canonical', url()->current())
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/seo.png')}}">
+    data-background="{{asset('assets/front/images/banner/seo.webp')}}">
 
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Search Engine Optimization</h1>
@@ -151,7 +151,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo1.png')}}" alt="SEO Audit & Strategy">
+                    <img src="{{asset('assets/front/images/case/seo1.webp')}}" alt="SEO Audit & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo2.png')}}" alt="On-Page Optimization">
+                    <img src="{{asset('assets/front/images/case/seo2.webp')}}" alt="On-Page Optimization">
                 </div>
             </div>
             <div class="col-md-6">
@@ -194,7 +194,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo3.png')}}" alt="Off-Page SEO & Link Building">
+                    <img src="{{asset('assets/front/images/case/seo3.webp')}}" alt="Off-Page SEO & Link Building">
                 </div>
             </div>
             <div class="col-md-6">
@@ -214,7 +214,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo4.png')}}" alt="Tracking & Results">
+                    <img src="{{asset('assets/front/images/case/seo4.webp')}}" alt="Tracking & Results">
                 </div>
             </div>
             <div class="col-md-6">

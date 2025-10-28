@@ -61,7 +61,7 @@
 @endsection
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/web.png')}}">
+    data-background="{{asset('assets/front/images/banner/web.webp')}}">
     
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Web Application Development Solution</h1>
@@ -176,7 +176,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/laundry.png')}}" alt="Web App Laravel">
+                    <img src="{{asset('assets/front/images/case/laundry.webp')}}" alt="Web App Laravel">
                 </div>
             </div>
             <div class="col-md-6 ">
@@ -200,7 +200,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seohero.png')}}" alt="CRM Development">
+                    <img src="{{asset('assets/front/images/case/seohero.webp')}}" alt="CRM Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -224,7 +224,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/alkhyal.png')}}" alt="Mobile App">
+                    <img src="{{asset('assets/front/images/case/alkhyal.webp')}}" alt="Mobile App">
                 </div>
             </div>
             <div class="col-md-6">
@@ -249,7 +249,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/curtainclean.png')}}" alt="CRM Development">
+                    <img src="{{asset('assets/front/images/case/curtainclean.webp')}}" alt="CRM Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -273,7 +273,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/curtainlaundry.png')}}" alt="Mobile App">
+                    <img src="{{asset('assets/front/images/case/curtainlaundry.webp')}}" alt="Mobile App">
                 </div>
             </div>
             <div class="col-md-6">
@@ -297,7 +297,7 @@
         <div class="row align-items-center flex-row-reverse mb-20">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/carpet.png')}}" alt="Ecommerce Development">
+                    <img src="{{asset('assets/front/images/case/carpet.webp')}}" alt="Ecommerce Development">
                 </div>
             </div>
             <div class="col-md-6">

@@ -27,7 +27,6 @@
         <div class="card-header">
             <h4 class="card-title">Contact Messages</h4>
         </div>
-
         <div class="card-body">
             {{-- Success Message --}}
             @if(session('success'))
@@ -91,5 +90,4 @@
         </div>
     </div>
 
-</div>
 @endsection

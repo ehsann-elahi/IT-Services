@@ -62,7 +62,7 @@
 
 <!-- Page banner area -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/graphic.png')}}">
+    data-background="{{asset('assets/front/images/banner/graphic.webp')}}">
          
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Graphic Designing Solution</h1>
@@ -260,7 +260,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/design.png')}}" alt="Mobile App">
+                    <img src="{{asset('assets/front/images/case/design.webp')}}" alt="Mobile App">
                 </div>
             </div>
             <div class="col-md-6">
@@ -288,7 +288,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/curtaindesign.png')}}" alt="CRM Development">
+                    <img src="{{asset('assets/front/images/case/curtaindesign.webp')}}" alt="CRM Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -318,7 +318,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/laundrydesign.png')}}" alt="Mobile App">
+                    <img src="{{asset('assets/front/images/case/laundrydesign.webp')}}" alt="Mobile App">
                 </div>
             </div>
             <div class="col-md-6">

@@ -9,8 +9,8 @@
 
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/contact.png')}}">
-         
+    data-background="{{asset('assets/front/images/banner/contact.webp')}}">
+
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Contact Us</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -112,10 +112,34 @@
                     </div>
                     <div class="contact__form">
                         @if(session('success'))
-                        <div class="alert alert-success">
+                        <div id="success-message"
+                            style="position: fixed; top: 20px; right: 20px; 
+                background: #28a745; color: white; 
+                padding: 15px 20px; border-radius: 8px; 
+                box-shadow: 0px 4px 8px rgba(0,0,0,0.2); 
+                z-index: 9999;">
                             {{ session('success') }}
                         </div>
+
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                                const successBox = document.getElementById("success-message");
+                                if (successBox) {
+                                    successBox.scrollIntoView({
+                                        behavior: "smooth"
+                                    });
+
+                                    // Optionally remove after 5 seconds
+                                    setTimeout(() => {
+                                        successBox.style.transition = "opacity 0.5s";
+                                        successBox.style.opacity = "0";
+                                        setTimeout(() => successBox.remove(), 500);
+                                    }, 5000);
+                                }
+                            });
+                        </script>
                         @endif
+
 
                         <form action="{{ route('contact.store') }}" method="POST">
                             @csrf

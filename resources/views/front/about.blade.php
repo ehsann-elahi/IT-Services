@@ -9,8 +9,7 @@
 @section('content')
 
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/about.png')}}">
-         
+    data-background="{{asset('assets/front/images/banner/about.webp')}}">
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Your Trusted Partner in Digital Growth</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -272,67 +271,67 @@
         </div>
     </div>
     <div class="case-two__container">
-            <div class="swiper case-two__slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="case-two__item">
-                            <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/web.jpg')}}" alt="image">
-                            </div>
-                            <div class="case-two__content">
-                                <span>Build Your Idea</span>
-                                <h4><a href="{{route('websolution')}}" class="text-white">Web Development</a></h4>
-                            </div>
-                            <a href="{{route('websolution')}}" class="case-two__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
+        <div class="swiper case-two__slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="case-two__item">
+                        <div class="image case-two__image">
+                            <img src="{{asset('assets/front/images/case/web.webp')}}" alt="image">
                         </div>
+                        <div class="case-two__content">
+                            <span>Build Your Idea</span>
+                            <h4><a href="{{route('websolution')}}" class="text-white">Web Development</a></h4>
+                        </div>
+                        <a href="{{route('websolution')}}" class="case-two__btn">
+                            <i class="fa-regular fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="case-two__item">
-                            <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/digital.jpg')}}" alt="image">
-                            </div>
-                            <div class="case-two__content">
-                                <span>Busness Growth</span>
-                                <h4><a href="{{route('marketingSolution')}}" class="text-white">Digital Marketing</a></h4>
-                            </div>
-                            <a href="{{route('marketingSolution')}}" class="case-two__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="case-two__item">
+                        <div class="image case-two__image">
+                            <img src="{{asset('assets/front/images/case/digital.webp')}}" alt="image">
                         </div>
+                        <div class="case-two__content">
+                            <span>Busness Growth</span>
+                            <h4><a href="{{route('marketingSolution')}}" class="text-white">Digital Marketing</a></h4>
+                        </div>
+                        <a href="{{route('marketingSolution')}}" class="case-two__btn">
+                            <i class="fa-regular fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="case-two__item">
-                            <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/seo.jpg')}}" alt="image">
-                            </div>
-                            <div class="case-two__content">
-                                <span>Ranking</span>
-                                <h4><a href="{{route('seosolution')}}" class="text-white">SEO</a></h4>
-                            </div>
-                            <a href="{{route('seosolution')}}" class="case-two__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="case-two__item">
+                        <div class="image case-two__image">
+                            <img src="{{asset('assets/front/images/case/seo.webp')}}" alt="image">
                         </div>
+                        <div class="case-two__content">
+                            <span>Ranking</span>
+                            <h4><a href="{{route('seosolution')}}" class="text-white">SEO</a></h4>
+                        </div>
+                        <a href="{{route('seosolution')}}" class="case-two__btn">
+                            <i class="fa-regular fa-arrow-right"></i>
+                        </a>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="case-two__item">
-                            <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/graphic.jpg')}}" alt="image">
-                            </div>
-                            <div class="case-two__content">
-                                <span>Solution of Idea</span>
-                                <h4><a href="{{route('graphicSolution')}}" class="text-white">Graphic Designing</a></h4>
-                            </div>
-                            <a href="{{route('graphicSolution')}}" class="case-two__btn">
-                                <i class="fa-regular fa-arrow-right"></i>
-                            </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="case-two__item">
+                        <div class="image case-two__image">
+                            <img src="{{asset('assets/front/images/case/graphic.webp')}}" alt="image">
                         </div>
+                        <div class="case-two__content">
+                            <span>Solution of Idea</span>
+                            <h4><a href="{{route('graphicSolution')}}" class="text-white">Graphic Designing</a></h4>
+                        </div>
+                        <a href="{{route('graphicSolution')}}" class="case-two__btn">
+                            <i class="fa-regular fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <div class="mt-60 text-center wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
         <div class="dot case__dot"></div>
     </div>
@@ -340,7 +339,7 @@
 <!-- Cause area end here -->
 
 <!-- Testimonial area start here -->
-<section class="testimonial-area bg-image pt-120 pb-120" data-background="{{asset('assets/front/images/bg/testimonial-bg.png')}}">
+<section class="testimonial-area bg-image pt-120 pb-120" data-background="{{asset('assets/front/images/bg/testimonial-bg.webp')}}">
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -357,64 +356,64 @@
                         </h5>
                         <h2 class="text-white">How May We Help You!</h2>
                     </div>
-                      <form action="{{ route('contact.store') }}" method="POST">
-                            @csrf
-                            <div class="row">
-                                <div class="col-6">
-                                    <label for="name">Your Name*</label>
-                                    <input id="name" class="bg-transparent bor form-control" type="text" name="name"
-                                        placeholder="Your Name" required>
-                                </div>
-                                <div class="col-6">
-                                    <label for="email">Your Email*</label>
-                                    <input class="bg-transparent bor form-control" id="email" type="email" name="email"
-                                        placeholder="Your Email" required>
-                                </div>
+                    <form action="{{ route('contact.store') }}" method="POST">
+                        @csrf
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="name">Your Name*</label>
+                                <input id="name" class="bg-transparent bor form-control" type="text" name="name"
+                                    placeholder="Your Name" required>
                             </div>
-
-                            {{-- Phone Number --}}
-                            <div class="row mt-3">
-                                <div class="col-6">
-                                    <label for="country_code">Country Code*</label>
-                                    <select id="country_code" name="country_code" class="form-control" required>
-                                        @foreach($countries as $country)
-                                        <option value="{{ $country['code'] }}">
-                                            {{ $country['name'] }} ({{ $country['code'] }})
-                                        </option>
-                                        @endforeach
-                                    </select>
-
-
-                                </div>
-                                <div class="col-6">
-                                    <label for="phone">Enter Phone Number*</label>
-                                    <input id="phone" type="text" name="phone" class="form-control bg-transparent bor"
-                                        placeholder="Enter Phone Number" required>
-                                </div>
+                            <div class="col-6">
+                                <label for="email">Your Email*</label>
+                                <input class="bg-transparent bor form-control" id="email" type="email" name="email"
+                                    placeholder="Your Email" required>
                             </div>
+                        </div>
 
-                            {{-- Subject --}}
-                            <div class="mt-3">
-                                <label for="subject">Your Subject*</label>
-                                <input id="subject" type="text" name="subject" class="form-control bg-transparent bor"
-                                    placeholder="Your Subject" required>
-                            </div>
+                        {{-- Phone Number --}}
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <label for="country_code">Country Code*</label>
+                                <select id="country_code" name="country_code" class="form-control" required>
+                                    @foreach($countries as $country)
+                                    <option value="{{ $country['code'] }}">
+                                        {{ $country['name'] }} ({{ $country['code'] }})
+                                    </option>
+                                    @endforeach
+                                </select>
 
-                            {{-- Message --}}
-                            <div class="text-area mt-3">
-                                <label for="message">Write Message*</label>
-                                <textarea class="bg-transparent  bor form-control" id="message" name="message"
-                                    placeholder="Write Message" required></textarea>
-                            </div>
 
-                            {{-- Submit Button --}}
-                            <div class="btn-two mt-3">
-                                <span class="btn-circle"></span>
-                                <button type="submit" class="btn-one">
-                                    Send Message <i class="fa-regular fa-arrow-right-long"></i>
-                                </button>
                             </div>
-                        </form>
+                            <div class="col-6">
+                                <label for="phone">Enter Phone Number*</label>
+                                <input id="phone" type="text" name="phone" class="form-control bg-transparent bor"
+                                    placeholder="Enter Phone Number" required>
+                            </div>
+                        </div>
+
+                        {{-- Subject --}}
+                        <div class="mt-3">
+                            <label for="subject">Your Subject*</label>
+                            <input id="subject" type="text" name="subject" class="form-control bg-transparent bor"
+                                placeholder="Your Subject" required>
+                        </div>
+
+                        {{-- Message --}}
+                        <div class="text-area mt-3">
+                            <label for="message">Write Message*</label>
+                            <textarea class="bg-transparent  bor form-control" id="message" name="message"
+                                placeholder="Write Message" required></textarea>
+                        </div>
+
+                        {{-- Submit Button --}}
+                        <div class="btn-two mt-3">
+                            <span class="btn-circle"></span>
+                            <button type="submit" class="btn-one">
+                                Send Message <i class="fa-regular fa-arrow-right-long"></i>
+                            </button>
+                        </div>
+                    </form>
 
                 </div>
             </div>
@@ -505,123 +504,47 @@
 <!-- Testimonial area end here -->
 
 <!-- Team area start here -->
-<section class="team-area pt-120 pb-120">
-    <div class="container">
-        <div class="section-header text-center mb-60">
-            <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
-                        stroke-width="1.5" />
-                    <mask id="path-2-inside-1_687_602" fill="white">
+    <section class="team-area pt-120 pb-120">
+        <div class="container">
+            <div class="section-header text-center mb-60">
+                <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <svg class="me-1" width="20" height="12" viewBox="0 0 20 12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.75" y="0.747803" width="18.5" height="10.5" rx="5.25" stroke="#3C72FC"
+                            stroke-width="1.5" />
+                        <mask id="path-2-inside-1_687_602" fill="white">
+                            <path
+                                d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
+                        </mask>
                         <path
-                            d="M3 5.9978C3 3.78866 4.79086 1.9978 7 1.9978H13C15.2091 1.9978 17 3.78866 17 5.9978C17 8.20694 15.2091 9.9978 13 9.9978H7C4.79086 9.9978 3 8.20694 3 5.9978Z" />
-                    </mask>
-                    <path
-                        d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
-                        fill="#3C72FC" mask="url(#path-2-inside-1_687_602)" />
-                </svg>
-                OUR team
-            </h5>
-            <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Team</h2>
+                            d="M3 5.9978C3 2.96024 5.46243 0.497803 8.5 0.497803H11.5C14.5376 0.497803 17 2.96024 17 5.9978C17 4.61709 15.2091 3.4978 13 3.4978H7C4.79086 3.4978 3 4.61709 3 5.9978ZM17 5.9978C17 9.03537 14.5376 11.4978 11.5 11.4978H8.5C5.46243 11.4978 3 9.03537 3 5.9978C3 7.37851 4.79086 8.4978 7 8.4978H13C15.2091 8.4978 17 7.37851 17 5.9978ZM3 9.9978V1.9978V9.9978ZM17 1.9978V9.9978V1.9978Z"
+                            fill="#3C72FC" mask="url(#path-2-inside-1_687_602)" />
+                    </svg>
+                    OUR team
+                </h5>
+                <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Team</h2>
+                <p class="text-black">You get access to a whole team of digital media specialists for the price of one employee.</p>
+            </div>
+            <div class="row g-4">
+                 @foreach($teams as $team)
+            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
+                data-wow-duration="1500ms">
+                <div class="team__item">
+                    <div class="image">
+                        <img src="{{ asset('assets/upload/prod/' . $team->image) }}" alt="{{ $team->name }}">
+                    </div>
+                    <div class="team__content">
+                        <h4>
+                            <a class="text-white"  >{{ $team->name }}</a>
+                        </h4>
+                        <span class="text-white">{{ $team->expertise }}</span>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+            </div>
         </div>
-        <div class="row g-4">
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/shakeel.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">MR. SHAKEEL AHMAD</a></h4>
-                        <span class="text-white">HR MANAGER</span>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/nouman.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">MR. NOUMAN</a></h4>
-                        <span class="text-white">SR. Developer (Team Lead)</span>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/ehsaan.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">EHSAN ELLAHI</a></h4>
-                        <span class="text-white">Developer</span>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/ummar.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">MR. UMAR</a></h4>
-                        <span class="text-white">Digital Marketing (Team Lead)</span>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/amina.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">MS. AMINA MALIK</a></h4>
-                        <span class="text-white">Graphic Designer</span>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/ishrat.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">MS. ISHRAT FATIMA</a></h4>
-                        <span class="text-white">SEO SPECIALIST</span>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
-                data-wow-duration="1500ms">
-                <div class="team__item">
-                    <div class="image">
-                        <img src="{{asset('assets/front/images/team/minahil.png')}}" alt="image">
-                    </div>
-                    <div class="team__content">
-                        <h4><a class="text-white" href="#">MS. MINAHIL</a></h4>
-                        <span class="text-white">Social Media Marketing SPECIALIST</span>
-                    </div>
-                    
-                </div>
-            </div>
-           
-
-        </div>
-    </div>
-</section>
-<!-- Team area end here -->
+    </section>
+    <!-- Team area end here -->
 
 @endsection

@@ -40,7 +40,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/1.png')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/1.webp')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -85,7 +85,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/2.png')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/2.webp')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -128,7 +128,7 @@
                         <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
-                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/3.png')}}"></div>
+                    <div class="slide-bg" data-background="{{asset('assets/front/images/banner/3.webp')}}"></div>
                     <div class="container">
                         <div class="banner-two__content text-center">
                             <h2 data-animation="fadeInUp" data-delay=".3s" class="text-white mb-20">
@@ -254,7 +254,7 @@
                         SERVICES WE’RE OFFERING
                     </h5>
                     <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        Digital Marketing Services</h2>
+                        MetaDigital Marketing Services</h2>
                 </div>
                 <div class="arry-btn  d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <button class="arry-prev service__arry-prev"><i class="fa-light fa-chevron-left"></i></button>
@@ -264,6 +264,24 @@
             </div>
             <div class="swiper service-two__slider">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-two__item">
+                            <div class="image">
+                                <img src="{{asset('assets/front/images/service/graphic1.png')}}" alt="image">
+                            </div>
+                            <div class="service-two__content">
+                                <div class="icon">
+                                    <img src="{{asset('assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
+                                </div>
+                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                        alt="shape"></div>
+                                <h4><a href="{{route('images.index')}}" class="primary-hover">Free Image Converter</a></h4>
+                                <p>At MetaDigital Marketing, we offer a free online image conversion tool that helps everyone optimize their visuals effortlessly. Instantly convert your images to WebP format and automatically reduce their size to under 100KB</p>
+                                <a class="read-more-btn" href="{{route('images.index')}}">Read More <i
+                                        class="fa-regular fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
@@ -285,7 +303,25 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image2.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/service/service-image6.jpg')}}" alt="image">
+                            </div>
+                            <div class="service-two__content">
+                                <div class="icon">
+                                    <img src="{{asset('assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
+                                </div>
+                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                        alt="shape"></div>
+                                <h4><a href="{{route('AppDevelopment')}}" class="primary-hover">App Development</a></h4>
+                                <p>At MetaDigital Marketing we design and develop mobile apps that do more than just look good they solve real problems. Our expert team creates user friendly iOS and Android applications</p>
+                                <a class="read-more-btn" href="{{route('AppDevelopment')}}">Read More <i
+                                        class="fa-regular fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-two__item">
+                            <div class="image">
+                                <img src="{{asset('assets/front/images/service/service-image6.jpg')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
@@ -321,7 +357,7 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image1.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/service/service-image4.jpg')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
@@ -339,7 +375,7 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image2.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/service/service-image5.jpg')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
@@ -604,25 +640,9 @@
                     </div>
                     <div class="team__content">
                         <h4>
-                            <a class="text-white" href="#">{{ $team->name }}</a>
+                            <a class="text-white"  >{{ $team->name }}</a>
                         </h4>
                         <span class="text-white">{{ $team->expertise }}</span>
-                    </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
-                        <button>
-                            <i class="fa-sharp fa-light fa-share-nodes"></i>
-                        </button>
                     </div>
                 </div>
             </div>
@@ -787,7 +807,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/web.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/web.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Build Your Idea</span>
@@ -801,7 +821,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/digital.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/digital.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Busness Growth</span>
@@ -815,7 +835,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/seo.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/seo.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Ranking</span>
@@ -829,7 +849,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/graphic.jpg')}}" alt="image">
+                                <img src="{{asset('assets/front/images/case/graphic.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Solution of Idea</span>
@@ -998,15 +1018,6 @@
                         </div>
                     </a>
                     <div class="blog__content">
-                        <ul class="blog-info pb-20 bor-bottom mb-20">
-                            <li>
-                                <a href="#0">By Admin</a>
-                            </li>
-                            <li>
-                                <a href="#0">0 Comments</a>
-                            </li>
-                        </ul>
-
                         <h3>
                             <a href="{{route('blogDetail', $blog->id) }}" class="primary-hover">
                                 {{ $blog->title }}
@@ -1054,7 +1065,7 @@
                             Why Choose Us? <br></h2>
                         <p class="text-white">Team of experts having more than 12 years of experience working in Abu Dhabi & Dubai. We are a one of a kind agency who provide complete marketing solutions to their clients under the one umbrella</p>
                     </div>
-                    <a href="contact.html" class="btn-one wow fadeInUp" data-wow-delay="200ms"
+                    <a href="{{route('contact')}}" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                         data-wow-duration="1500ms">Get Our Services <i class="fa-regular fa-arrow-right-long"></i></a>
                 </div>
             </div>

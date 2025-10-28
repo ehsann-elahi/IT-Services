@@ -8,8 +8,11 @@ use Illuminate\Http\Request;
 use App\Models\Team;
 use Rinvex\Country\CountryLoader;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Mail;
 
 use App\Http\Controllers\Controller;
+use App\Mail\NotificationMail;
+use App\Models\Notification;
 
 class FrontController extends Controller
 {
@@ -38,6 +41,7 @@ class FrontController extends Controller
 
     public function aboutus()
     {
+        $teams = Team::all();
         $countries = [
             ["name" => "United Arab Emirates", "code" => "+971"],
             ["name" => "Afghanistan", "code" => "+93"],
@@ -53,7 +57,7 @@ class FrontController extends Controller
             ["name" => "United Kingdom", "code" => "+44"],
             ["name" => "United States", "code" => "+1"],
         ];
-        return view('front.about', compact('countries'));
+        return view('front.about', compact('countries', 'teams'));
     }
 
     public function services()
@@ -99,23 +103,34 @@ class FrontController extends Controller
     {
 
         $blog = Blog::findOrFail($id);
-        
+
         return view('front.blogDetail', compact('blog'));
     }
 
 
     public function store(Request $request)
     {
+
         $request->validate([
             'name'    => 'required|string|max:255',
             'email'   => 'required|email',
             'message' => 'required|string',
         ]);
 
-        Contact::create($request->all());
+        $contact = Contact::create($request->all());
+        Notification::create([
+            'message' => 'You have received a new message from ' . $contact->name .
+                ' (Phone: ' . $contact->phone . ', Email: ' . $contact->email . ').'
+        ]);
+
+        $adminEmail = env('ADMIN_EMAIL');
+        $recipientEmail = $contact->email;
+        Mail::to($recipientEmail)->queue(new NotificationMail($contact));
+        Mail::to($adminEmail)->queue(new NotificationMail($contact, true));
 
         return back()->with('success', 'Your message has been sent successfully!');
     }
+
     public function contact()
     {
         $countries = [
@@ -179,5 +194,13 @@ class FrontController extends Controller
     public function googleadssolution()
     {
         return view('front.googleSolution');
+    }
+    public function flms()
+    {
+        return view('front.flms');
+    }
+    public function chatbot()
+    {
+        return view('front.chatbot');
     }
 }

@@ -23,10 +23,10 @@
                     </a>
                     <p>MetaDigital Marketing is a global digital marketing agency based in Dubai & Abu Dhabi that furnish out and out marketing solutions to the clients in UAE.</p>
                     <div class="social-icon">
-                        <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#0"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#0"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/MetaDigitalConsultant/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/_u/meta_digitalmarketing"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/metadigitalmarketing-ae/posts/?feedView=all"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/@Meta-Digital-Marketing"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="footer__item item-sm wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">

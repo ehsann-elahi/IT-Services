@@ -7,7 +7,7 @@
 @section('canonical', url()->current())
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/graphic.png')}}">
+    data-background="{{asset('assets/front/images/banner/graphic.webp')}}">
 
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Graphic Designing</h1>
@@ -150,7 +150,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps5.png')}}" alt="Design Research & Strategy">
+                    <img src="{{asset('assets/front/images/case/apps5.webp')}}" alt="Design Research & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -171,7 +171,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/design.png')}}" alt="UI/UX Design & Branding">
+                    <img src="{{asset('assets/front/images/case/design.webp')}}" alt="UI/UX Design & Branding">
                 </div>
             </div>
             <div class="col-md-6">
@@ -192,7 +192,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/webs3.png')}}" alt="Design Execution">
+                    <img src="{{asset('assets/front/images/case/webs3.webp')}}" alt="Design Execution">
                 </div>
             </div>
             <div class="col-md-6">
@@ -213,7 +213,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/laundrydesign.png')}}" alt="Client Success & Results">
+                    <img src="{{asset('assets/front/images/case/laundrydesign.webp')}}" alt="Client Success & Results">
                 </div>
             </div>
             <div class="col-md-6">

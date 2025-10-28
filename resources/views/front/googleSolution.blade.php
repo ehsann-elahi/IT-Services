@@ -60,7 +60,7 @@
 </style>
 @endsection
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/googleads.png')}}">
+    data-background="{{asset('assets/front/images/banner/googleads.webp')}}">
          
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Google Ads Solutions</h1>
@@ -173,7 +173,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/g1.png')}}" alt="Google Ads Research">
+                    <img src="{{asset('assets/front/images/case/g1.webp')}}" alt="Google Ads Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -194,7 +194,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/g2.png')}}" alt="Campaign Setup">
+                    <img src="{{asset('assets/front/images/case/g2.webp')}}" alt="Campaign Setup">
                 </div>
             </div>
             <div class="col-md-6">
@@ -215,7 +215,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/g3.png')}}" alt="Campaign Optimization">
+                    <img src="{{asset('assets/front/images/case/g3.webp')}}" alt="Campaign Optimization">
                 </div>
             </div>
             <div class="col-md-6">
@@ -235,7 +235,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/g4.png')}}" alt="Google Ads Results">
+                    <img src="{{asset('assets/front/images/case/g4.webp')}}" alt="Google Ads Results">
                 </div>
             </div>
             <div class="col-md-6">

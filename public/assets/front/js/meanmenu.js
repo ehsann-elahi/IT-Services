@@ -212,7 +212,7 @@
 									jQuery(this, "li:first")
 										.parent()
 										.append(
-											'<a class="mean-expand" href="#" style="font-size: ' +
+											'<a class="mean-expand"   style="font-size: ' +
 												meanMenuCloseSize +
 												'">' +
 												meanExpand +

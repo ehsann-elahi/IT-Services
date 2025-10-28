@@ -17,6 +17,9 @@
                              <a href="{{route('service')}}">Services</a>
                              <ul class="sub-menu">
                                  <li>
+                                     <a href="{{route('index.chatbot')}}">AI-Custom Chatbots</a>
+                                 </li>
+                                 <li>
                                      <a href="{{route('WebDevelopment')}}">Web Development</a>
                                  </li>
                                  <li>
@@ -42,7 +45,17 @@
                          </li>
                          <li>
                              <a href="{{route('missionvision')}}">Vision & Mission</a>
-
+                         </li>
+                         <li>
+                             <a href="{{route('missionvision')}}">Our Tools</a>
+                             <ul class="sub-menu">
+                                 <li>
+                                     <a href="{{route('images.index')}}">Free Image Converter</a>
+                                 </li>
+                                 <li>
+                                     <a href="{{route('flms.index')}}">Free Laundry Management System</a>
+                                 </li>
+                             </ul>
                          </li>
                          <li>
                              <a href="{{route('ourwork')}}">Our Work</a>
@@ -75,20 +88,13 @@
 
                          </li>
                          <li><a href="{{route('contact.store')}}">Contact</a></li>
-
                      </ul>
                  </nav>
              </div>
              <div class="d-none d-xl-flex gap-4">
                  <a href="{{route('contact.store')}}" class="btn-one">Get Our Services <i
                          class="fa-regular fa-arrow-right-long"></i></a>
-                 <div class="about-three__left-item d-flex flex-wrap gap-2 align-items-center">
 
-                     <div class="info">
-                         <span class="sm-font fw-600 text-white">Contact Us Now</span>
-                         <h5 class="text-white">+971 52 541 2617</h5>
-                     </div>
-                 </div>
              </div>
              <div class="bars d-block d-lg-none">
                  <i id="openButton" class="fa-solid fa-bars"></i>

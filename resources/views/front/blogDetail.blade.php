@@ -15,7 +15,7 @@
 @section('content')
 
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/blogdetails.png')}}">
+    data-background="{{asset('assets/front/images/banner/blogdetails.webp')}}">
          
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Blog Details</h1>
@@ -39,7 +39,7 @@
         <div class="blog__content p-0">
             <ul class="pb-3 pt-30 bor-bottom d-flex gap-4 flex-wrap align-items-center">
                 <li>
-                    <a href="#"><span class="primary-hover transition">By Admin</span></a>
+                    <a  ><span class="primary-hover transition">By Admin</span></a>
                 </li>
                 <li>
                     <span>{{ $blog->created_at->format('d, M Y') }}</span>

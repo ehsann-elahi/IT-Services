@@ -10,7 +10,7 @@
 
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{ asset('assets/front/images/banner/blogs.png') }}">
+    data-background="{{ asset('assets/front/images/banner/blog.webp') }}">
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Blog Grid</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -26,7 +26,7 @@
         <div class="row g-4">
 
          @foreach($blogs as $blog)
-         {{dd($blog)}}
+      
     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
         <div class="blog__item">
             <a href="{{ route('blogDetail', $blog->id) }}" class="blog__image d-block image">

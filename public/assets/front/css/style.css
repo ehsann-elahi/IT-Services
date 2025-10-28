@@ -2149,6 +2149,67 @@ input.main-search-input::placeholder {
 .btn-one:hover i {
   transform: translate(5px);
 }
+.btn-one1 {
+  padding: 15px 25px;
+  background: var(--white);
+  font-weight: 600;
+  color: #09459f;
+  transition: var(--transition);
+  text-transform: capitalize;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.btn-one1 i {
+  margin-left: 8px;
+  transition: var(--transition);
+}
+@media (max-width: 575px) {
+  .btn-one1 i {
+    margin-left: 3px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 575px) {
+  .btn-one1 {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+}
+.btn-one1::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 0;
+  content: "";
+  background-color: var(--secondary-color);
+  z-index: -1;
+  transition: var(--transition);
+}
+.btn-one1::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 0;
+  content: "";
+  background-color: var(--secondary-color);
+  z-index: -1;
+  transition: var(--transition);
+}
+.btn-one1:hover {
+  color: var(--white);
+}
+.btn-one1:hover::before {
+  height: 100%;
+}
+.btn-one1:hover::after {
+  height: 100%;
+}
+.btn-one1:hover i {
+  transform: translate(5px);
+}
 
 .read-more-btn {
   text-transform: capitalize;
@@ -2403,7 +2464,7 @@ input.main-search-input::placeholder {
 }
 .header__container {
   max-width: 1350px;
-  padding: 0 15px;
+  padding: 0 3px;
 }
 .header__main {
   display: flex;
@@ -2414,7 +2475,7 @@ input.main-search-input::placeholder {
 .header__main .main-menu ul {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 23px;
 }
 .header__main .main-menu ul li {
   position: relative;
@@ -3902,6 +3963,10 @@ input.main-search-input::placeholder {
 .case-single__title {
   font-size: 30px;
   line-height: 32px;
+}
+.case-single__title_small {
+  font-size: 22px;
+  line-height: 22px;
 }
 .case-single__item .case-date {
   display: flex;

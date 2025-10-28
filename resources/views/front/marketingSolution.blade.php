@@ -62,7 +62,7 @@
 @endsection
 <!-- Page banner area -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/digital.png')}}">
+    data-background="{{asset('assets/front/images/banner/digital.webp')}}">
          
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Digital Marketing Solutions</h1>
@@ -262,7 +262,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seadigital.png')}}" alt="CRM Development">
+                    <img src="{{asset('assets/front/images/case/seadigital.webp')}}" alt="CRM Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -288,7 +288,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/ecomdigital.png')}}" alt="Mobile App">
+                    <img src="{{asset('assets/front/images/case/ecomdigital.webp')}}" alt="Mobile App">
                 </div>
             </div>
             <div class="col-md-6">
@@ -314,7 +314,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/curtaindigital.png')}}" alt="Curtain Cleaning Digital Marketing">
+                    <img src="{{asset('assets/front/images/case/curtaindigital.webp')}}" alt="Curtain Cleaning Digital Marketing">
                 </div>
             </div>
             <div class="col-md-6">

@@ -9,7 +9,7 @@
 
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/pricingplan.png')}}">
+    data-background="{{asset('assets/front/images/banner/pricingplan.webp')}}">
          
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Pricing</h1>

@@ -109,7 +109,7 @@
                                                         data-toggle="tooltip" data-placement="top"
                                                         title="Edit"></i>
                                                 </a>
-                                                <a class="text-danger mr-2" href="#">
+                                                <a class="text-danger mr-2"  >
                                                     <i class="nav-icon i-Close-Window font-weight-bold"
                                                         data-toggle="modal"
                                                         data-target=".deleteTeam{{ $team->id }}"

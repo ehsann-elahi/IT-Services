@@ -7,7 +7,7 @@
 @section('canonical', url()->current())
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/app.png')}}">
+    data-background="{{asset('assets/front/images/banner/app.webp')}}">
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">App Development</h1>
         <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -147,7 +147,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps1.png')}}" alt="App Research & Strategy">
+                    <img src="{{asset('assets/front/images/case/apps1.webp')}}" alt="App Research & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -167,7 +167,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps5.png')}}" alt="App UI/UX Design">
+                    <img src="{{asset('assets/front/images/case/apps5.webp')}}" alt="App UI/UX Design">
                 </div>
             </div>
             <div class="col-md-6">
@@ -187,7 +187,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps2.png')}}" alt="App Development">
+                    <img src="{{asset('assets/front/images/case/apps2.webp')}}" alt="App Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -208,7 +208,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/app3.png')}}" alt="App Launch & Support">
+                    <img src="{{asset('assets/front/images/case/app3.webp')}}" alt="App Launch & Support">
                 </div>
             </div>
             <div class="col-md-6">

@@ -8,7 +8,7 @@
 @section('content')
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
-    data-background="{{asset('assets/front/images/banner/service.png')}}">
+    data-background="{{asset('assets/front/images/banner/service.webp')}}">
     <div class="container">
         <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Digital Marketing Services in Dubai</h2>
             <div class="breadcrumb-list wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -39,6 +39,35 @@
         </div>
 
         <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-two__item">
+                    <div class="image">
+                        <img src="{{asset('assets/front/images/service/googlead.png')}}" alt="AI RAG Custom Data Chatbot UAE">
+                    </div>
+                    <div class="service-two__content">
+                        <div class="icon">
+                            <img src="{{asset('assets/front/images/icon/service-two-icon6.png')}}" alt="AI chatbot icon">
+                        </div>
+                        <div class="shape">
+                            <img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}" alt="decorative shape">
+                        </div>
+                        <h4>
+                            <a href="{{route('index.chatbot')}}" class="primary-hover">AI RAG Custom Data Chatbot</a>
+                        </h4>
+                        <p>
+                            Power your business with a <strong>Retrieval-Augmented Generation (RAG) Chatbot</strong>
+                            trained on your own data. Meta Digital Marketing builds intelligent chatbots that can
+                            <strong>read, learn, and respond</strong> from your company documents, FAQs, or databases —
+                            delivering instant, accurate answers to customers and staff.
+                            Boost efficiency, support, and engagement with AI that truly understands your business.
+                        </p>
+                        <a class="read-more-btn" href="{{route('index.chatbot')}}">
+                            Read More <i class="fa-regular fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
@@ -150,7 +179,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/service-image6.jpg')}}" alt="image">
+                        <img src="{{asset('assets/front/images/service/app1.png')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
