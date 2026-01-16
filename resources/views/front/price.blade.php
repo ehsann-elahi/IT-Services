@@ -4,7 +4,7 @@
 @section('og:description','Grow your business with our cheapest website & SEO packages in Dubai & Abu Dhabi. We provide a complete SEO solution with guaranteed ranking on google to local & international companies. ')
 @section('og:title','Affordable Website & SEO Packages in Dubai & Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 
 <!-- Page banner area start here -->
@@ -25,7 +25,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 PRICE PLANS
             </h5>
             <h2>Affordable IT & Marketing Solutions in Dubai</h2>
@@ -38,14 +38,14 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="pricing__item">
                     <div class="item-shape">
-                        <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                     </div>
                     <div class="pricing-head">
                         <div>
                             <h4 class="text-white mb-10">Digital Marketing</h4>
                             <h2>AED 300<span>/starting</span></h2>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-bullhorn text-white"></i>
                         </div>
                     </div>
@@ -64,14 +64,14 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="pricing__item popular-plan">
                     <div class="item-shape">
-                        <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                     </div>
                     <div class="pricing-head">
                         <div>
                             <h4 class="text-white mb-10">Web Development</h4>
                             <h2>AED 300<span>/starting</span></h2>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-code text-white"></i>
                         </div>
                     </div>
@@ -90,14 +90,14 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="pricing__item">
                     <div class="item-shape">
-                        <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                     </div>
                     <div class="pricing-head">
                         <div>
                             <h4 class="text-white mb-10">App Development</h4>
                             <h2>AED 300<span>/starting</span></h2>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-mobile-alt text-white"></i>
                         </div>
                     </div>

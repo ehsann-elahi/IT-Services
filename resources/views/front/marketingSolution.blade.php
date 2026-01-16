@@ -4,7 +4,7 @@
 @section('og:description','Connect with the best Digital Marketing companies. Compare expert profiles, client success stories & proven results to choose a verified provider that')
 @section('og:title','Best Dubai Digital Marketing Companies')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 
 @section('styles')
@@ -162,7 +162,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 Our Work Process
             </h5>
             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -181,10 +181,10 @@
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                 <div class="process__item mb-100">
                     <div class="process-arry bobble__animation">
-                        <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
+                        <img src="{{asset('/assets/front/images/process/process-arry.webp')}}" alt="arry-icon">
                     </div>
                     <div class="process__image">
-                        <img src="{{asset('assets/front/images/process/process-image1.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/process/process-image1.webp')}}" alt="image">
                         <span class="process-number">1</span>
                     </div>
                     <div class="process__content">
@@ -202,10 +202,10 @@
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="process__item mb-100">
                     <div class="process-arry bobble__animation">
-                        <img src="{{asset('assets/front/images/process/process-arry.png')}}" alt="arry-icon">
+                        <img src="{{asset('/assets/front/images/process/process-arry.webp')}}" alt="arry-icon">
                     </div>
                     <div class="process__image">
-                        <img src="{{asset('assets/front/images/process/process-image2.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/process/process-image2.webp')}}" alt="image">
                         <span class="process-number">2</span>
                     </div>
                     <div class="process__content">
@@ -224,7 +224,7 @@
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                 <div class="process__item">
                     <div class="process__image">
-                        <img src="{{asset('assets/front/images/process/process-image3.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/process/process-image3.webp')}}" alt="image">
                         <span class="process-number">3</span>
                     </div>
                     <div class="process__content">
@@ -250,7 +250,7 @@
 
     <div class="section-header text-center mb-60">
     <h5>
-        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+        <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
         DIGITAL MARKETING SOLUTIONS
     </h5>
     <h2>Result-Driven Digital Marketing in UAE</h2>
@@ -262,7 +262,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seadigital.webp')}}" alt="CRM Development">
+                    <img src="{{asset('/assets/front/images/case/seadigital.webp')}}" alt="CRM Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -288,7 +288,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/ecomdigital.webp')}}" alt="Mobile App">
+                    <img src="{{asset('/assets/front/images/case/ecomdigital.webp')}}" alt="Mobile App">
                 </div>
             </div>
             <div class="col-md-6">
@@ -314,7 +314,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/curtaindigital.webp')}}" alt="Curtain Cleaning Digital Marketing">
+                    <img src="{{asset('/assets/front/images/case/curtaindigital.webp')}}" alt="Curtain Cleaning Digital Marketing">
                 </div>
             </div>
             <div class="col-md-6">
@@ -345,10 +345,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

@@ -4,7 +4,7 @@
 @section('og:description','Grow your business with Dubai & Abu Dhabi-based best online marketing services provider company.Services using google ads, pay-per-click and local SEO')
 @section('og:title','SEO & Lead Generation Sale | Dubai | Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/seo.webp')}}">
@@ -27,7 +27,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/seo.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/seo.webp')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">Search Engine Optimization Services</h3>
                     <p class="mb-20">Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family & enjoying the fruitful outcomes of our great cheaper, state of the art SEO services solutions..</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/seo1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/seo1.webp')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
 
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 SEO SOLUTIONS
             </h5>
             <h2>Our SEO Expertise</h2>
@@ -151,7 +151,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo1.webp')}}" alt="SEO Audit & Strategy">
+                    <img src="{{asset('/assets/front/images/case/seo1.webp')}}" alt="SEO Audit & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo2.webp')}}" alt="On-Page Optimization">
+                    <img src="{{asset('/assets/front/images/case/seo2.webp')}}" alt="On-Page Optimization">
                 </div>
             </div>
             <div class="col-md-6">
@@ -194,7 +194,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo3.webp')}}" alt="Off-Page SEO & Link Building">
+                    <img src="{{asset('/assets/front/images/case/seo3.webp')}}" alt="Off-Page SEO & Link Building">
                 </div>
             </div>
             <div class="col-md-6">
@@ -214,7 +214,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo4.webp')}}" alt="Tracking & Results">
+                    <img src="{{asset('/assets/front/images/case/seo4.webp')}}" alt="Tracking & Results">
                 </div>
             </div>
             <div class="col-md-6">
@@ -333,10 +333,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

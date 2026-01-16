@@ -70,8 +70,16 @@ Route::get('/free-laundry-management-system', [FrontController::class, 'flms'])-
 Route::get('/notifications', [NotificationController::class, 'getNotifications'])->name('admin.getNotifications');
 Route::post('/notifications/mark-read', [NotificationController::class, 'markNotificationsRead'])->name('admin.markNotificationsRead');
 
-Route::get('/images-to-webp', [ImageController::class, 'index'])->name('images.index');
-Route::post('/upload', [ImageController::class, 'upload'])->name('images.upload');
+// convertor routes
+Route::get('/image-convertor', [ImageController::class, 'index'])->name('images.index');
+Route::post('/upload', [ImageController::class, 'uploadAjax'])->name('images.upload.ajax');
 Route::get('/download/{filename}', [ImageController::class, 'downloadSingle'])->name('images.downloadSingle');
 Route::get('/download-all', [ImageController::class, 'downloadAll'])->name('images.downloadAll');
+
+Route::get('/geotag-tool', [ImageController::class, 'imagesGeotag'])->name('images.geotag');
+Route::post('/geotag/upload', [ImageController::class, 'geoTagUpload'])->name('images.geoTagUpload');
+Route::post('/geotag/apply', [ImageController::class, 'applyGeotag'])->name('images.applyGeotag');
+
+
+// chatbot route
 Route::get('//dubai-abu-dhabi/ai-rag-custom-data-chat-bot', [FrontController::class, 'chatbot'])->name('index.chatbot');

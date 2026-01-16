@@ -3,41 +3,40 @@
 @section('description','MetaDigital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
 @section('og:description','MetaDigital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
 @section('og:title','Leading SEO and Digital Marketing Agency in Dubai & Abu Dhabi')
-<!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <main>
     <!-- Banner area start here -->
     <section class="banner-two-area">
         <div class="banner-two__line">
-            <img class="sway_Y__animation" src="{{asset('assets/front/images/banner/banner-line.png')}}" alt="shape">
+            <img class="sway_Y__animation" src="{{asset('/assets/front/images/banner/banner-line.png')}}" alt="shape">
         </div>
         <div class="swiper banner__slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="banner-two__line-left" data-animation="slideInLeft" data-duration="3s"
                         data-delay=".3s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-left-line.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-left-line.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__shape2" data-animation="slideInRight" data-duration="2s"
                         data-delay=".3s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-solid-right-down.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-solid-right-down.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__shape1" data-animation="slideInRight" data-duration="2s"
                         data-delay=".5s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-solid-right-up.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-solid-right-up.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__right-shape wow slideInRight" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
-                        <img class="sway_Y__animation" src="{{asset('assets/front/images/banner/banner-two-right-shape.png')}}"
+                        <img class="sway_Y__animation" src="{{asset('/assets/front/images/banner/banner-two-right-shape.png')}}"
                             alt="shape">
                     </div>
                     <div class="banner-two__circle-solid">
-                        <img class="animation__rotate" src="{{asset('assets/front/images/banner/banner-two-circle-solid.png')}}"
+                        <img class="animation__rotate" src="{{asset('/assets/front/images/banner/banner-two-circle-solid.png')}}"
                             alt="shape">
                     </div>
                     <div class="banner-two__circle-regular">
-                        <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
+                        <img class="animation__rotateY" src="{{asset('/assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
                     <div class="slide-bg" data-background="{{asset('assets/front/images/banner/1.webp')}}"></div>
@@ -62,27 +61,27 @@
                 <div class="swiper-slide">
                     <div class="banner-two__line-left" data-animation="slideInLeft" data-duration="3s"
                         data-delay=".3s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-left-line.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-left-line.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__shape2" data-animation="slideInRight" data-duration="2s"
                         data-delay=".3s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-solid-right-down.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-solid-right-down.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__shape1" data-animation="slideInRight" data-duration="2s"
                         data-delay=".5s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-solid-right-up.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-solid-right-up.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__right-shape wow slideInRight" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
-                        <img class="sway_Y__animation" src="{{asset('assets/front/images/banner/banner-two-right-shape.png')}}"
+                        <img class="sway_Y__animation" src="{{asset('/assets/front/images/banner/banner-two-right-shape.png')}}"
                             alt="shape">
                     </div>
                     <div class="banner-two__circle-solid">
-                        <img class="animation__rotate" src="{{asset('assets/front/images/banner/banner-two-circle-solid.png')}}"
+                        <img class="animation__rotate" src="{{asset('/assets/front/images/banner/banner-two-circle-solid.png')}}"
                             alt="shape">
                     </div>
                     <div class="banner-two__circle-regular">
-                        <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
+                        <img class="animation__rotateY" src="{{asset('/assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
                     <div class="slide-bg" data-background="{{asset('assets/front/images/banner/2.webp')}}"></div>
@@ -105,27 +104,27 @@
                 <div class="swiper-slide">
                     <div class="banner-two__line-left" data-animation="slideInLeft" data-duration="3s"
                         data-delay=".3s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-left-line.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-left-line.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__shape2" data-animation="slideInRight" data-duration="2s"
                         data-delay=".3s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-solid-right-down.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-solid-right-down.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__shape1" data-animation="slideInRight" data-duration="2s"
                         data-delay=".5s">
-                        <img src="{{asset('assets/front/images/banner/banner-two-solid-right-up.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/banner/banner-two-solid-right-up.png')}}" alt="shape">
                     </div>
                     <div class="banner-two__right-shape wow slideInRight" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
-                        <img class="sway_Y__animation" src="{{asset('assets/front/images/banner/banner-two-right-shape.png')}}"
+                        <img class="sway_Y__animation" src="{{asset('/assets/front/images/banner/banner-two-right-shape.png')}}"
                             alt="shape">
                     </div>
                     <div class="banner-two__circle-solid">
-                        <img class="animation__rotate" src="{{asset('assets/front/images/banner/banner-two-circle-solid.png')}}"
+                        <img class="animation__rotate" src="{{asset('/assets/front/images/banner/banner-two-circle-solid.png')}}"
                             alt="shape">
                     </div>
                     <div class="banner-two__circle-regular">
-                        <img class="animation__rotateY" src="{{asset('assets/front/images/banner/banner-two-circle-regular.png')}}"
+                        <img class="animation__rotateY" src="{{asset('/assets/front/images/banner/banner-two-circle-regular.png')}}"
                             alt="shape">
                     </div>
                     <div class="slide-bg" data-background="{{asset('assets/front/images/banner/3.webp')}}"></div>
@@ -161,7 +160,7 @@
         <div class="container">
             <div class="section-header text-center mb-60">
                 <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                    <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                     OUR PROCESS
                 </h5>
                 <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -179,7 +178,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="process__item mb-100 text-center">
                         <div class="process__image">
-                            <img src="{{asset('assets/front/images/process/process-image1.png')}}" alt="Discovery">
+                            <img src="{{asset('/assets/front/images/process/process-image1.webp')}}" alt="Discovery">
                             <span class="process-number">1</span>
                         </div>
                         <div class="process__content">
@@ -193,7 +192,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="process__item mb-100 text-center">
                         <div class="process__image">
-                            <img src="{{asset('assets/front/images/process/process-image2.png')}}" alt="Strategy">
+                            <img src="{{asset('/assets/front/images/process/process-image2.webp')}}" alt="Strategy">
                             <span class="process-number">2</span>
                         </div>
                         <div class="process__content">
@@ -207,7 +206,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <div class="process__item mb-100 text-center">
                         <div class="process__image">
-                            <img src="{{asset('assets/front/images/process/process-image3.png')}}" alt="Execution">
+                            <img src="{{asset('/assets/front/images/process/process-image3.webp')}}" alt="Execution">
                             <span class="process-number">3</span>
                         </div>
                         <div class="process__content">
@@ -230,10 +229,10 @@
     <!-- Service area start here -->
     <section class="service-two-area secondary-bg pt-120 pb-120">
         <div class="service-two__shape-left sway_Y__animationY">
-            <img src="{{asset('assets/front/images/shape/service-two-shape-left.png')}}" alt="shape">
+            <img src="{{asset('/assets/front/images/shape/service-two-shape-left.webp')}}" alt="shape">
         </div>
         <div class="service-two__shape-right sway_Y__animation">
-            <img src="{{asset('assets/front/images/shape/service-two-shape-right.png')}}" alt="shape">
+            <img src="{{asset('/assets/front/images/shape/service-two-shape-right.webp')}}" alt="shape">
         </div>
         <div class="container">
             <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
@@ -253,8 +252,7 @@
                         </svg>
                         SERVICES WE’RE OFFERING
                     </h5>
-                    <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        MetaDigital Marketing Services</h2>
+                    <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">MetaDigital Marketing Services</h2>
                 </div>
                 <div class="arry-btn  d-flex gap-3 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <button class="arry-prev service__arry-prev"><i class="fa-light fa-chevron-left"></i></button>
@@ -267,13 +265,13 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/graphic1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/graphic1.webp')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
-                                    <img src="{{asset('assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
+                                    <img src="{{asset('/assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
                                 </div>
-                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                         alt="shape"></div>
                                 <h4><a href="{{route('images.index')}}" class="primary-hover">Free Image Converter</a></h4>
                                 <p>At MetaDigital Marketing, we offer a free online image conversion tool that helps everyone optimize their visuals effortlessly. Instantly convert your images to WebP format and automatically reduce their size to under 100KB</p>
@@ -285,13 +283,13 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image1.jpg')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/service-image1.webp')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
-                                    <img src="{{asset('assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
+                                    <img src="{{asset('/assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
                                 </div>
-                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                         alt="shape"></div>
                                 <h4><a href="{{route('WebDevelopment')}}" class="primary-hover">Website Development</a></h4>
                                 <p>We are professional team who are passionate to transform the business into digital. Web development can be first step to showing your brand/services on digital platforms in Dubai & Abu Dhabi </p>
@@ -303,13 +301,13 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image6.jpg')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/service-image6.webp')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
-                                    <img src="{{asset('assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
+                                    <img src="{{asset('/assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
                                 </div>
-                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                         alt="shape"></div>
                                 <h4><a href="{{route('AppDevelopment')}}" class="primary-hover">App Development</a></h4>
                                 <p>At MetaDigital Marketing we design and develop mobile apps that do more than just look good they solve real problems. Our expert team creates user friendly iOS and Android applications</p>
@@ -321,13 +319,13 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image6.jpg')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/service-image6.webp')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
-                                    <img src="{{asset('assets/front/images/icon/service-two-icon2.png')}}" alt="icon">
+                                    <img src="{{asset('/assets/front/images/icon/service-two-icon2.png')}}" alt="icon">
                                 </div>
-                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                         alt="shape"></div>
                                 <h4><a href="{{route('Digitalmarketing')}}" class="primary-hover">Digital Marketing</a></h4>
                                 <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
@@ -339,13 +337,13 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image3.jpg')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/service-image3.webp')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
-                                    <img src="{{asset('assets/front/images/icon/service-two-icon3.png')}}" alt="icon">
+                                    <img src="{{asset('/assets/front/images/icon/service-two-icon3.png')}}" alt="icon">
                                 </div>
-                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                         alt="shape"></div>
                                 <h4><a href="{{route('googleads')}}" class="primary-hover">Google Ads</a></h4>
                                 <p>Our Google ads service provides budget friendly cheaper quick customer attention solutions to start-ups and businesses who are planning to launch a new product or service</p>
@@ -357,13 +355,13 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image4.jpg')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/service-image4.webp')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
-                                    <img src="{{asset('assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
+                                    <img src="{{asset('/assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
                                 </div>
-                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                         alt="shape"></div>
                                 <h4><a href="{{route('Seo')}}" class="primary-hover">Search Engine Optimization</a></h4>
                                 <p>Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family</p>
@@ -375,13 +373,13 @@
                     <div class="swiper-slide">
                         <div class="service-two__item">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-image5.jpg')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/service-image5.webp')}}" alt="image">
                             </div>
                             <div class="service-two__content">
                                 <div class="icon">
-                                    <img src="{{asset('assets/front/images/icon/service-two-icon2.png')}}" alt="icon">
+                                    <img src="{{asset('/assets/front/images/icon/service-two-icon2.png')}}" alt="icon">
                                 </div>
-                                <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                                <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                         alt="shape"></div>
                                 <h4><a href="{{route('Graphicdesigning')}}" class="primary-hover">Graphic Desigining</a></h4>
                                 <p>Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
@@ -402,7 +400,7 @@
         <div class="container">
             <div class="section-header text-center mb-60">
                 <h5>
-                    <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                    <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                     PRICE PLANS
                 </h5>
                 <h2>Affordable Digital Marketing Solutions</h2>
@@ -415,14 +413,14 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="pricing__item">
                         <div class="item-shape">
-                            <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                            <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                         </div>
                         <div class="pricing-head">
                             <div>
                                 <h4 class="text-white mb-10">Digital Marketing</h4>
                                 <h2>AED 300<span>/starting</span></h2>
                             </div>
-                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                                 <i class="fas fa-bullhorn text-white"></i>
                             </div>
                         </div>
@@ -441,14 +439,14 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="pricing__item popular-plan">
                         <div class="item-shape">
-                            <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                            <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                         </div>
                         <div class="pricing-head">
                             <div>
                                 <h4 class="text-white mb-10">Web Development</h4>
                                 <h2>AED 300<span>/starting</span></h2>
                             </div>
-                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                                 <i class="fas fa-code text-white"></i>
                             </div>
                         </div>
@@ -467,14 +465,14 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="pricing__item">
                         <div class="item-shape">
-                            <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                            <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                         </div>
                         <div class="pricing-head">
                             <div>
                                 <h4 class="text-white mb-10">App Development</h4>
                                 <h2>AED 300<span>/starting</span></h2>
                             </div>
-                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                            <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                                 <i class="fas fa-mobile-alt text-white"></i>
                             </div>
                         </div>
@@ -498,13 +496,13 @@
     <!-- About area start here -->
     <section class="about-area about-three-area sub-bg pt-120">
         <div class="about__shape wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
-            <img src="{{asset('assets/front/images/shape/about-three-line.png')}}" alt="shape">
+            <img src="{{asset('/assets/front/images/shape/about-three-line.webp')}}" alt="shape">
         </div>
         <div class="about-three__box-up wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <img class="sway_Y__animationY" src="{{asset('assets/front/images/shape/about-three-box-up.png')}}" alt="shape">
+            <img class="sway_Y__animationY" src="{{asset('/assets/front/images/shape/about-three-box-up.webp')}}" alt="shape">
         </div>
         <div class="about-three__box-down wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-            <img class="sway_Y__animation" src="{{asset('assets/front/images/shape/about-three-box-down.png')}}" alt="shape">
+            <img class="sway_Y__animation" src="{{asset('/assets/front/images/shape/about-three-box-down.webp')}}" alt="shape">
         </div>
         <div class="container">
             <div class="row g-4 align-items-center">
@@ -512,7 +510,7 @@
                     <div class="about-three__left-item">
                         <div class="section-header mb-40">
                             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                                 ABOUT Gratech
                             </h5>
                             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms"> Grow Your Social Accounts</h2>
@@ -523,7 +521,7 @@
                                 <div class="col-md-6">
                                     <div class="about__right-item">
                                         <div class="icon">
-                                            <img src="{{asset('assets/front/images/icon/about-three-icon1.png')}}" alt="icon">
+                                            <img src="{{asset('/assets/front/images/icon/about-three-icon1.webp')}}" alt="icon">
                                         </div>
                                         <div class="content">
                                             <h4 class="mb-1">Business Growth</h4>
@@ -533,7 +531,7 @@
                                 <div class="col-md-6">
                                     <div class="about__right-item">
                                         <div class="icon">
-                                            <img src="{{asset('assets/front/images/icon/about-three-icon2.png')}}" alt="icon">
+                                            <img src="{{asset('/assets/front/images/icon/about-three-icon2.webp')}}" alt="icon">
                                         </div>
                                         <div class="content">
                                             <h4 class="mb-1">Technology Consultancy</h4>
@@ -548,19 +546,19 @@
                     <div class="faq__image about-three__image image wow fadeInRight" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div class="about-three-dot">
-                            <img class="sway__animationX" src="{{asset('assets/front/images/shape/about-three-dot.png')}}" alt="shape">
+                            <img class="sway__animationX" src="{{asset('/assets/front/images/shape/about-three-dot.webp')}}" alt="shape">
                         </div>
                         <div class="about-three-count p-4 d-flex align-items-center gap-3">
-                            <img class="icon" src="{{asset('assets/front/images/icon/about-three-icon3.png')}}" alt="icon">
+                            <img class="icon" src="{{asset('/assets/front/images/icon/about-three-icon3.webp')}}" alt="icon">
                             <div class="con">
                                 <h3><span class="count">6,561</span>+</h3>
                                 <span class="secondary-color sm-font">Happy Clients</span>
                             </div>
                         </div>
                         <div class="faq__line sway__animation">
-                            <img src="{{asset('assets/front/images/shape/faq-line.png')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/shape/faq-line.webp')}}" alt="image">
                         </div>
-                        <img src="{{asset('assets/front/images/about/about-three-image.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/about/about-three-image.webp')}}" alt="image">
                     </div>
                 </div>
             </div>
@@ -573,31 +571,31 @@
         <div class="container">
             <div class="counter__wrp gradient-bg">
                 <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <img src="{{asset('assets/front/images/shape/counnter-bg-shape.png')}}" alt="shape">
+                    <img src="{{asset('/assets/front/images/shape/counnter-bg-shape.webp')}}" alt="shape">
                 </div>
                 <div class="counter__item wow bounceInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
-                    <img src="{{('assets/front/images/icon/counter-icon1.png')}}" alt="icon">
+                    <img src="{{('assets/front/images/icon/counter-icon1.webp')}}" alt="icon">
                     <div class="content">
                         <h3><span class="count">6,561</span>+</h3>
                         <p class="text-white">Satisfied Clients</p>
                     </div>
                 </div>
                 <div class="counter__item wow bounceInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-                    <img src="{{('assets/front/images/icon/counter-icon2.png')}}" alt="icon">
+                    <img src="{{('assets/front/images/icon/counter-icon2.webp')}}" alt="icon">
                     <div class="content">
                         <h3><span class="count">600</span>+</h3>
                         <p class="text-white">Finished Projects</p>
                     </div>
                 </div>
                 <div class="counter__item wow bounceInUp" data-wow-delay="400ms" data-wow-duration="1000ms">
-                    <img src="{{('assets/front/images/icon/counter-icon3.png')}}" alt="icon">
+                    <img src="{{('assets/front/images/icon/counter-icon3.webp')}}" alt="icon">
                     <div class="content">
                         <h3><span class="count">250</span>+</h3>
                         <p class="text-white">Skilled Experts</p>
                     </div>
                 </div>
                 <div class="counter__item wow bounceInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-                    <img src="{{('assets/front/images/icon/counter-icon4.png')}}" alt="icon">
+                    <img src="{{('assets/front/images/icon/counter-icon4.webp')}}" alt="icon">
                     <div class="content">
                         <h3><span class="count">590</span>+</h3>
                         <p class="text-white">Media Posts</p>
@@ -657,16 +655,16 @@
     <!-- Faq area start here -->
     <section class="faq-area sub-bg pt-120 pb-120">
         <div class="faq__shape">
-            <img class="sway__animationX" src="{{asset('assets/front/images/shape/faq-shape.png')}}" alt="shape">
+            <img class="sway__animationX" src="{{asset('/assets/front/images/shape/faq-shape.webp')}}" alt="shape">
         </div>
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-5 pe-2 pe-lg-5">
                     <div class="faq__image image wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="faq__line sway__animation">
-                            <img src="{{asset('assets/front/images/shape/faq-line.png')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/shape/faq-line.webp')}}" alt="image">
                         </div>
-                        <img src="{{asset('assets/front/images/faq/faq-image.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/faq/faq-image.webp')}}" alt="image">
                     </div>
                 </div>
                 <div class="col-lg-7 mt-60">
@@ -771,7 +769,7 @@
     <!-- Case area start here -->
     <section class="case-two-area secondary-bg pt-120">
         <div class="case-two__bg">
-            <img src="{{asset('assets/front/images/bg/case-two-bg.png')}}" alt="image">
+            <img src="{{asset('/assets/front/images/bg/case-two-bg.webp')}}" alt="image">
         </div>
         <div class="container">
             <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
@@ -807,7 +805,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/web.webp')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/case/web.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Build Your Idea</span>
@@ -821,7 +819,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/digital.webp')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/case/digital.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Busness Growth</span>
@@ -835,7 +833,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/seo.webp')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/case/seo.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Ranking</span>
@@ -849,7 +847,7 @@
                     <div class="swiper-slide">
                         <div class="case-two__item">
                             <div class="image case-two__image">
-                                <img src="{{asset('assets/front/images/case/graphic.webp')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/case/graphic.webp')}}" alt="image">
                             </div>
                             <div class="case-two__content">
                                 <span>Solution of Idea</span>
@@ -904,7 +902,7 @@
                                 aliquam eget maecenas porta
                                 is nunc nul viverra Aenean pulvinar maximus leo ”</p>
                             <div class="d-flex align-items-center gap-3">
-                                <img src="{{asset('assets/front/images/testimonial/testimonial-two-image1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/testimonial/testimonial-two-image1.webp')}}" alt="image">
                                 <div class="con">
                                     <h4>Alex Rony</h4>
                                     <span>Engineering</span>
@@ -931,7 +929,7 @@
                                 aliquam eget maecenas porta
                                 is nunc nul viverra Aenean pulvinar maximus leo ”</p>
                             <div class="d-flex align-items-center gap-3">
-                                <img src="{{asset('assets/front/images/testimonial/testimonial-two-image2.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/testimonial/testimonial-two-image2.webp')}}" alt="image">
                                 <div class="con">
                                     <h4>Suborna Tarchera</h4>
                                     <span>UI/UX Designer</span>
@@ -958,7 +956,7 @@
                                 aliquam eget maecenas porta
                                 is nunc nul viverra Aenean pulvinar maximus leo ”</p>
                             <div class="d-flex align-items-center gap-3">
-                                <img src="{{asset('assets/front/images/testimonial/testimonial-two-image3.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/testimonial/testimonial-two-image3.webp')}}" alt="image">
                                 <div class="con">
                                     <h4>Kawser Ahmed</h4>
                                     <span>Web Designer</span>
@@ -1044,10 +1042,10 @@
         <div class="container">
             <div class="quote__wrp gradient-bg">
                 <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                    <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
                 </div>
                 <div class="quote__shape bobble__animation">
-                    <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                    <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
                 </div>
                 <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                     <div class="section-header">

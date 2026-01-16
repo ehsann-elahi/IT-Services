@@ -35,7 +35,7 @@
 
             {{-- Table --}}
             <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
+                <table class="table table-bordered table-striped align-middle" id="zero_configuration_table">
                     <thead class="table-dark">
                         <tr>
                             <th>#</th>
@@ -84,9 +84,7 @@
             </div>
 
             {{-- Pagination --}}
-            <div class="mt-3">
-                {{ $contacts->links() }}
-            </div>
+          
         </div>
     </div>
 

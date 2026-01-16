@@ -4,7 +4,7 @@
 @section('og:description','Connect with the best Digital Marketing companies. Compare expert profiles, client success stories & proven results to choose a verified provider thats right for you.')
 @section('og:title','We specialize in creating customized ad campaigns that bring real results')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/googleads.webp')}}">
@@ -27,7 +27,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/googlead.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/googlead.webp')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">Google Ads Service</h3>
                     <p class="mb-20"> Our Google ads service provides budget-friendly cheaper quick customer attention & transparent solutions to start-ups and businesses who are planning to launch a new product or service in Abu Dhabi & Dubai and those companies who wanted to introduce themselves as market-leading brand or rebrand.</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/google1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/google1.webp')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
 
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 GOOGLE ADS
             </h5>
             <h2>Our Google Ads Expertise</h2>
@@ -151,7 +151,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google.webp')}}" alt="Campaign Research & Strategy">
+                    <img src="{{asset('/assets/front/images/case/google.webp')}}" alt="Campaign Research & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google1.webp')}}" alt="Ad Creation & Setup">
+                    <img src="{{asset('/assets/front/images/case/google1.webp')}}" alt="Ad Creation & Setup">
                 </div>
             </div>
             <div class="col-md-6">
@@ -195,7 +195,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google3.webp')}}" alt="Campaign Optimization">
+                    <img src="{{asset('/assets/front/images/case/google3.webp')}}" alt="Campaign Optimization">
                 </div>
             </div>
             <div class="col-md-6">
@@ -215,7 +215,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google2.webp')}}" alt="Reporting & Results">
+                    <img src="{{asset('/assets/front/images/case/google2.webp')}}" alt="Reporting & Results">
                 </div>
             </div>
             <div class="col-md-6">
@@ -333,10 +333,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

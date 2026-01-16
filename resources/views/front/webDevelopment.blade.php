@@ -4,7 +4,7 @@
 @section('og:description','Looking for expert web development? MetaDigital creates responsive SEO-optimized websites that boost visibility conversions and long-term success.')
 @section('og:title','Connect with the best Web Development companies.')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -28,7 +28,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/web.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/web.webp')}}" alt="image">
                     </div>
 
                     <h3 class="title mb-30">Website Development Service</h3>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/service-single-image2.jpg')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/service-single-image2.webp')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 WEB DEVELOPMENT
             </h5>
             <h2>Our Web Development Expertise</h2>
@@ -151,7 +151,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/webs1.webp')}}" alt="Web Analysis & Planning">
+                    <img src="{{asset('/assets/front/images/case/webs1.webp')}}" alt="Web Analysis & Planning">
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/webs4.webp')}}" alt="UI/UX Design">
+                    <img src="{{asset('/assets/front/images/case/webs4.webp')}}" alt="UI/UX Design">
                 </div>
             </div>
             <div class="col-md-6">
@@ -194,7 +194,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/webs3.webp')}}" alt="Custom Development">
+                    <img src="{{asset('/assets/front/images/case/webs3.webp')}}" alt="Custom Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -215,7 +215,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/webs2.webp')}}" alt="Testing & Launch">
+                    <img src="{{asset('/assets/front/images/case/webs2.webp')}}" alt="Testing & Launch">
                 </div>
             </div>
             <div class="col-md-6">
@@ -333,10 +333,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.webp')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

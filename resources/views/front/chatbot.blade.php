@@ -4,7 +4,7 @@
 @section('og:description','Empower your business with our custom-data AI chat bot in Dubai & Abu Dhabi (near Square One) – fast setup, expert support, call today to get started!')
 @section('og:title','Free Laundry Management Software UAE - Meta Digital Marketing')
 @section('og:slug', '/digital-solutions/free-laundry-management-software-uae')
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 @section('styles')
 <style>
@@ -124,7 +124,7 @@
             <div class="col-lg-6 ">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/web.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/web1.webp')}}" alt="image">
                     </div>
                 </div>
             </div>
@@ -267,34 +267,40 @@ Pricing Table
 <!-- Satisfied Clients Section end here -->
 
 <!-- Projects Showcase start here -->
-<section class="projects-area pt-120 pb-120">
+<section class="projects-area pb-120">
   <div class="container">
     <div class="section-header text-center mb-60">
       <h5>
-        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
-        Smarter marketing, better growth, and total visibility
+        <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
+        Affordable AI solutions designed for Dubai businesses
       </h5>
-      <h2>everything your digital marketing agency needs in one platform.</h2>
-      <p>Our all-in-one SMMA toolkit goes beyond analytics — it’s your growth engine. From managing SEO campaigns to automating reports, tracking leads, and optimizing ads, we give you everything to scale smarter, faster, and with full control.</p>
+      <h2>AI RAG customer support chatbots for companies & individuals in Dubai</h2>
+      <p>
+        We provide cost-effective AI RAG chatbots in Dubai that handle customer support, FAQs, bookings, and inquiries 24/7.
+        Our intelligent chatbots are trusted by real businesses like <strong>laundryservice.ae</strong>, delivering faster responses,
+        reduced workload, and higher customer satisfaction — all at lower prices.
+      </p>
     </div>
 
     <!-- Project 1 -->
     <div class="row align-items-center mb-100">
       <div class="col-md-6">
         <div class="image">
-          <img src="{{asset('assets/front/images/case/seo-dashboard.webp')}}" alt="SEO Performance Dashboard">
+          <img src="{{asset('/assets/front/images/case/ai-chatbot-dashboard.webp')}}" alt="AI RAG Chatbot Dashboard">
         </div>
       </div>
       <div class="col-md-6">
-        <h3 class="case-single__title">AI-Powered SEO Performance Tracking</h3>
-        <p><strong>Turn your SEO data into strategy that wins.</strong>
-          Our intelligent SEO dashboard helps you monitor keyword rankings, competitor insights, and backlink growth — all in one place. Get instant visibility into performance and make data-driven decisions that move the needle.
+        <h3 class="case-single__title">AI RAG Customer Support Chatbot for Dubai Businesses</h3>
+        <p>
+          <strong>Automate customer support without compromising quality.</strong>
+          Our AI RAG (Retrieval-Augmented Generation) chatbot understands your business data and responds accurately to customer questions.
+          Perfect for Dubai companies looking for affordable AI chatbot solutions with real business impact.
         </p>
         <ul class="case-challenge mt-3">
-          <li><i class="fa-solid fa-check"></i> Track keyword trends and SERP visibility in real time.</li>
-          <li><i class="fa-solid fa-check"></i> Benchmark against top competitors.</li>
-          <li><i class="fa-solid fa-check"></i> Identify quick-win SEO opportunities instantly.</li>
-          <li><i class="fa-solid fa-check"></i> Generate branded reports with one click.</li>
+          <li><i class="fa-solid fa-check"></i> 24/7 automated customer support chatbot.</li>
+          <li><i class="fa-solid fa-check"></i> Trained on your business documents & FAQs.</li>
+          <li><i class="fa-solid fa-check"></i> Accurate, human-like responses using AI RAG.</li>
+          <li><i class="fa-solid fa-check"></i> Lower operational costs with instant AI replies.</li>
         </ul>
       </div>
     </div>
@@ -303,19 +309,21 @@ Pricing Table
     <div class="row align-items-center flex-row-reverse mb-100">
       <div class="col-md-6">
         <div class="image">
-          <img src="{{asset('assets/front/images/case/social-automation.webp')}}" alt="Social Media Automation">
+          <img src="{{asset('/assets/front/images/case/website-chatbot.webp')}}" alt="Website AI Chatbot Integration">
         </div>
       </div>
       <div class="col-md-6">
-        <h3 class="case-single__title">Smart Social Media Scheduling & Automation</h3>
-        <p><strong>Plan, publish, and measure your content performance seamlessly.</strong>
-          Our social automation suite lets you manage multiple accounts, schedule posts, and monitor engagement across all major platforms — from one unified dashboard.
+        <h3 class="case-single__title">Website & WhatsApp AI Chatbot Integration</h3>
+        <p>
+          <strong>Meet your customers where they already are.</strong>
+          We integrate AI chatbots on websites and WhatsApp to instantly answer queries, take service requests,
+          and guide customers — ideal for service-based businesses in Dubai.
         </p>
         <ul class="case-challenge mt-3">
-          <li><i class="fa-solid fa-check"></i> Schedule content across Facebook, Instagram, LinkedIn, and more.</li>
-          <li><i class="fa-solid fa-check"></i> Get AI-based content suggestions and best-time posting insights.</li>
-          <li><i class="fa-solid fa-check"></i> Track clicks, engagement, and conversions effortlessly.</li>
-          <li><i class="fa-solid fa-check"></i> Collaborate with team members in real time.</li>
+          <li><i class="fa-solid fa-check"></i> AI chatbot for websites & WhatsApp.</li>
+          <li><i class="fa-solid fa-check"></i> Handles bookings, pricing & service questions.</li>
+          <li><i class="fa-solid fa-check"></i> Multilingual support for Dubai customers.</li>
+          <li><i class="fa-solid fa-check"></i> No missed leads, no delayed responses.</li>
         </ul>
       </div>
     </div>
@@ -324,19 +332,21 @@ Pricing Table
     <div class="row align-items-center mb-100">
       <div class="col-md-6">
         <div class="image">
-          <img src="{{asset('assets/front/images/case/lead-management.webp')}}" alt="Lead Management Dashboard">
+          <img src="{{asset('/assets/front/images/case/laundry-chatbot.webp')}}" alt="Laundry Service AI Chatbot Dubai">
         </div>
       </div>
       <div class="col-md-6">
-        <h3 class="case-single__title">CRM & Lead Management Automation</h3>
-        <p><strong>Turn every inquiry into a long-term client relationship.</strong>
-          Centralize all your leads, automate follow-ups, and track client progress with our integrated CRM. Get clarity on your pipeline, boost conversions, and never lose a deal again.
+        <h3 class="case-single__title">Proven AI Chatbot Solution for Laundry Services in Dubai</h3>
+        <p>
+          <strong>Successfully powering real customer conversations.</strong>
+          Our AI RAG chatbot is actively handling customer support for <strong>laundryservice.ae</strong>,
+          managing order queries, pricing questions, pickup timings, and service details with high accuracy.
         </p>
         <ul class="case-challenge mt-3">
-          <li><i class="fa-solid fa-check"></i> Capture and qualify leads automatically.</li>
-          <li><i class="fa-solid fa-check"></i> Automate emails and SMS for instant response.</li>
-          <li><i class="fa-solid fa-check"></i> Monitor your entire sales funnel visually.</li>
-          <li><i class="fa-solid fa-check"></i> Sync with popular tools like GoHighLevel and Make.com.</li>
+          <li><i class="fa-solid fa-check"></i> Handles hundreds of daily customer queries.</li>
+          <li><i class="fa-solid fa-check"></i> Reduces manual support workload.</li>
+          <li><i class="fa-solid fa-check"></i> Improves customer response time instantly.</li>
+          <li><i class="fa-solid fa-check"></i> Trusted by Dubai-based service businesses.</li>
         </ul>
       </div>
     </div>
@@ -345,19 +355,21 @@ Pricing Table
     <div class="row align-items-center flex-row-reverse mb-100">
       <div class="col-md-6">
         <div class="image">
-          <img src="{{asset('assets/front/images/case/analytics-reporting.webp')}}" alt="Marketing Analytics Report">
+          <img src="{{asset('/assets/front/images/case/ai-pricing.webp')}}" alt="Affordable AI Chatbot Pricing Dubai">
         </div>
       </div>
       <div class="col-md-6">
-        <h3 class="case-single__title">Data-Driven Analytics & Reporting Suite</h3>
-        <p><strong>Understand what’s working — and where to grow next.</strong>
-          Get clear, actionable insights on campaigns, conversions, and ROI. Visualize ad spend efficiency and performance across channels, empowering smarter decisions for long-term growth.
+        <h3 class="case-single__title">Low-Cost AI Chatbot Solutions with High ROI</h3>
+        <p>
+          <strong>Advanced AI doesn’t have to be expensive.</strong>
+          We offer one of the most affordable AI chatbot services in Dubai, designed for startups,
+          small businesses, enterprises, and individuals who want powerful AI without high monthly costs.
         </p>
         <ul class="case-challenge mt-3">
-          <li><i class="fa-solid fa-check"></i> Analyze campaign performance by platform or client.</li>
-          <li><i class="fa-solid fa-check"></i> Identify your highest-ROI channels instantly.</li>
-          <li><i class="fa-solid fa-check"></i> Export branded performance reports for clients.</li>
-          <li><i class="fa-solid fa-check"></i> Integrate seamlessly with Google Analytics & Ads.</li>
+          <li><i class="fa-solid fa-check"></i> Budget-friendly AI chatbot pricing in Dubai.</li>
+          <li><i class="fa-solid fa-check"></i> Custom chatbot for any business or individual.</li>
+          <li><i class="fa-solid fa-check"></i> Scalable solution as your business grows.</li>
+          <li><i class="fa-solid fa-check"></i> Ongoing support, training & optimization.</li>
         </ul>
       </div>
     </div>
@@ -533,10 +545,10 @@ Pricing Table
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

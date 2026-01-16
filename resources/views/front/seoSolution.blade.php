@@ -4,7 +4,7 @@
 @section('og:description','We understand the importance of trust when shopping online. That is why we ensure safe transactions and strict privacy standards. Whether you are browsing luxury window curtains Dubai residents love or looking for the best place to buy window curtains')
 @section('og:title','Secure Shopping at the Best Place to Buy Window Curtains')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 
 @section('styles')
@@ -158,7 +158,7 @@
 
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 SEO SOLUTIONS
             </h5>
             <h2>Result-Driven SEO for UAE Businesses</h2>
@@ -170,7 +170,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo1.webp')}}" alt="SEO Research">
+                    <img src="{{asset('/assets/front/images/case/seo1.webp')}}" alt="SEO Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -190,7 +190,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo2.webp')}}" alt="On-Page Optimization">
+                    <img src="{{asset('/assets/front/images/case/seo2.webp')}}" alt="On-Page Optimization">
                 </div>
             </div>
             <div class="col-md-6">
@@ -212,7 +212,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo3.webp')}}" alt="Link Building & Authority">
+                    <img src="{{asset('/assets/front/images/case/seo3.webp')}}" alt="Link Building & Authority">
                 </div>
             </div>
             <div class="col-md-6">
@@ -233,7 +233,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo4.webp')}}" alt="SEO Results">
+                    <img src="{{asset('/assets/front/images/case/seo4.webp')}}" alt="SEO Results">
                 </div>
             </div>
             <div class="col-md-6">
@@ -260,10 +260,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

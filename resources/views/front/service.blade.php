@@ -4,7 +4,7 @@
 @section('og:description','Discover MetaDigital’s proven results. Explore our portfolio of successful digital marketing campaigns, web design projects, and creative solutions that helped businesses grow online.')
 @section('og:title','Services Designed to Boost Visibility & Conversions')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <!-- Page banner area start here -->
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -24,7 +24,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 OUR SERVICES
             </h5>
             <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -42,14 +42,14 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/googlead.png')}}" alt="AI RAG Custom Data Chatbot UAE">
+                        <img src="{{asset('/assets/front/images/service/googlead.webp')}}" alt="AI RAG Custom Data Chatbot UAE">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon6.png')}}" alt="AI chatbot icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon6.webp')}}" alt="AI chatbot icon">
                         </div>
                         <div class="shape">
-                            <img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}" alt="decorative shape">
+                            <img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}" alt="decorative shape">
                         </div>
                         <h4>
                             <a href="{{route('index.chatbot')}}" class="primary-hover">AI RAG Custom Data Chatbot</a>
@@ -71,13 +71,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/service-image1.jpg')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/service-image1.webp')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon1.png')}}" alt="icon">
                         </div>
-                        <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                        <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                 alt="shape"></div>
                         <h4><a href="{{route('WebDevelopment')}}" class="primary-hover">Web Development</a></h4>
                         <p> We are a professional team who are passionate to transform the business into digital. Web development can be first step to showing your brand/services on digital platforms in Dubai & Abu Dhabi. </p>
@@ -89,13 +89,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/service-image6.jpg')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/service-image6.webp')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon6.png')}}" alt="icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon6.webp')}}" alt="icon">
                         </div>
-                        <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                        <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                 alt="shape"></div>
                         <h4><a href="{{route('Digitalmarketing')}}" class="primary-hover">Digital Marketing</a></h4>
                         <p>Does your marketing strategy showyou saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
@@ -107,13 +107,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/service-image2.jpg')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/service-image2.webp')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon2.png')}}" alt="icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon2.png')}}" alt="icon">
                         </div>
-                        <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                        <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                 alt="shape"></div>
                         <h4><a href="{{route('Socialmediamarketing')}}" class="primary-hover">Social Media Marketing</a></h4>
                         <p>Does your marketing strategy showyou saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries!</p>
@@ -125,13 +125,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/service-image3.jpg')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/service-image3.webp')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon3.png')}}" alt="icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon3.png')}}" alt="icon">
                         </div>
-                        <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                        <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                 alt="shape"></div>
                         <h4><a href="{{route('googleads')}}" class="primary-hover">Google Ads</a></h4>
                         <p>Our Google ads service provides budget friendly cheaper quick customer attention solutions to start-ups and businesses who are planning to launch a new product or service </p>
@@ -143,13 +143,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/service-image4.jpg')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/service-image4.webp')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon4.png')}}" alt="icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon4.webp')}}" alt="icon">
                         </div>
-                        <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                        <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                 alt="shape"></div>
                         <h4><a href="{{route('Seo')}}" class="primary-hover">Search Engine Optimization</a></h4>
                         <p>Our SEO service is most appreciated service by our clients as we help a number of businesses to come out from loss to profit in the shortest time span that is now become part of our family</p>
@@ -161,13 +161,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/service-image5.jpg')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/service-image5.webp')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon5.png')}}" alt="icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon5.webp')}}" alt="icon">
                         </div>
-                        <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                        <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                 alt="shape"></div>
                         <h4><a href="{{route('Graphicdesigning')}}" class="primary-hover">Graphic Designing</a></h4>
                         <p>Does you marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! </p>
@@ -179,13 +179,13 @@
             <div class="col-lg-4 col-md-6">
                 <div class="service-two__item">
                     <div class="image">
-                        <img src="{{asset('assets/front/images/service/app1.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/app1.webp')}}" alt="image">
                     </div>
                     <div class="service-two__content">
                         <div class="icon">
-                            <img src="{{asset('assets/front/images/icon/service-two-icon6.png')}}" alt="icon">
+                            <img src="{{asset('/assets/front/images/icon/service-two-icon6.webp')}}" alt="icon">
                         </div>
-                        <div class="shape"><img src="{{asset('assets/front/images/shape/service-two-item-shape.png')}}"
+                        <div class="shape"><img src="{{asset('/assets/front/images/shape/service-two-item-shape.webp')}}"
                                 alt="shape"></div>
                         <h4><a href="{{route('AppDevelopment')}}" class="primary-hover">App Development</a></h4>
                         <p>At MetaDigital Marketing we design and develop mobile apps that do more than just look good they solve real problems. Our expert team creates user friendly iOS and Android applications</p>
@@ -204,10 +204,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

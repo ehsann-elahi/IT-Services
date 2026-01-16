@@ -4,7 +4,7 @@
 @section('og:description','Connect with the best Digital Marketing companies. Compare expert profiles, client success stories & proven results to choose a verified provider that')
 @section('og:title','Best Dubai Digital Marketing Companies')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/digital.webp')}}">
@@ -27,7 +27,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/marketing.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/marketing.webp')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">Digital Marketing Service</h3>
                     <p class="mb-20"> At MetaDigital Marketing we help businesses in the Dubai stand out online. Our team combines creativity strategy and data-driven campaigns to bring you more leads sales and loyal customers.From startups to established businesses our expert team ensures your brand stands out in today competitive market.</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/marketing1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/marketing1.webp')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 DIGITAL MARKETING
             </h5>
             <h2>Our Digital Marketing Strategies</h2>
@@ -150,7 +150,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/digis1.png')}}" alt="Digital Marketing Research">
+                    <img src="{{asset('/assets/front/images/case/digis1.webp')}}" alt="Digital Marketing Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -172,7 +172,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seadigital.png')}}" alt="Campaign Setup">
+                    <img src="{{asset('/assets/front/images/case/seadigital.webp')}}" alt="Campaign Setup">
                 </div>
             </div>
             <div class="col-md-6">
@@ -194,7 +194,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/seo3.png')}}" alt="Optimization & Monitoring">
+                    <img src="{{asset('/assets/front/images/case/seo3.webp')}}" alt="Optimization & Monitoring">
                 </div>
             </div>
             <div class="col-md-6">
@@ -215,7 +215,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/webs3.png')}}" alt="Client Success & Results">
+                    <img src="{{asset('/assets/front/images/case/webs3.webp')}}" alt="Client Success & Results">
                 </div>
             </div>
             <div class="col-md-6">
@@ -333,10 +333,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

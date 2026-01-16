@@ -4,7 +4,7 @@
 @section('og:description','We are a team of professionals, who are passionate to transform the business into digital. Website development can be your first step to showing your brand/skills/services on digital platforms in Dubai & Abu Dhabi.')
 @section('og:title','We build apps designed around your goals and audience')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/app.webp')}}">
@@ -26,7 +26,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                    <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/app.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/app.webp')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">App Development Service</h3>
                     <p class="mb-20">At MetaDigital Marketing we design and develop mobile apps that do more than just look good they solve real problems. Our expert team creates user friendly iOS and Android applications tailored to your business needs.</p>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/app1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/app1.webp')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 APP DEVELOPMENT
             </h5>
             <h2>Our App Development Solutions</h2>
@@ -147,7 +147,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps1.webp')}}" alt="App Research & Strategy">
+                    <img src="{{asset('/assets/front/images/case/apps1.webp')}}" alt="App Research & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -167,7 +167,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps5.webp')}}" alt="App UI/UX Design">
+                    <img src="{{asset('/assets/front/images/case/apps5.webp')}}" alt="App UI/UX Design">
                 </div>
             </div>
             <div class="col-md-6">
@@ -187,7 +187,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps2.webp')}}" alt="App Development">
+                    <img src="{{asset('/assets/front/images/case/apps2.webp')}}" alt="App Development">
                 </div>
             </div>
             <div class="col-md-6">
@@ -208,7 +208,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/app3.webp')}}" alt="App Launch & Support">
+                    <img src="{{asset('/assets/front/images/case/app3.webp')}}" alt="App Launch & Support">
                 </div>
             </div>
             <div class="col-md-6">
@@ -328,10 +328,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

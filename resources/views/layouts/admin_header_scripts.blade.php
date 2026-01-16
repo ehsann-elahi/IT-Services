@@ -7,7 +7,7 @@
 <link href="{{asset('/assets/admin/css/themes/lite-purple.min.css')}}" rel="stylesheet" />
 <link href="{{asset('/assets/admin/css/plugins/perfect-scrollbar.min.css')}}" rel="stylesheet" />
 <link rel="stylesheet" href="{{asset('/assets/admin/css/plugins/datatables.min.css')}}" />
-<link href="{{asset('/assets/admin/images/favicon/2.png')}}" rel="icon">
+<link href="{{asset('/assets/admin/images/favicon/2.webp')}}" rel="icon">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <link rel="stylesheet" href="https://gull.getstocky.com/assets/styles/vendor/smart.wizard/smart_wizard.min.css">

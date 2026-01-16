@@ -4,7 +4,7 @@
 @section('og:description','Get in touch with MetaDigital today. Contact us for expert web development, SEO, Google Ads, and digital marketing services in UAE.')
 @section('og:title','Contact MetaDigital Let’s Grow Your Business Together')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 
 <!-- Page banner area start here -->
@@ -94,9 +94,10 @@
                         Follow Social:
                     </h4>
                     <div class="social">
-                        <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#0"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                         <a href="https://www.facebook.com/MetaDigitalConsultant/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/_u/meta_digitalmarketing"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/metadigitalmarketing-ae/posts/?feedView=all"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/@Meta-Digital-Marketing"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -104,7 +105,7 @@
                 <div class="contact__right-item">
                     <div class="section-header mb-20">
                         <h5 class="wow fadeInUp pb-2" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                            <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                             GET IN TOUCH
                         </h5>
                         <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We Transform Business into Digital</h2>

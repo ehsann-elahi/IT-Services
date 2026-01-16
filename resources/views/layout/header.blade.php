@@ -3,7 +3,7 @@
      <div class="container header__container">
          <div class="header__main">
              <a href="{{route('index')}}" class="logo">
-                 <img src="{{asset('assets/front/images/logo/metalogo.png')}}" alt="logo">
+                 <img src="{{asset('/assets/front/images/logo/metalogo.webp')}}" alt="logo">
              </a>
              <div class="main-menu">
                  <nav>
@@ -47,14 +47,17 @@
                              <a href="{{route('missionvision')}}">Vision & Mission</a>
                          </li>
                          <li>
-                             <a href="{{route('missionvision')}}">Our Tools</a>
+                             <a>Our Tools</a>
                              <ul class="sub-menu">
-                                 <li>
+                                <li>
                                      <a href="{{route('images.index')}}">Free Image Converter</a>
-                                 </li>
-                                 <li>
+                                </li>
+                                <li>
+                                    <a href="{{ route('images.geotag') }}">Free Geo Tagging</a>
+                                </li>
+                                <li>
                                      <a href="{{route('flms.index')}}">Free Laundry Management System</a>
-                                 </li>
+                                </li>
                              </ul>
                          </li>
                          <li>

@@ -4,7 +4,7 @@
 @section('og:description','You get access to a whole team of digital media specialists for the price of one employee.')
 @section('og:title','Meet Our Team MetaDigital Experts Behind Your Success')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/ourteam.webp')}}">
@@ -53,22 +53,7 @@
                         </h4>
                         <span class="text-white">{{ $team->expertise }}</span>
                     </div>
-                    <div class="team__share">
-                        <ul>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
-                        <button>
-                            <i class="fa-sharp fa-light fa-share-nodes"></i>
-                        </button>
-                    </div>
+                    
                 </div>
             </div>
             @endforeach

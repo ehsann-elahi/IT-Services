@@ -4,7 +4,7 @@
 @section('og:description','See how MetaDigital delivers real results. Our work showcases expertise in SEO social media marketing Google Ads web development and branding across UAE and beyond.')
 @section('og:title','Our case studies speak of ideas & strategies to highly successful')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
  <!-- Page banner area start here -->
         <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -27,7 +27,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/web.webp')}}" alt="Web Development">
+                        <img src="{{asset('/assets/front/images/case/web.webp')}}" alt="Web Development">
                     </div>
                     <div class="case-two__content">
                         <span>Solution</span>
@@ -43,7 +43,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/digital.webp')}}" alt="Digital Marketing">
+                        <img src="{{asset('/assets/front/images/case/digital.webp')}}" alt="Digital Marketing">
                     </div>
                     <div class="case-two__content">
                         <span>Marketing</span>
@@ -59,7 +59,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/app.webp')}}" alt="App Development">
+                        <img src="{{asset('/assets/front/images/case/app.webp')}}" alt="App Development">
                     </div>
                     <div class="case-two__content">
                         <span>Solution</span>
@@ -75,7 +75,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/graphic.webp')}}" alt="Graphic Designing">
+                        <img src="{{asset('/assets/front/images/case/graphic.webp')}}" alt="Graphic Designing">
                     </div>
                     <div class="case-two__content">
                         <span>Creative</span>
@@ -91,7 +91,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/seo.webp')}}" alt="SEO">
+                        <img src="{{asset('/assets/front/images/case/seo.webp')}}" alt="SEO">
                     </div>
                     <div class="case-two__content">
                         <span>Marketing</span>
@@ -107,7 +107,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/social.webp')}}" alt="Social Media Marketing">
+                        <img src="{{asset('/assets/front/images/case/social.webp')}}" alt="Social Media Marketing">
                     </div>
                     <div class="case-two__content">
                         <span>Marketing</span>
@@ -124,7 +124,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="case-two__item">
                     <div class="image case-two__image">
-                        <img src="{{asset('assets/front/images/case/google.jpg')}}" alt="Google Ads">
+                        <img src="{{asset('/assets/front/images/case/google.webp')}}" alt="Google Ads">
                     </div>
                     <div class="case-two__content">
                         <span>Advertising</span>

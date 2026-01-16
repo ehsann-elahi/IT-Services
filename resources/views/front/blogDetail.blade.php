@@ -11,7 +11,7 @@
 @section('description',$limitedDescription)
 @section('og:title', $blog->title)
 @section('og:description',$limitedDescription)
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
@@ -50,21 +50,7 @@
             <p class="mb-20 mt-20">{!! $blog->description !!}</p>
         </div>
 
-        <div class="tags-share mt-40">
-            <div class="tags">
-                <strong>Tags:</strong>
-                <a href="#0">business</a>
-                <a href="#0">marketing</a>
-                <a href="#0">services</a>
-            </div>
-            <div class="share">
-                <strong>Share:</strong>
-                <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                <a class="active" href="#0"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#0"><i class="fa-brands fa-pinterest-p"></i></a>
-            </div>
-        </div>
+        
     </div>
 </div>
 

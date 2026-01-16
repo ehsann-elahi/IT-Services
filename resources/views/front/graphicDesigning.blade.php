@@ -4,7 +4,7 @@
 @section('og:description','Experts in creating state-of-the-art graphic designing work for your business website social media profile stationery design branding Business cards flyers logos identity designs banner designs website designs and many more')
 @section('og:title','Best Graphic Designer Services Dubai & Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/graphic.webp')}}">
@@ -27,7 +27,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                     <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/graphic.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/graphic.webp')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">Graphic Designing Service</h3>
                     <p class="mb-20">Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy..</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/graphic1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/graphic1.webp')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 GRAPHIC DESIGNING
             </h5>
             <h2>Our Creative Graphic Designing</h2>
@@ -150,7 +150,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/apps5.webp')}}" alt="Design Research & Strategy">
+                    <img src="{{asset('/assets/front/images/case/apps5.webp')}}" alt="Design Research & Strategy">
                 </div>
             </div>
             <div class="col-md-6">
@@ -171,7 +171,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/design.webp')}}" alt="UI/UX Design & Branding">
+                    <img src="{{asset('/assets/front/images/case/design.webp')}}" alt="UI/UX Design & Branding">
                 </div>
             </div>
             <div class="col-md-6">
@@ -192,7 +192,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/webs3.webp')}}" alt="Design Execution">
+                    <img src="{{asset('/assets/front/images/case/webs3.webp')}}" alt="Design Execution">
                 </div>
             </div>
             <div class="col-md-6">
@@ -213,7 +213,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/laundrydesign.webp')}}" alt="Client Success & Results">
+                    <img src="{{asset('/assets/front/images/case/laundrydesign.webp')}}" alt="Client Success & Results">
                 </div>
             </div>
             <div class="col-md-6">
@@ -331,10 +331,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">

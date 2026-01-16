@@ -8,7 +8,7 @@
     <meta name="robots" content="noindex">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
     <link href="{{asset('assets/admin/css/themes/lite-purple.min.css')}}" rel="stylesheet" />
-    <link href="{{asset('assets/admin/images/favicon/2.png')}}" rel="icon">
+    <link href="{{asset('assets/admin/images/favicon/2.webp')}}" rel="icon">
 
 </head>
 

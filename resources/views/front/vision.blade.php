@@ -4,7 +4,7 @@
 @section('og:description','At MetaDigital, our mission is to help businesses grow with innovative digital marketing, web development, and SEO strategies in UAE.')
 @section('og:title','Meta Digital’s Mission to Empower Businesses in UAE')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 @section('styles')
 <style>
@@ -89,7 +89,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 ABOUT US
             </h5>
             <h2>Our Vision & Mission</h2>
@@ -104,7 +104,7 @@
                         <div>
                             <h4 class="text-white mb-10">Our Vision</h4>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-lightbulb text-white"></i>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                         <div>
                             <h4 class="text-white mb-10">Our Mission</h4>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-bullseye text-white"></i>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-5" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-5" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 OUR PORTFOLIO
             </h5>
             <h2>Our Work Speaks for Us</h2>
@@ -159,7 +159,7 @@
                 <div class="swiper-slide">
                     <div class="portfolio-item d-flex align-items-center">
                         <div class="portfolio-img">
-                            <img src="{{asset('assets/front/images/projects/marketing.png')}}" alt="project">
+                            <img src="{{asset('/assets/front/images/projects/marketing.webp')}}" alt="project">
                         </div>
                         <div class="portfolio-content">
                             <h4>Digital Marketing Campaign</h4>
@@ -173,7 +173,7 @@
                 <div class="swiper-slide">
                     <div class="portfolio-item d-flex align-items-center">
                         <div class="portfolio-img">
-                            <img src="{{asset('assets/front/images/projects/web.png')}}" alt="project">
+                            <img src="{{asset('/assets/front/images/projects/web.webp')}}" alt="project">
                         </div>
                         <div class="portfolio-content">
                             <h4>Corporate Website Development</h4>
@@ -187,7 +187,7 @@
                 <div class="swiper-slide">
                     <div class="portfolio-item d-flex align-items-center">
                         <div class="portfolio-img">
-                            <img src="{{asset('assets/front/images/projects/app.png')}}" alt="project">
+                            <img src="{{asset('/assets/front/images/projects/app.webp')}}" alt="project">
                         </div>
                         <div class="portfolio-content">
                             <h4>Mobile App Solution</h4>
@@ -214,10 +214,10 @@
         <div class="container">
             <div class="quote__wrp gradient-bg">
                 <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                    <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
                 </div>
                 <div class="quote__shape bobble__animation">
-                    <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                    <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
                 </div>
                 <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                     <div class="section-header">
@@ -248,7 +248,7 @@
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 PRICE PLANS
             </h5>
             <h2>Affordable IT & Marketing Solutions in Dubai</h2>
@@ -261,14 +261,14 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="pricing__item">
                     <div class="item-shape">
-                        <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                     </div>
                     <div class="pricing-head">
                         <div>
                             <h4 class="text-white mb-10">Digital Marketing</h4>
                             <h2>AED 300<span>/starting</span></h2>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-bullhorn text-white"></i>
                         </div>
                     </div>
@@ -287,14 +287,14 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="pricing__item popular-plan">
                     <div class="item-shape">
-                        <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                     </div>
                     <div class="pricing-head">
                         <div>
                             <h4 class="text-white mb-10">Web Development</h4>
                             <h2>AED 300<span>/starting</span></h2>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-code text-white"></i>
                         </div>
                     </div>
@@ -313,14 +313,14 @@
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="pricing__item">
                     <div class="item-shape">
-                        <img src="{{asset('assets/front/images/shape/pricing-item-shape.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/pricing-item-shape.webp')}}" alt="shape">
                     </div>
                     <div class="pricing-head">
                         <div>
                             <h4 class="text-white mb-10">App Development</h4>
                             <h2>AED 300<span>/starting</span></h2>
                         </div>
-                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.png')}}">
+                        <div class="pricing-icon" data-background="{{asset('assets/front/images/shape/pricing-icon-bg.webp')}}">
                             <i class="fas fa-mobile-alt text-white"></i>
                         </div>
                     </div>

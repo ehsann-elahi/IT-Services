@@ -49,7 +49,7 @@ $profile = App\Models\AdminProfile::whereAdminId(auth()->user()->id)->first();
         <div class="dropdown">
           <div class="user col align-self-end">
             @if(!$profile)
-            <img src="{{asset('/assets/admin/images/faces/5.jpg')}}" id="userDropdown" alt="img" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="{{asset('/assets/admin/images/faces/5.webp')}}" id="userDropdown" alt="img" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             @else
             <img src="{{auth()->user()->AdminProfile->image}}" id="userDropdown" alt="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             @endif

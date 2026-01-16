@@ -2,7 +2,7 @@
 <div id="targetElement" class="sidebar-area sidebar__hide">
     <div class="sidebar__overlay"></div>
     <a href="{{route('index')}}" class="logo mb-40">
-        <img src="{{asset('assets/front/images/logo/logo.svg')}}" alt="logo">
+        <img src="{{asset('/assets/front/images/logo/logo.svg')}}" alt="logo">
     </a>
     <div class="sidebar__search mb-30">
         <input type="text" placeholder="Search...">
@@ -14,7 +14,7 @@
         <li class="py-2"><i class="fa-solid primary-color fa-phone-volume"></i> <a
                 href="tel:+208-6666-0112">+971 52 541 2617</a>
         </li>
-        <li><i class="fa-solid primary-color fa-paper-plane"></i> <a href="#0">contact@metadigitalmarketing.ae</a></li>
+        <li><i class="fa-solid primary-color fa-paper-plane"></i>contact@metadigitalmarketing.ae</li>
     </ul>
     <div class="social-icon mt-20">
         <a href="https://www.facebook.com/MetaDigitalConsultant/"><i class="fa-brands fa-facebook-f"></i></a>

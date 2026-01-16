@@ -4,7 +4,7 @@
 @section('og:description','MetaDigital Marketing is the best global digital marketing agency based in Dubai & Abu Dhabi offering 360° marketing solutions')
 @section('og:title','Leading SEO and Digital Marketing Agency in Dubai & Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 
 @section('content')
 
@@ -24,27 +24,27 @@
 <!-- About area start here -->
 <section class="about-two-area pt-120">
     <div class="about-two__shape">
-        <img src="{{asset('assets/front/images/shape/about-two-shape.png')}}" alt="shape">
+        <img src="{{asset('/assets/front/images/shape/about-two-shape.webp')}}" alt="shape">
     </div>
     <div class="container">
         <div class="row g-4">
             <div class="col-xl-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="about-two__left-item">
                     <div class="dots">
-                        <img class="sway_Y__animation" src="{{asset('assets/front/images/shape/about-two-dot.png')}}" alt="shape">
+                        <img class="sway_Y__animation" src="{{asset('/assets/front/images/shape/about-two-dot.webp')}}" alt="shape">
                     </div>
                     <div class="shape-halper">
-                        <img class="sway__animation" src="{{asset('assets/front/images/shape/about-circle-helper.png')}}"
+                        <img class="sway__animation" src="{{asset('/assets/front/images/shape/about-circle-helper.webp')}}"
                             alt="shape">
                     </div>
                     <div class="image big-image">
-                        <img src="{{asset('assets/front/images/about/about-two-image1.jpg')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/about/about-two-image1.webp')}}" alt="image">
                     </div>
                     <div class="image sm-image">
-                        <img src="{{asset('assets/front/images/about/about-two-image2.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/about/about-two-image2.webp')}}" alt="image">
                     </div>
                     <div class="circle-shape">
-                        <img class="animation__rotate" src="{{asset('assets/front/images/shape/about-two-circle.png')}}"
+                        <img class="animation__rotate" src="{{asset('/assets/front/images/shape/about-two-circle.webp')}}"
                             alt="shape">
                     </div>
                 </div>
@@ -52,7 +52,7 @@
             <div class="col-xl-6">
                 <div class="section-header mb-40">
                     <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                        <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                         WHO WE ARE
                     </h5>
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">MetaDigital Marketing</h2>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="about__info mt-50 wow fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                     <a href="{{route('contact')}}" class="btn-one">Explore More <i class="fa-regular fa-arrow-right-long"></i></a>
-                    <img src="{{asset('assets/front/images/about/singature.png')}}" alt="singature">
+                    <img src="{{asset('/assets/front/images/about/singature.webp')}}" alt="singature">
                 </div>
             </div>
         </div>
@@ -82,21 +82,21 @@
 <!-- Offer area start here -->
 <section class="offer-area secondary-bg pt-120 pb-200">
     <div class="offer__shadow wow fadeIn" data-wow-delay="200ms" data-wow-duration="1500ms">
-        <img src="{{asset('assets/front/images/shape/offer-shadow-shape.png')}}" alt="shadow">
+        <img src="{{asset('/assets/front/images/shape/offer-shadow-shape.webp')}}" alt="shadow">
     </div>
     <div class="offer__shape-left">
         <img class="wow fadeInUpBig" data-wow-delay="400ms" data-wow-duration="1500ms"
-            src="{{asset('assets/front/images/shape/offer-bg-shape-left.png')}}" alt="shape">
+            src="{{asset('/assets/front/images/shape/offer-bg-shape-left.webp')}}" alt="shape">
     </div>
     <div class="offer__shape-right">
         <img class="wow fadeInDownBig" data-wow-delay="400ms" data-wow-duration="1500ms"
-            src="{{asset('assets/front/images/shape/offer-bg-shape-right.png')}}" alt="shape">
+            src="{{asset('/assets/front/images/shape/offer-bg-shape-right.webp')}}" alt="shape">
     </div>
     <div class="container">
         <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-95">
             <div class="section-header">
                 <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                    <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                     Our offering
                 </h5>
                 <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Transforming Ideas into Digital Success</h2>
@@ -110,10 +110,10 @@
                 data-wow-duration="1500ms">
                 <div class="offer__item">
                     <div class="shape-top">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-top.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-top.webp')}}" alt="shape">
                     </div>
                     <div class="shape-bottom">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-bottom.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-bottom.webp')}}" alt="shape">
                     </div>
                     <div class="offer__icon">
                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -130,10 +130,10 @@
                 data-wow-duration="1500ms">
                 <div class="offer__item">
                     <div class="shape-top">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-top.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-top.webp')}}" alt="shape">
                     </div>
                     <div class="shape-bottom">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-bottom.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-bottom.webp')}}" alt="shape">
                     </div>
                     <div class="offer__icon">
                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -155,10 +155,10 @@
                 data-wow-duration="1500ms">
                 <div class="offer__item">
                     <div class="shape-top">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-top.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-top.webp')}}" alt="shape">
                     </div>
                     <div class="shape-bottom">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-bottom.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-bottom.webp')}}" alt="shape">
                     </div>
                     <div class="offer__icon">
                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -188,10 +188,10 @@
                 data-wow-duration="1500ms">
                 <div class="offer__item">
                     <div class="shape-top">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-top.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-top.webp')}}" alt="shape">
                     </div>
                     <div class="shape-bottom">
-                        <img src="{{asset('assets/front/images/shape/offter-item-shape-bottom.png')}}" alt="shape">
+                        <img src="{{asset('/assets/front/images/shape/offter-item-shape-bottom.webp')}}" alt="shape">
                     </div>
                     <div class="offer__icon">
                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
@@ -218,33 +218,33 @@
     <div class="container">
         <div class="brand__wrp">
             <div class="brand__shape">
-                <img src="{{asset('assets/front/images/shape/brand-shape.png')}}" alt="">
+                <img src="{{asset('/assets/front/images/shape/brand-shape.webp')}}" alt="">
             </div>
             <div class="swiper brand__slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="brand__image image">
-                            <img src="{{asset('assets/front/images/brand/brand-image1.png')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/brand/brand-image1.webp')}}" alt="image">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand__image image">
-                            <img src="{{asset('assets/front/images/brand/brand-image2.png')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/brand/brand-image2.webp')}}" alt="image">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand__image image">
-                            <img src="{{asset('assets/front/images/brand/brand-image3.png')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/brand/brand-image3.webp')}}" alt="image">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand__image image">
-                            <img src="{{asset('assets/front/images/brand/brand-image4.png')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/brand/brand-image4.webp')}}" alt="image">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="brand__image image">
-                            <img src="{{asset('assets/front/images/brand/brand-image5.png')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/brand/brand-image5.webp')}}" alt="image">
                         </div>
                     </div>
                 </div>
@@ -260,7 +260,7 @@
         <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between mb-60">
             <div class="section-header">
                 <h5 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                    <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                     FROM OUR CASE studies
                 </h5>
                 <h2 class="wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Our Work</h2>
@@ -276,7 +276,7 @@
                 <div class="swiper-slide">
                     <div class="case-two__item">
                         <div class="image case-two__image">
-                            <img src="{{asset('assets/front/images/case/web.webp')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/case/web.webp')}}" alt="image">
                         </div>
                         <div class="case-two__content">
                             <span>Build Your Idea</span>
@@ -290,7 +290,7 @@
                 <div class="swiper-slide">
                     <div class="case-two__item">
                         <div class="image case-two__image">
-                            <img src="{{asset('assets/front/images/case/digital.webp')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/case/digital.webp')}}" alt="image">
                         </div>
                         <div class="case-two__content">
                             <span>Busness Growth</span>
@@ -304,7 +304,7 @@
                 <div class="swiper-slide">
                     <div class="case-two__item">
                         <div class="image case-two__image">
-                            <img src="{{asset('assets/front/images/case/seo.webp')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/case/seo.webp')}}" alt="image">
                         </div>
                         <div class="case-two__content">
                             <span>Ranking</span>
@@ -318,7 +318,7 @@
                 <div class="swiper-slide">
                     <div class="case-two__item">
                         <div class="image case-two__image">
-                            <img src="{{asset('assets/front/images/case/graphic.webp')}}" alt="image">
+                            <img src="{{asset('/assets/front/images/case/graphic.webp')}}" alt="image">
                         </div>
                         <div class="case-two__content">
                             <span>Solution of Idea</span>
@@ -420,7 +420,7 @@
             <div class="col-lg-6 ps-2 ps-lg-5">
                 <div class="section-header mb-40">
                     <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                        <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                         CLIENTS REVIEW
                     </h5>
                     <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">What Customer Says About Us</h2>
@@ -440,7 +440,7 @@
                                         fill="#3C72FC" />
                                 </svg>
                                 <div class="d-flex align-items-center gap-3">
-                                    <img src="{{asset('assets/front/images/testimonial/testimonial-image1.png')}}" alt="image">
+                                    <img src="{{asset('/assets/front/images/testimonial/testimonial-image1.webp')}}" alt="image">
                                     <div class="testi-info">
                                         <h4>Kathryn Murphy</h4>
                                         <p>Web Developer</p>
@@ -468,7 +468,7 @@
                                         fill="#3C72FC" />
                                 </svg>
                                 <div class="d-flex align-items-center gap-3">
-                                    <img src="{{asset('assets/front/images/testimonial/testimonial-image2.png')}}" alt="image">
+                                    <img src="{{asset('/assets/front/images/testimonial/testimonial-image2.webp')}}" alt="image">
                                     <div class="testi-info">
                                         <h4>Alex Rony</h4>
                                         <p>Web Designer</p>

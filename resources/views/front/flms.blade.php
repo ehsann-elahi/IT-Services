@@ -4,7 +4,7 @@
 @section('og:description','Run your laundry or delivery business smarter with Meta Digital’s free laundry management software in UAE. 24/7 support – Chat on WhatsApp to start now.')
 @section('og:title','Free Laundry Management Software UAE – Meta Digital Marketing')
 @section('og:slug', '/digital-solutions/free-laundry-management-software-uae')
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 @section('styles')
 <style>
@@ -69,222 +69,321 @@
         </div>
         <div class="laundry-software-main text-center my-5">
             <h1 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Free Laundry Management System for UAE Businesses</h1>
-            <p class="wow fadeInUp text-white" data-wow-delay="00ms" data-wow-duration="1500ms">Tired of juggling orders, drivers, and invoices?
-                Meta Digital Marketing offers a completely free Laundry Management System that helps UAE laundry owners and delivery businesses handle everything from pickup to payment—without limits, fees, or technical hassle.</p>
-            <a href="{{route('contact')}}" class="btn-one mt-5">Free Sign-up Now <i class="fa-regular fa-arrow-right-long"></i></a>
+        <p class="wow fadeInUp text-white" data-wow-delay="00ms" data-wow-duration="1500ms">Tired of juggling orders, drivers, and invoices?
+Meta Digital Marketing offers a completely free Laundry Management System that helps UAE laundry owners and delivery businesses handle everything from pickup to payment—without limits, fees, or technical hassle.</p>
+            <a href="https://lms.metadigitalmarketing.ae/" class="btn-one mt-5">Free Sign-up Now <i class="fa-regular fa-arrow-right-long"></i></a>
         </div>
 
     </div>
 </section>
-<!-- Page banner area end here -->
-<section class="service-single-area pt-120 pb-120">
+ <!-- SEO: Laundry management software, dry cleaning POS, pickup & delivery laundry system\ -->
+
+
+
+<!-- About area start here -->
+<section class="about-area about-three-area sub-bg pt-120">
+    <div class="about__shape wow slideInLeft" data-wow-delay="400ms" data-wow-duration="1500ms">
+        <img src="{{asset('/assets/front/images/shape/laundry-management-system-dashboard.webp')}}" alt="Laundry service categories and pricing setup for washing, ironing, and dry cleaning.">
+    </div>
+    <div class="about-three__box-up wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+        <img class="sway_Y__animationY" src="{{asset('/assets/front/images/shape/laundry-pos-billing-software-interface.webp')}}" alt="Vendor and supplier management system for tracking laundry supplies and expenses.">
+    </div>
+    <div class="about-three__box-down wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <img class="sway_Y__animation" src="{{asset('/assets/front/images/shape/laundry-pickup-delivery-tracking-system.webp')}}" alt="Laundry software sales report showing cash and credit transactions.">
+    </div>
     <div class="container">
-        <div class="section-header text-center mb-40">
-            <h2 class="wow fadeInUp" data-wow-delay="200ms">What is a Laundry Management System (LMS)?</h2>
-            <p class="wow fadeInUp mt-3" data-wow-delay="400ms">
-                A laundry management system automates daily operations for laundries and pickup/delivery businesses. Meta Digital Marketing’s solution lets UAE owners manage orders, drivers, pricing, VAT, HR, and profits from one dashboard—100 % free with unlimited access, no subscriptions, and full reporting tools for B2B and B2C clients.
-            </p>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-6 ">
-                <div class="service-single__left-item">
-                    <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/lms.jpg')}}" alt="image">
+        <div class="row g-4 align-items-center">
+            <div class="col-lg-5 order-2 order-lg-1">
+                <div class="about-three__left-item">
+                    <div class="section-header mb-40">
+                        <h5 class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
+                            ABOUT LMS
+                        </h5>
+                        <h2 class="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">What is a Laundry Management System </h2>
+                        <p class="wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">A laundry management system automates daily operations for laundries and pickup/delivery businesses. Meta Digital Marketing’s solution lets UAE owners manage orders, drivers, pricing, VAT, HR, and profits from one dashboard—100 % free with unlimited access, no subscriptions, and full reporting tools for B2B and B2C clients.</p>
+                    </div>
+                    <div class="about-three__info bor-bottom pb-30">
+                        <div class="row g-4 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="col-md-6">
+                                <div class="about__right-item">
+                                    <div class="icon">
+                                        <img src="{{asset('/assets/front/images/icon/about-three-icon1.png')}}" alt="Performance analytics and business insights for laundry and dry-cleaning businesses.">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="mb-1">Professional Supports</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about__right-item">
+                                    <div class="icon">
+                                        <img src="{{asset('/assets/front/images/icon/about-three-icon2.png')}}" alt="Laundry CRM system displaying customer profiles, history, and preferences.">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="mb-1">Cloud-Base Dashboard</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about__right-item">
+                                    <div class="icon">
+                                        <img src="{{asset('/assets/front/images/icon/about-three-icon1.png')}}" alt="Automated laundry business process system managing orders, delivery, billing, and reporting.">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="mb-1">VAT Analysis</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about__right-item">
+                                    <div class="icon">
+                                        <img src="{{asset('/assets/front/images/icon/about-three-icon2.png')}}" alt="Laundry POS system dashboard showing global business overview and performance metrics">
+                                    </div>
+                                    <div class="content">
+                                        <h4 class="mb-1">Profit Tracking</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <h4 class="wow fadeInUp" data-wow-delay="00ms">Why Choose Meta Digital Marketing</h4>
-                <ul>
-                    <li class="mb-15 d-inline-flex "><i class="fa-solid fa-check mt-2 me-3"></i>Check it Out. Our Free <a href="https://lms.metadigitalmarketing.ae/"> - LMS Service</a></li>
-                    <li class="mb-15 d-inline-flex "><i class="fa-solid fa-check mt-2 me-3"></i>100 % free laundry management software – no hidden fees or feature limits.</li>
-                    <li class="mb-15 d-inline-flex "><i class="fa-solid fa-check mt-2 me-3"></i>Cloud-based dashboard for orders, drivers, and customers.</li>
-                    <li class="mb-15 d-inline-flex "><i class="fa-solid fa-check mt-2 me-3"></i>Integrated VAT and profit tracking—no accountant needed <a href="">learn how</a></li>
-                    <li class="mb-15 d-inline-flex "><i class="fa-solid fa-check mt-2 me-3"></i>24/7 UAE support with WhatsApp onboarding.</li>
-                    <li class="mb-15 d-inline-flex "><i class="fa-solid fa-check mt-2 me-3"></i>Built by experts & Professionals in</li>
-                </ul>
-                <a href="{{route('WebDevelopment')}}">Web Development</a>
-                <a href="{{route('AppDevelopment')}}">, App Development</a>
-                <a href="{{route('Seo')}}">, SEO</a> &
-                <a href="{{route('Socialmediamarketing')}}">Social Media Marketing</a>
+            <div class="col-lg-7 order-1 order-lg-2">
+                <div class="faq__image about-three__image image wow fadeInRight" data-wow-delay="200ms"
+                    data-wow-duration="1500ms">
+                   
+                    <div class="about-three-count p-4 d-flex align-items-center gap-3">
+                        <img class="icon" src="{{asset('/assets/front/images/icon/about-three-icon3.png')}}" alt="Dry cleaning business management system with tools for billing, tracking, and customer data">
+                        <div class="con">
+                            <h3><span class="count">100</span>+</h3>
+                            <span class="secondary-color sm-font">Happy Clients</span>
+                        </div>
+                    </div>
+                    <div class="faq__line sway__animation">
+                        <img src="{{asset('/assets/front/images/shape/faq-line.webp')}}" alt="image">
+                    </div>
+                    <img src="{{asset('/assets/front/images/about/All-in-One-laundry-POS.webp')}}" alt="Laundry business inventory management solution for detergent, chemicals, and supplies">
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Satisfied Clients Section start here -->
-<section class="clients-area pt-120 pb-80 bg-light">
-    <div class="container">
-        <div class="section-header text-center mb-40">
-            <h5 class="wow fadeInUp" data-wow-delay="00ms">Solve Everyday Laundry Business Challenges</h5>
-            <h2 class="wow fadeInUp" data-wow-delay="200ms">
-                Common Problems It Solves
-            </h2>
-            <p class="wow fadeInUp mt-3" data-wow-delay="400ms">
-                Most laundry and pickup-delivery businesses struggle with manual tracking, billing, and operations chaos. Our all-in-one platform automates these processes—so you save time, reduce errors, and grow your business effortlessly.
-            </p>
-        </div>
-
-        <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-md-4">
-                <div class="client-card text-center wow fadeInUp" data-wow-delay="00ms">
-                    <div class="icon-circle mb-3"><i class="fa-solid fa-soap"></i></div>
-                    <h5 class="case-single__title_small">Missed Pickups or Deliveries</h5>
-                    <p class="client-quote">Never lose an order again. Real-time tracking ensures every pickup and drop-off is recorded, keeping your customers updated and your operations flawless.</p>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-md-4">
-                <div class="client-card text-center wow fadeInUp" data-wow-delay="200ms">
-                    <div class="icon-circle mb-3"><i class="fa-solid fa-broom"></i></div>
-                    <h5 class="case-single__title_small">Manual Invoicing & Cash Errors</h5>
-                    <p class="client-quote">Automate billing in one click. Generate accurate invoices instantly with built-in B2B/B2C pricing, reducing human mistakes and financial leakage.</p>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-md-4">
-                <div class="client-card text-center wow fadeInUp" data-wow-delay="400ms">
-                    <div class="icon-circle mb-3"><i class="fa-solid fa-water"></i></div>
-                    <h5 class="case-single__title_small">No Staff or Profit Tracking</h5>
-                    <p class="client-quote">See performance and profits live. Monitor employee productivity, calculate margins, and make data-driven business decisions anytime.</p>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="col-md-4">
-                <div class="client-card text-center wow fadeInUp" data-wow-delay="600ms">
-                    <div class="icon-circle mb-3"><i class="fa-solid fa-water-ladder"></i></div>
-                    <h5 class="case-single__title_small">Complicated VAT or Monthly Reports</h5>
-                    <p class="client-quote">Simplify UAE VAT compliance. The system automatically creates monthly and annual VAT reports—no accountant or extra tools required.</p>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="col-md-4">
-                <div class="client-card text-center wow fadeInUp" data-wow-delay="800ms">
-                    <div class="icon-circle mb-3"><i class="fa-solid fa-broom"></i></div>
-                    <h5 class="case-single__title_small">Limited Customer Database</h5>
-                    <p class="client-quote">Build lasting customer relationships. Manage unlimited B2B and B2C clients, track orders, and store preferences for personalized service.</p>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="col-md-4">
-                <div class="client-card text-center wow fadeInUp" data-wow-delay="1000ms">
-                    <div class="icon-circle mb-3"><i class="fa-solid fa-store"></i></div>
-                    <h5 class="case-single__title_small">High Costs for Basic Software</h5>
-                    <p class="client-quote">Stop overpaying for limited tools. Enjoy all premium laundry management features completely free—no subscriptions, no hidden fees, ever.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="https://lms.metadigitalmarketing.ae/vendorSignup" class="btn-one">Let’s have a Live Demo <i class="fa-regular fa-arrow-right-long"></i></a>
-        </div>
-    </div>
-</section>
-
-<!-- Satisfied Clients Section end here -->
-
-
+<!-- About area end here -->
 
 <!-- Projects Showcase start here -->
-<section class="projects-area pt-120 pb-120">
+<section class="projects-area  pt-120">
     <div class="container">
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="Multi-branch laundry management software with centralized control panel">
                 Smarter tools, faster workflows, and total control
             </h5>
             <h2>everything your laundry business needs in one place.</h2>
             <p>Our LMS isn’t just another dashboard — it’s your complete business command center. From managing prices to tracking expenses, scheduling drivers, and generating reports, it gives you everything you need to run smoothly and scale confidently.</p>
         </div>
-
-        <!-- Project 1 -->
+        
+<!-- Section: Vendor Registration Tutorial 
+ Helps laundries manage suppliers, expenses, chemical purchases, and operational costs  -->
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
-                <div class="image">
-                    <img src="{{asset('assets/front/images/case/laundry.webp')}}" alt="Web App Laravel">
-                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cD1JG4a0F0g?si=x-eMEiWdIMv-8Z5Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">How to Register a Vendor</h3>
+                <p> Store vendor details, track expenses, and manage supply purchases to maintain better control over operational costs and inventory planning.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Store detailed supplier profiles in one system</li>
+                    <li><i class="fa-solid fa-check"></i> Track purchases, expenses, and operational costs</li>
+                    <li><i class="fa-solid fa-check"></i> Helps manage budgets and reduce overspending</li>
+                    <li><i class="fa-solid fa-check"></i> Improves inventory planning and vendor negotiation</li>
+                    <li><i class="fa-solid fa-check"></i> Essential for multi-branch or high-volume laundry businesses</li>
+                </ul>
+            </div>
+        </div>
+   <!-- Section: Add Categories & Services 
+ Creates customizable service menus for washing, dry cleaning, ironing, and premium treatments  -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/99q3DAIVstU?si=iYfEmfODggypMl_6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">How to Add Categories & Services</h3>
+                <p>Create custom laundry service categories and pricing with ease, helping laundries and dry cleaners manage offerings, rates, and service types more effectively.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Add unlimited services & price levels</li>
+                    <li><i class="fa-solid fa-check"></i> Ideal for laundries offering washing, dry-cleaning, ironing, and premium services</li>
+                    <li><i class="fa-solid fa-check"></i>Keeps service menus clean and organized</li>
+                    <li><i class="fa-solid fa-check"></i> Enables dynamic pricing based on fabric or service type</li>
+                    <li><i class="fa-solid fa-check"></i> Helps maintain consistent billing across all branches</li>
+                </ul>
+            </div>
+        </div>
+      
+        
+<!-- Section: Driver Management & Pickup Assignment 
+ Supports global pickup and delivery laundries with driver assignment features  -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PQjzBUBglOE?si=DBokWWZEfEJCLbWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">How to Add Driver & Assign Pickup.</h3>
+                <p>Easily add drivers and assign pickups to streamline delivery operations, reduce delays, and offer faster service to customers across your service areas.</p>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Assign pickups to drivers in one click</li>
+                    <li><i class="fa-solid fa-check"></i> Track driver activity & order movement</li>
+                    <li><i class="fa-solid fa-check"></i> Improves delivery speed and customer experience</li>
+                    <li><i class="fa-solid fa-check"></i> Eliminates scheduling confusion</li>
+                    <li><i class="fa-solid fa-check"></i> Perfect for laundries offering pickup/delivery service</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section: Add Customer & Create New Order 
+ SEO: Customer onboarding for laundry businesses, fast order creation, dry cleaning workflow  -->
+        <div class="row align-items-center flex-row-reverse mb-100">
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5FdC6nQq37w?si=3CGJBuEjZAncfpFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h3 class="case-single__title">How to Add Customer & Create New Order</h3>
+                <p> Quickly register customers and create new laundry orders with a fast, organized workflow designed for walk-ins, dry cleaners, and pickup & delivery laundry services worldwide.</h3>
+                <ul class="case-challenge mt-3">
+                    <li><i class="fa-solid fa-check"></i> Fast customer registration with minimal input.</li>
+                    <li><i class="fa-solid fa-check"></i> Supports customer history & saved preferences.</li>
+                    <li><i class="fa-solid fa-check"></i> Quick order creation boosts service efficiency.</li>
+                    <li><i class="fa-solid fa-check"></i> Helps reduce waiting time at busy outlets.</li>
+                    <li><i class="fa-solid fa-check"></i> Ideal for both small shops and high-volume laundries.</li>
+                </ul>
+            </div>
+        </div>
+
+        
+      <!-- Section: Billing & Reporting Tutorial 
+Explains invoice automation, payment tracking, and real-time laundry business reporting  -->
+        <div class="row align-items-center mb-100">
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/c6M6Kiy6W0g?si=FMTYoOV2P9BDSy49" title="MetaDigital Laundry Management Sytem for laundries" frameborder=0"  allowfullscreen></iframe>
             </div>
             <div class="col-md-6 ">
-                <h3 class="case-single__title ">Smart Billing & Expense Management</h3>
-                <p><strong>Track, organize, and manage your laundry finances with confidence.</strong>
-                    Our billing and expense tools give you total clarity over your cash flow. Automate invoices, record every transaction, and view detailed summaries — all in one clean dashboard.
-                </p>
+                <h3 class="case-single__title ">Complete Billing & Reporting System for Laundries</h3>
+                <p>Manage your laundry finances with automated billing, accurate invoices, and real-time reporting—eliminating spreadsheets and manual work for smoother, faster business operations.</p>
                 <ul class="case-challenge mt-3">
-                    <li><i class="fa-solid fa-check"></i> Create invoices instantly with zero errors.</li>
-                    <li><i class="fa-solid fa-check"></i> Record and organize all costs in one place.</li>
-                    <li><i class="fa-solid fa-check"></i> See income, expenses, and profits at a glance.</li>
-                    <li><i class="fa-solid fa-check"></i> Make informed decisions with real-time data.</li>
+                    <li><i class="fa-solid fa-check"></i> Simplifies billing with automated invoice creation</li>
+                    <li><i class="fa-solid fa-check"></i> Real-time revenue & expense tracking</li>
+                    <li><i class="fa-solid fa-check"></i> Reduces human error and manual record-keeping</li>
+                    <li><i class="fa-solid fa-check"></i> Supports VAT, discounts & custom pricing</li>
+                    <li><i class="fa-solid fa-check"></i> Provides accurate financial reports for better decision-making</li>
                 </ul>
             </div>
-
         </div>
-
-        <!-- Project 2 -->
+               
+       <!-- Section: Sales Report (Cash & Credit) 
+ SEO: Sales analytics for laundries, cash flow monitoring, revenue tracking  -->
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
-                <div class="image">
-                    <img src="{{asset('assets/front/images/case/seohero.webp')}}" alt="CRM Development">
-                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/URtPcwVmZsc?si=aW00xHT2GxID-ees" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
-                <h3 class="case-single__title">Advanced Scheduling & Order Tracking</h3>
-                <p> <strong>Never miss a pickup or delivery — stay on schedule effortlessly. </strong>
-                    With our built-in scheduler, you can manage all pickups, deliveries, and driver routes from one central place. Stay informed and keep your customers updated in real-time.</p>
+                <h3 class="case-single__title">Sales Report by Cash & Credit</h3>
+                <p>View accurate sales reports for cash, credit, and online payments to monitor revenue trends and make informed business decisions.</p>
                 <ul class="case-challenge mt-3">
-                    <li><i class="fa-solid fa-check"></i> Plan all upcoming orders easily.</li>
-                    <li><i class="fa-solid fa-check"></i> Prevent overlaps with auto time slots.</li>
-                    <li><i class="fa-solid fa-check"></i> Keep customers updated in real time.</li>
-                    <li><i class="fa-solid fa-check"></i> Manage staff routes efficiently.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="row align-items-center mb-100">
-            <div class="col-md-6">
-                <div class="image">
-                    <img src="{{asset('assets/front/images/case/alkhyal.webp')}}" alt="Mobile App">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h3 class="case-single__title">Dynamic Price Lists & Service Management</h3>
-                <p> <strong>Create flexible pricing and organize your laundry services like a pro.</strong>
-                    Easily manage pricing for all your laundry categories — from washing and folding to dry cleaning and pressing. Adjust prices per location, service type, or customer segment in seconds.</p>
-                <ul class="case-challenge mt-3">
-                    <li><i class="fa-solid fa-check"></i> Adjust rates for any city or service.</li>
-                    <li><i class="fa-solid fa-check"></i> Combine offers to boost sales.</li>
-                    <li><i class="fa-solid fa-check"></i> Change prices system-wide in one click.</li>
-                    <li><i class="fa-solid fa-check"></i> Perfect for laundries across UAE cities.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="row align-items-center flex-row-reverse mb-100">
-            <div class="col-md-6">
-                <div class="image">
-                    <img src="{{asset('assets/front/images/case/curtainclean.webp')}}" alt="CRM Development">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h3 class="case-single__title">Reports & Performance Analytics</h3>
-                <p><strong>Turn your daily data into actionable business insights. </strong>
-                    Our built-in reporting system helps you visualize performance, understand customer trends, and make data-driven decisions — all from one dashboard.</p>
-                <ul class="case-challenge mt-3">
-                    <li><i class="fa-solid fa-check"></i> Track earnings by day or branch.</li>
-                    <li><i class="fa-solid fa-check"></i> Identify your top clients.</li>
-                    <li><i class="fa-solid fa-check"></i> Spot where you can save more.</li>
-                    <li><i class="fa-solid fa-check"></i> Download detailed data anytime.</li>
+                    <li><i class="fa-solid fa-check"></i> Real-time sales overview</li>
+                    <li><i class="fa-solid fa-check"></i> Helps identify best-performing services</li>
+                    <li><i class="fa-solid fa-check"></i>Separates cash vs. credit revenue</li>
+                    <li><i class="fa-solid fa-check"></i> Supports financial planning & audits</li>
+                    <li><i class="fa-solid fa-check"></i> Essential for businesses with mixed payment modes</li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 <!-- Projects Showcase end here -->
+
+
+    <!-- Service area start here -->
+    <section class="service-two-area secondary-bg pt-120 pb-120">
+        <div class="service-two__shape-left sway_Y__animationY">
+            <img src="{{asset('/assets/front/images/shape/service-two-shape-left.webp')}}" alt="Laundry management system dashboard showing orders, billing, and business reports.">
+        </div>
+        <div class="service-two__shape-right sway_Y__animation">
+            <img src="{{asset('/assets/front/images/shape/service-two-shape-right.png')}}" alt="Laundry POS billing software interface for generating fast and accurate invoices.">
+        </div>
+        <div class="container">
+            <div class="d-flex gap-4 flex-wrap align-items-center justify-content-between mb-60">
+                <div class="section-header text-center mb-40">
+                <h5 class="wow fadeInUp" data-wow-delay="00ms">Solve Everyday Laundry Business Challenges</h5>
+                <h2 class="text-white wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">Common Problems It Solves</h2>
+                <p class="wow fadeInUp mt-3 text-light" data-wow-delay="400ms">
+                    Most laundry and pickup-delivery businesses struggle with manual tracking, billing, and operations chaos. Our all-in-one platform automates these processes—so you save time, reduce errors, and grow your business effortlessly.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="client-card text-center wow fadeInUp" data-wow-delay="00ms">
+                        <div class="icon-circle mb-3"><i class="fa-solid fa-soap"></i></div>
+                        <h5 class="case-single__title_small">Reliable Pickup & Delivery Tracking</h5>
+                        <p class="client-quote">Never lose an order again. Real-time tracking ensures every pickup and drop-off is recorded, keeping your customers updated and your operations flawless.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="client-card text-center wow fadeInUp" data-wow-delay="200ms">
+                        <div class="icon-circle mb-3"><i class="fa-solid fa-broom"></i></div>
+                        <h5 class="case-single__title_small">Instant & Accurate Automated Billing</h5>
+                        <p class="client-quote">Automate billing in one click. Generate accurate invoices instantly with built-in B2B/B2C pricing, reducing human mistakes and financial leakage.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="client-card text-center wow fadeInUp" data-wow-delay="400ms">
+                        <div class="icon-circle mb-3"><i class="fa-solid fa-water"></i></div>
+                        <h5 class="case-single__title_small">Real-Time Staff & Profit Visibility</h5>
+                        <p class="client-quote">See performance and profits live. Monitor employee productivity, calculate margins, and make data-driven business decisions anytime.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-4">
+                    <div class="client-card text-center wow fadeInUp" data-wow-delay="600ms">
+                        <div class="icon-circle mb-3"><i class="fa-solid fa-water-ladder"></i></div>
+                        <h5 class="case-single__title_small">Hassle-Free VAT & Monthly Reporting</h5>
+                        <p class="client-quote">Simplify UAE VAT compliance. The system automatically creates monthly and annual VAT reports—no accountant or extra tools required.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-md-4">
+                    <div class="client-card text-center wow fadeInUp" data-wow-delay="800ms">
+                        <div class="icon-circle mb-3"><i class="fa-solid fa-broom"></i></div>
+                        <h5 class="case-single__title_small">Unlimited Customer Management System</h5>
+                        <p class="client-quote">Build lasting customer relationships. Manage unlimited B2B and B2C clients, track orders, and store preferences for personalized service.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-md-4">
+                    <div class="client-card text-center wow fadeInUp" data-wow-delay="1000ms">
+                        <div class="icon-circle mb-3"><i class="fa-solid fa-store"></i></div>
+                        <h5 class="case-single__title_small">Powerful Free Laundry Software Solution</h5>
+                        <p class="client-quote">Stop overpaying for limited tools. Enjoy all premium laundry management features completely free—no subscriptions, no hidden fees, ever.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="https://lms.metadigitalmarketing.ae/" class="btn-one">Let’s have a Live Demo <i class="fa-regular fa-arrow-right-long"></i></a>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service area end here -->
 
 <!-- Common questions and problems about laundry management system -->
 <div class="container mt-40 pt-20 pb-40 ">
@@ -371,15 +470,15 @@
         </div>
         <div class="accordion-item wow fadeInDown shadow border-none" data-wow-delay="600ms"
             data-wow-duration="1500ms">
-            <h2 class="accordion-header" id="headingFour">
+            <h2 class="accordion-header" id="headingFive">
                 <button class="accordion-button collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                    aria-expanded="false" aria-controls="collapseFour">
+                    data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                    aria-expanded="false" aria-controls="collapseFive">
                     How do I get started?
                 </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse"
-                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div id="collapseFive" class="accordion-collapse collapse"
+                aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <p>Just <a href="wa.me/+1971525412617">Chat on WhatsApp</a> and our team will set up your free dashboard in minutes.</p>
                 </div>
@@ -444,10 +543,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="Real-time laundry pickup and delivery tracking system for drivers and customers.pe">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="Order management screen for dry cleaning and laundry services with categorized items.">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">
@@ -462,8 +561,7 @@
                         GET IN TOUCH
                     </h5>
                     <h2 class="wow fadeInLeft text-white" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        So What you are
-                        Waiting <br> For?</h2>
+                       Want to Get Pro level Services to <br> grow your business?</h2>
                 </div>
                 <a href="{{route('contact')}}" class="btn-one wow fadeInUp" data-wow-delay="200ms"
                     data-wow-duration="1500ms">Get Our Services <i class="fa-regular fa-arrow-right-long"></i></a>

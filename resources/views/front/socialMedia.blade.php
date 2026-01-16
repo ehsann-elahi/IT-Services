@@ -4,7 +4,7 @@
 @section('og:description','We offer various high-quality and affordable social media marketing bundle packages. Unlike other digital agencies in Abu Dhabi & Dubai regions')
 @section('og:title','Social Media Marketing & Management in Dubai and Abu Dhabi')
 <!-- @section('og:url', 'https://alkhyalcurtain.ae/privacy-policy') -->
-@section('canonical', url()->current())
+@section('canonical', rtrim(url()->current(), '/') . '/')
 @section('content')
 <section class="banner__inner-page bg-image pt-180 pb-180 bg-image"
     data-background="{{asset('assets/front/images/banner/googleads.webp')}}">
@@ -27,7 +27,7 @@
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="service-single__left-item">
                    <div class="image mb-50">
-                        <img src="{{asset('assets/front/images/service/social.png')}}" alt="image">
+                        <img src="{{asset('/assets/front/images/service/social.webp')}}" alt="image">
                     </div>
                     <h3 class="title mb-30">Social Media Marketing Services</h3>
                     <p class="mb-20">Does your marketing strategy show you saturation in sales? or you are disappointed due to the failure of the marketing strategy & couldn't show up on the online platform? No worries! Our critical thinker professional can develop cutting-edge budget-friendly solutions to create a robust digital marketing strategy.</p>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="image">
-                                <img src="{{asset('assets/front/images/service/social1.png')}}" alt="image">
+                                <img src="{{asset('/assets/front/images/service/social1.webp')}}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
 
         <div class="section-header text-center mb-60">
             <h5>
-                <img class="me-1" src="{{asset('assets/front/images/icon/section-title.png')}}" alt="icon">
+                <img class="me-1" src="{{asset('/assets/front/images/icon/section-title.webp')}}" alt="icon">
                 SOCIAL MEDIA MARKETING
             </h5>
             <h2>Our Social Media Marketing</h2>
@@ -151,7 +151,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/gg4.webp')}}" alt="Social Media Research">
+                    <img src="{{asset('/assets/front/images/case/gg4.webp')}}" alt="Social Media Research">
                 </div>
             </div>
             <div class="col-md-6">
@@ -173,7 +173,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/google3.webp')}}" alt="Content Creation">
+                    <img src="{{asset('/assets/front/images/case/google3.webp')}}" alt="Content Creation">
                 </div>
             </div>
             <div class="col-md-6">
@@ -194,7 +194,7 @@
         <div class="row align-items-center mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/sociall.webp')}}" alt="Monitoring & Analytics">
+                    <img src="{{asset('/assets/front/images/case/sociall.webp')}}" alt="Monitoring & Analytics">
                 </div>
             </div>
             <div class="col-md-6">
@@ -216,7 +216,7 @@
         <div class="row align-items-center flex-row-reverse mb-100">
             <div class="col-md-6">
                 <div class="image">
-                    <img src="{{asset('assets/front/images/case/social6.webp')}}" alt="Client Success">
+                    <img src="{{asset('/assets/front/images/case/social6.webp')}}" alt="Client Success">
                 </div>
             </div>
             <div class="col-md-6">
@@ -333,10 +333,10 @@
     <div class="container">
         <div class="quote__wrp gradient-bg">
             <div class="counter__shape wow slideInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <img src="{{asset('assets/front/images/shape/quote-shape.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape.webp')}}" alt="shape">
             </div>
             <div class="quote__shape bobble__animation">
-                <img src="{{asset('assets/front/images/shape/quote-shape2.png')}}" alt="shape">
+                <img src="{{asset('/assets/front/images/shape/quote-shape2.webp')}}" alt="shape">
             </div>
             <div class="d-flex flex-wrap gap-4 align-items-center justify-content-between">
                 <div class="section-header">
